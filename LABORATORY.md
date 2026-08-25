@@ -5,11 +5,14 @@ Run the guided experiment:
 ```bash
 python3 labs/derivatives_lab.py
 python3 labs/advanced_lab.py
+python3 labs/payoff_studio.py
 ```
 
 It displays discounting, cash-and-carry forward pricing, put–call parity, a one-period replicating portfolio, and Black–Scholes prices. Change the named inputs in `main()` and predict the direction of every output before running it again.
 
 The advanced laboratory adds a multi-period American/European tree, implied-volatility inversion, finite-difference Greeks, seeded Monte Carlo with a confidence interval, realized volatility, and the minimum-variance futures hedge ratio.
+
+The payoff studio prices and inspects reader-defined terminal cash-flow functions. It is deliberately small: the payoff is visible Python, not hidden inside a product-name menu.
 
 Then verify the invariants:
 

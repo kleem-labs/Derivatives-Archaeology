@@ -18,7 +18,8 @@ The purpose is understanding, not trading advice. Real derivatives involve model
 2. Enter [Excavation 000](excavations/000-a-promise-about-the-future/README.md).
 3. Keep the [notation guide](NOTATION.md) and [formula map](FORMULA_MAP.md) nearby.
 4. Rebuild each result in the [laboratory](LABORATORY.md).
-5. Use the [roadmap](ROADMAP.md) to see the full intended dig.
+5. Walk the [50-Chamber Memory Palace](MEMORY_PALACE.md) until the ideas can be recalled without the page.
+6. Follow [How to Master This Book](HOW_TO_MASTER_THIS_BOOK.md) to progress from reading to designing and valuing unfamiliar derivatives.
 
 ## The complete fifty-excavation book
 
@@ -47,6 +48,9 @@ Chapters 012–049 complete the journey through probability, stochastic calculus
 - [FORMULA_MAP.md](FORMULA_MAP.md) — equations grouped by the problem they solve
 - [GLOSSARY.md](GLOSSARY.md) — plain-language definitions
 - [BOOK_AND_LAB_STANDARD.md](BOOK_AND_LAB_STANDARD.md) — what “complete” means
+- [DERIVATIVE_DESIGN_STUDIO.md](DERIVATIVE_DESIGN_STUDIO.md) — a disciplined process for inventing contracts
+- [MARKET_READING_AND_VALUE.md](MARKET_READING_AND_VALUE.md) — compare model value with executable quotes
+- [MASTERY_LEDGER.md](MASTERY_LEDGER.md) — evidence that the reader can work independently
 
 ## Quick laboratory run
 
