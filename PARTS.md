@@ -9,5 +9,4 @@
 | V — Futures, Rates, and Curves | 030–039 | How do storage, income, margin, and interest-rate curves shape forward markets? |
 | VI — Trading Reality and Model Risk | 040–049 | What breaks when ideal mathematics meets markets? |
 
-The first edition fully excavates 000–011 and supplies executable labs for the central pricing identities. The remaining sites are mapped in [ROADMAP.md](ROADMAP.md) so expansion follows a deliberate dependency order.
-
+All fifty excavations are present. The [complete table of contents](TABLE_OF_CONTENTS.md) gives direct chapter links; [the conclusion](CONCLUSION.md) explains why the foundational book ends at 049.

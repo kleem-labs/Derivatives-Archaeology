@@ -20,7 +20,7 @@ The purpose is understanding, not trading advice. Real derivatives involve model
 4. Rebuild each result in the [laboratory](LABORATORY.md).
 5. Use the [roadmap](ROADMAP.md) to see the full intended dig.
 
-## The first twelve excavations
+## The complete fifty-excavation book
 
 | # | Excavation | Question |
 |---:|---|---|
@@ -37,6 +37,8 @@ The purpose is understanding, not trading advice. Real derivatives involve model
 | 010 | [Many Small Steps](excavations/010-multi-period-binomial/README.md) | How does local replication become an option-pricing tree? |
 | 011 | [The Black–Scholes Limit](excavations/011-black-scholes-limit/README.md) | What survives when the time steps become tiny? |
 
+Chapters 012–049 complete the journey through probability, stochastic calculus, Greeks, volatility, futures, rates, early exercise, path dependence, numerical methods, market frictions, portfolio risk, and model validation. Use the [complete table of contents](TABLE_OF_CONTENTS.md) or the [six-part reading path](PARTS.md).
+
 ## Repository map
 
 - `excavations/` — the causal book, one idea per dig site
@@ -50,8 +52,8 @@ The purpose is understanding, not trading advice. Real derivatives involve model
 
 ```bash
 python3 labs/derivatives_lab.py
+python3 labs/advanced_lab.py
 python3 -m unittest discover -s tests -v
 ```
 
-No external packages are required for the initial laboratory.
-
+No external packages are required.

@@ -1,4 +1,4 @@
-# Excavation Roadmap
+# Excavation Map
 
 The numbered order is a dependency graph disguised as a journey. A later formula should never be needed to understand an earlier one.
 
@@ -26,7 +26,6 @@ Calls and puts, payoff geometry, put–call parity, one- and multi-period binomi
 
 040 American exercise; 041 early-exercise boundaries; 042 barriers and path dependence; 043 Monte Carlo; 044 finite differences; 045 transaction costs and discrete hedging; 046 liquidity and bid–ask spreads; 047 portfolio Greeks and scenarios; 048 value at risk and expected shortfall; 049 model validation and the limits of no-arbitrage.
 
-## Expansion rule
+## Completion rule
 
-Every new excavation must pass the [book and laboratory standard](BOOK_AND_LAB_STANDARD.md). A directory name is not a finished chapter.
-
+The finite foundation is complete at 049. Corrections and deeper examples must pass the [book and laboratory standard](BOOK_AND_LAB_STANDARD.md). New market developments belong in separately labeled case studies or frontier work, not automatic chapter-number expansion.
