@@ -8,5 +8,26 @@ The ratio is a regression slope: futures units chosen to offset historical co-mo
 
 Estimates depend on window, frequency, regime, and whether variance is the real objective. Tail loss, cash flow, or accounting criteria can justify a different hedge.
 
-Next: [Bootstrapping Discount Curves](../037-bootstrapping-discount-curves/README.md).
+## Let the residual choose the slope
 
+Write hedged change as `Delta S-hDelta F`. Its variance expands to `Var(Delta S)+h²Var(Delta F)-2hCov(Delta S,Delta F)`. Differentiate with respect to `h`, set the slope to zero, and solve:
+
+`h*=Cov(Delta S,Delta F)/Var(Delta F)`.
+
+The ratio is the regression coefficient of spot changes on futures changes. Division by futures variance answers: how much cash-exposure movement accompanies one unit of futures movement on average?
+
+If spot standard deviation is 3%, futures is 2.5%, and correlation .8, `h*=.8×.03/.025=.96`. Near one, but not assumed to be one.
+
+## The sample is part of the hedge
+
+Daily versus weekly changes, rolling window, crisis observations, seasonal periods, and currency conversion change covariance. A structural break can make a precise historical estimate irrelevant. Confidence intervals and stability plots are more honest than one coefficient.
+
+Minimum variance also assumes variance is the objective and the relation is linear. A firm concerned with cash-flow-at-risk, downside shortfall, margin calls, or accounting may select another ratio. Tail dependence can remain even when ordinary correlation looks strong.
+
+## From ratio to executable contracts
+
+Multiply `h*` by exposure quantity divided by contract quantity, then round to an integer and inspect residual. Recalculate after exposure, volatility, or basis changes; the estimate is not a permanent property of the commodities.
+
+> **Memory seal:** the regression compass aligns with co-movement, not with names printed on the two assets.
+
+[Next: Bootstrapping Discount Curves](../037-bootstrapping-discount-curves/README.md) · [Lab function](../../labs/advanced_lab.py)

@@ -4,5 +4,20 @@ Vega is `partial V/partial sigma`. Long vanilla calls and puts usually have posi
 
 Neither Greek predicts its input. They are local derivatives of a pricing map. Units matter: desks often quote vega and rho per one percentage-point change. Large moves and interactions require full repricing rather than a first-order estimate.
 
-Next: [Dynamic Hedging](../024-dynamic-hedging/README.md).
+## Move a parameter, not the market
 
+Take the same call and increase model volatility from 20% to 21% while holding spot, time, rate, and dividends fixed. The repriced difference is approximately the quoted vega for one volatility point. If mathematical vega is defined per unit volatility, desk vega is often one-hundredth as large. Unit conventions must accompany the number.
+
+Long vanilla options generally have positive vega because wider terminal dispersion helps convex payoff. But a calendar spread, barrier, or volatility-surface trade can carry vega that changes sign across scenarios. Parallel volatility bumps also miss skew and term-structure movements; professional books use buckets by strike and maturity.
+
+Rho asks a parallel question about rates. Higher rates make the future strike cheaper in present terms, supporting European calls and weighing on puts in the simplest stock model. Yet rates can move dividends, forwards, volatility, and discounting together. A partial derivative deliberately freezes those relationships.
+
+## Greeks describe the model surface
+
+A Greek is not a forecast. Positive vega says what the chosen pricing function does when `sigma` moves. It does not say implied volatility will rise or that the position will profit. Model choice matters: a “sticky strike” volatility bump and “sticky delta” bump can produce different portfolio responses.
+
+> **Reader experiment:** reprice the call at volatility 19%, 20%, and 21%. Compare the centered finite difference with the advanced lab's vega logic. Then use a large ten-point bump and observe the failure of linear approximation.
+
+> **Memory seal:** two weather dials sit on the engine—one widens paths, one changes the growth of cash. Turning a dial is a sensitivity experiment, not a weather forecast.
+
+[Next: Dynamic Hedging](../024-dynamic-hedging/README.md)
