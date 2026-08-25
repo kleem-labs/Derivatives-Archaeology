@@ -51,6 +51,7 @@ Chapters 012–049 complete the journey through probability, stochastic calculus
 - [DERIVATIVE_DESIGN_STUDIO.md](DERIVATIVE_DESIGN_STUDIO.md) — a disciplined process for inventing contracts
 - [MARKET_READING_AND_VALUE.md](MARKET_READING_AND_VALUE.md) — compare model value with executable quotes
 - [MASTERY_LEDGER.md](MASTERY_LEDGER.md) — evidence that the reader can work independently
+- [SOLUTIONS.md](SOLUTIONS.md) — worked answers, kept separate from the reading path
 
 ## Quick laboratory run
 

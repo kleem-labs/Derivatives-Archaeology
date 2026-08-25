@@ -29,7 +29,12 @@ class BookTests(unittest.TestCase):
         volumes = list((ROOT / "book").glob("VOLUME_*.md"))
         self.assertEqual(len(volumes), 6)
 
+    def test_every_excavation_has_a_solution(self):
+        solution_text = "\n".join(path.read_text() for path in (ROOT / "solutions").glob("*.md"))
+        missing = [number for number in range(50)
+                   if not re.search(rf"^## {number:03d} —", solution_text, re.MULTILINE)]
+        self.assertFalse(missing, f"excavations without solutions: {missing}")
+
 
 if __name__ == "__main__":
     unittest.main()
-
