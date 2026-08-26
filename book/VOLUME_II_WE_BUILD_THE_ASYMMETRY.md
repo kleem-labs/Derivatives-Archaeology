@@ -2,7 +2,7 @@
 
 An option is a controlled refusal. Its owner keeps the favorable branch and abandons the unfavorable one. The premium exists because someone else must accept the branch that was refused.
 
-This volume asks the reader to stop memorizing option names and see payoff geometry. Calls, puts, stock, and bonds are straight lines and kinks that can be assembled, mirrored, or dynamically rebuilt. Black–Scholes appears only after the two-state hedge has been held in the reader's hands.
+This volume asks the reader to stop memorizing option names and see payoff geometry. Calls, puts, stock, and bonds are straight lines and kinks that can be assembled, mirrored, or dynamically rebuilt. The binomial hedge is held in the reader's hands before the continuous-time limit is approached.
 
 - [006 — Options Create Asymmetry](../excavations/006-option-payoffs/README.md)
 - [007 — Put–Call Parity](../excavations/007-put-call-parity/README.md)
@@ -13,9 +13,8 @@ This volume asks the reader to stop memorizing option names and see payoff geome
 
 ## Coda — The hedge beneath the formula
 
-The volume's equations form one unbroken action. The `max` creates a kink. Put–call parity makes two collections of kinks and lines coincide. A two-state world lets stock and cash span the kink exactly. Risk-neutral probability repackages that hedge as weights. Backward induction repeats it. Continuous time hides the steps but preserves the local responsibility: cancel the shared shock, then require the riskless remainder to earn the cash rate.
+The volume's equations form one unbroken action. The `max` creates a kink. Put–call parity makes two collections of kinks and lines coincide. A two-state world lets stock and cash span the kink exactly. Risk-neutral probability repackages that hedge as weights. Backward induction repeats it.
 
-If Black–Scholes is recalled as a closed form without this movie, return to the forked stair. The half-share and debt are the formula's ancestry.
+Then the steps become too small to follow with the tools already earned. Rather than announce the continuous formula, Chapter 011 seals the arch and names three missing keys: continuous uncertainty, calculus for a rough path, and pricing weights with an explicit measuring asset.
 
-The closed form has borrowed mathematical machinery not yet explained. The next volume descends beneath it and asks how an unknown future becomes a random variable, why noise scales with square-root time, and why rough paths force curvature back into calculus.
-
+The next volume forges those keys. Only at its final chamber will the reader return to the arch and derive the Black–Scholes equation and call price.

@@ -15,7 +15,8 @@ Probability is often introduced as a bag of formulas. Here it arrives because th
 
 The probability arc begins by labeling states and ends by changing the ruler used to measure them. Expectation gathers weighted outcomes. Variance preserves spread. Logarithms turn multiplicative growth into additive motion. Brownian scaling makes squared noise survive. Itô restores the curvature term ordinary calculus loses. Change of measure reweights paths until discounted tradables balance. A numeraire names the unit in which that balance becomes a martingale.
 
+Only after the last object has a meaning does the book return to the sealed arch. The delta hedge cancels the Brownian shock, no-arbitrage produces the pricing equation, and the European call payoff selects the Black–Scholes solution. Discounted risk-neutral expectation is now a conclusion of the construction rather than an unexplained instruction.
+
 None of this proves markets are lognormal. It builds one coherent model in which replication can be calculated. Its assumptions are valuable precisely because later evidence can break them.
 
 We now leave probability's observatory and enter the hedge engine. Every partial derivative becomes a physical question: how many shares, how quickly does that number change, what does the clock remove, and how does implied weather differ from the path that actually arrives?
-

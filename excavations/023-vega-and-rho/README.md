@@ -1,12 +1,8 @@
 # 023 — Vega and Rho: Sensitivity to Model Inputs
 
-Vega is `partial V/partial sigma`. Long vanilla calls and puts usually have positive vega because greater spread benefits a convex payoff while downside is truncated. Rho is `partial V/partial r`; higher rates reduce the present value of a fixed strike, generally helping calls and hurting puts.
-
-Neither Greek predicts its input. They are local derivatives of a pricing map. Units matter: desks often quote vega and rho per one percentage-point change. Large moves and interactions require full repricing rather than a first-order estimate.
-
 ## Move a parameter, not the market
 
-Take the same call and increase model volatility from 20% to 21% while holding spot, time, rate, and dividends fixed. The repriced difference is approximately the quoted vega for one volatility point. If mathematical vega is defined per unit volatility, desk vega is often one-hundredth as large. Unit conventions must accompany the number.
+Delta, gamma, and theta moved observable state and time. The price also depends on inputs supplied by the model. Take the same call and increase model volatility from 20% to 21% while holding spot, time, rate, and dividends fixed. The repriced difference is approximately the quoted vega for one volatility point. If mathematical vega is defined per unit volatility, desk vega is often one-hundredth as large. Unit conventions must accompany the number.
 
 Long vanilla options generally have positive vega because wider terminal dispersion helps convex payoff. But a calendar spread, barrier, or volatility-surface trade can carry vega that changes sign across scenarios. Parallel volatility bumps also miss skew and term-structure movements; professional books use buckets by strike and maturity.
 

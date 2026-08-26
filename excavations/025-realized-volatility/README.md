@@ -1,14 +1,8 @@
 # 025 — Realized Volatility: Measuring the Path That Happened
 
-Given log returns `r_i=ln(S_i/S_{i-1})`, realized variance is commonly estimated from their squared sum and annualized; realized volatility is its square root. Squaring prevents signs from cancelling and makes large moves count disproportionately.
-
-Sampling sparsely misses intraday variation; sampling too finely amplifies bid–ask bounce and market noise. Close-to-close, range-based, and high-frequency estimators answer different questions.
-
-Realized volatility is backward-looking and estimator-dependent. Option-model `sigma` is forward-looking and model-dependent. Equating them confuses a measured path with a price coordinate.
-
 ## Build the measure from a path
 
-Take closing prices 100, 102, 101, and 104. Convert each adjacent pair into log returns so multiplicative moves become additive. Centering and squaring those returns produces a sample variance; multiplying by a periods-per-year convention annualizes it, and the square root returns volatility units.
+The hedge ledger contains the path that actually occurred. We need a way to summarize its movement. Take closing prices 100, 102, 101, and 104. Convert each adjacent pair into log returns so multiplicative moves become additive. Centering and squaring those returns produces a sample variance; multiplying by a periods-per-year convention annualizes it, and the square root returns volatility units.
 
 Every choice changes the answer. Should returns be centered by sample mean or treated as zero over short horizons? Use 252 trading days or calendar time? Include overnight returns separately? Corporate actions and bad ticks must be cleaned before calculation.
 
@@ -23,5 +17,7 @@ Thus realized volatility is an empirical statistic with a sampling design. It is
 > **Reader experiment:** calculate volatility from daily prices, then retain every second observation. Explain why the result changes even though the underlying path is the same.
 
 > **Memory seal:** the seismograph records every tremor that the chosen sampling clock can see; a slower clock erases some, an overly fast clock hears the instrument itself.
+
+The path measure is now complete only after the path ends. A live option must be quoted before that evidence exists. The market therefore turns the pricing model around and asks which movement scale is already embedded in today's premium.
 
 [Next: Implied Volatility](../026-implied-volatility/README.md)

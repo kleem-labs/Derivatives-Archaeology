@@ -1,18 +1,14 @@
 # 018 — Change of Measure: Reweighting Paths for Pricing
 
-Real-world dynamics may have drift `mu`, reflecting growth expectations and risk premia. Yet the Black–Scholes price does not contain `mu`. Replication removed the stock's instantaneous shock and with it the need to know expected return.
-
-Girsanov's theorem formalizes the repair by changing probability weights. Under an equivalent risk-neutral measure `Q`, a tradable stock with continuous yield `q` can be written `dS=(r-q)Sdt+sigma SdW^Q`. Possible paths are not erased; their weights change so discounted gains processes have zero drift. Then `V_0 = E^Q[e^(-rT) payoff]` for a replicable claim.
-
-This is not permission to use pricing probabilities for real risk management. Forecasting and pricing answer different questions.
-
 ## Keep the paths, alter the voting weights
 
-Imagine a cinema showing every possible one-year stock path. Under the real-world measure `P`, paths receive weights reflecting estimated occurrence and risk premia. Under pricing measure `Q`, the film library remains—equivalent measures agree on impossible events—but the votes are reassigned so appropriately discounted tradable gains have no drift.
+The delta hedge removed `mu` from the pricing equation, but a probability description of the original stock process still contains it. Imagine a cinema showing every possible one-year stock path. Under the real-world measure `P`, paths receive weights reflecting estimated occurrence and risk premia. Under pricing measure `Q`, the film library remains—equivalent measures agree on impossible events—but the votes are reassigned so appropriately discounted tradable gains have no drift.
 
 Why is this legitimate? Replication already fixed the claim's price. The new weights are a coordinate system that reproduces that price by expectation. They do not rewrite physical frequency.
 
 With continuous dividend yield `q`, risk-neutral stock drift becomes `r-q`. The stock itself is not expected to grow at `r` after ignoring dividends; total discounted gains are the relevant object.
+
+Girsanov's theorem provides the formal change under suitable conditions. A replicable payoff can then be written `V_0=E^Q[e^(-rT)payoff]` for constant rates. This expectation has not replaced replication; it is replication written as a weighted sum over paths.
 
 ## One calculation, two questions
 
@@ -31,5 +27,7 @@ When every relevant claim is replicable, the matching pricing measure is effecti
 1. Explain why a risk-neutral measure does not imply risk-neutral investors.
 2. Name a decision requiring `P` rather than `Q`.
 3. What becomes non-unique when replication fails?
+
+Changing weights has given us `Q`, but the phrase “discounted gains have no drift” still hides the unit of measurement. The final key is to choose that measuring asset explicitly.
 
 [Next: Martingales and Numeraires](../019-martingales-and-numeraires/README.md)

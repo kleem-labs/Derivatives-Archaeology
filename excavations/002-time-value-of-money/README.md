@@ -20,15 +20,17 @@ For $105, 5%, one year, present value is `105e^-0.05=$99.8791`. Growing it forwa
 
 ## Rates are not floating labels
 
-A rate is incomplete without currency, maturity, compounding, credit quality, collateral convention, and day-count basis. Five percent annually compounded differs from five percent continuously compounded. A risky corporate promise should not be discounted as government cash. Later we will use curves rather than one rate.
+A rate is incomplete without currency, maturity, compounding, credit quality, collateral convention, and day-count basis. Five percent annually compounded differs from five percent continuously compounded. A risky corporate promise should not be discounted as government cash. Even our simple envelope needs a precise rule: U.S. dollars, one year, continuous compounding, and a payment treated as certain.
 
 The simple formula is a clean room, not the entire rates building. Its purpose is to compare dates.
 
-## Do not discount an expectation too early
+## Build the strike money now
 
-It is tempting to calculate an expected payoff and discount it. That is valid only after choosing appropriate probability weights and discounting rules. Real-world expected payoff discounted at a risk-free rate generally ignores risk compensation. Replication will later produce risk-neutral weights consistent with traded prices.
+Arun's one-year right may require him to pay a $105 strike at expiry. How much cash must he place in the clock bank today so that the strike is guaranteed when needed? The answer is the same $99.8791. This is a certain cash-flow problem: deposit that amount now, let it grow at 5%, and the account contains exactly $105 at exercise time.
 
-If an option strike is $105 payable in a year, $99.8791 today guarantees it at 5%. This observation will let us compare call-plus-cash with put-plus-stock. Without discounting, parity compares the wrong dates.
+We still have not priced the right itself. Discounting has solved only the fixed-cash piece. That limitation is useful. It prevents the clock bank from pretending to know which uncertain state will occur; it merely carries an already specified amount between dates.
+
+Now two portfolios can be compared on the same clock. If each promises the same state-by-state cash flows in one year, and one costs less today, the cheaper portfolio can be bought while the dearer is sold. The difference is no longer an opinion about the future because their future obligations match.
 
 > **Memory seal — the clock bank:** a dollar grows while the clock turns. To walk backward, divide away exactly that growth.
 
@@ -43,4 +45,3 @@ If an option strike is $105 payable in a year, $99.8791 today guarantees it at 5
 If two portfolios create identical future cash flows but require different present cash, the difference cannot survive.
 
 [Next: No Free Lunch](../003-no-arbitrage/README.md) · [Lab](../../labs/derivatives_lab.py)
-

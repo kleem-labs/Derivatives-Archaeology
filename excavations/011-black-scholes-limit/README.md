@@ -1,53 +1,51 @@
-# 011 — The Black–Scholes Limit
+# 011 — The Black–Scholes Limit: A Door We Cannot Yet Open
 
-Stand far from the binomial orchard. As branches become smaller and more numerous, the staircase of possible prices blurs into a continuous canopy. The local hedge remains: at each instant, hold enough stock to cancel the option's immediate random movement.
+The binomial tree prices a call by moving backward from its terminal payoff. Make the tree finer and the answer stabilizes. With the book's inputs—spot $100, strike $105, rate 5%, volatility 20%, and one year—a 500-step tree gives about $8.02.
 
-This is the intuition behind Black–Scholes. The famous formula is the last line of an argument, not the first.
+It is tempting to announce a continuous-time formula and move on. But the tree has hidden three unresolved questions inside its shrinking branches. If we cross the limit without answering them, the symbols will arrive before their responsibilities.
 
-## The model world
+## What exactly is becoming continuous?
 
-Assume the stock follows geometric Brownian motion with constant volatility `sigma`; trading is continuous and frictionless; stock and cash can be traded and shorted; the risk-free rate is known; and the claim can be replicated. For a non-dividend-paying stock,
+In a one-step tree the stock has two named outcomes. In a 500-step tree it has hundreds of terminal outcomes and vastly more paths. To let the step length approach zero, we need a mathematical object that describes an unknown value without listing every branch.
 
-`dS=mu Sdt+sigma SdW`.
+The terminal stock price will become a **random variable**: a rule assigning a number to each possible state. The tree's branch weights will become a distribution. But this raises an immediate discipline. The payoff rule and the probability weights are different objects. A call maps terminal price into cash; a model assigns weights to the terminal prices.
 
-An option value `V(S,t)` changes with time, stock direction, and curvature. Itô's lemma—earned later in detail—gives a random term proportional to `V_S sigma S dW`. Hold `Delta=V_S` shares against the option and that same shock cancels.
+We will not use either term in a pricing formula until Chapters 012 and 013 build them from concrete states and weighted sums.
 
-The remaining portfolio is instantaneously riskless inside the model. No-arbitrage requires it to earn the risk-free rate. After rearrangement:
+## How small is a small random move?
 
-`V_t + 0.5 sigma^2 S^2 V_SS + rS V_S - rV = 0`.
+Suppose one year is divided into `n` steps. If each random move stayed the same size while `n` grew, total uncertainty would explode. If each move shrank in direct proportion to `1/n`, uncertainty would vanish. The tree converges only when the typical random move shrinks like `1/sqrt(n)`, or equivalently like the square root of elapsed time.
 
-Notice what vanished: `mu`, the stock's real-world expected return. Replication removed the immediate stock risk, so the option price does not require agreement on the stock's risk premium.
+That scaling leads toward Brownian motion. It also creates a surprise: squared random moves do not disappear. There are more of them at exactly the rate that each squared move becomes smaller. Their accumulated trace is called quadratic variation.
 
-## The terminal promise chooses the solution
+This matters because the call payoff bends. A straight-line hedge reacts to the first-order stock move; the changing slope leaves a second-order curvature effect. Ordinary smooth-path calculus discards that term too early. Chapters 015–017 will be forced to repair the chain rule.
 
-The PDE describes many possible claims. The terminal condition identifies one. For a European call it is `V(S,T)=max(S-K,0)`. Solving backward yields
+## Which probabilities survive the limit?
 
-`C=S_0N(d_1)-Ke^(-rT)N(d_2)`,
+The tree's weight `p*` was not a forecast. It was chosen so stock-and-cash prices were consistent with replication. A continuous model needs the same distinction on an entire collection of paths.
 
-`d_1=[ln(S_0/K)+(r+sigma^2/2)T]/(sigma sqrt(T))`, and `d_2=d_1-sigma sqrt(T)`.
+We therefore need two probability views: one for statements about what may actually happen, and another that encodes prices after tradable risks have been accounted for. Chapters 018 and 019 will show how changing the measuring asset and reweighting paths turns discounted tradable prices into martingales.
 
-At spot $100, strike $105, rate 5%, volatility 20%, one year, the call is about $8.0214. The corresponding put is $7.9004, and their $0.1209 difference matches parity.
+Only then will a discounted expected payoff be earned. Introducing it here would repeat the exact error the book is designed to prevent: naming a mathematical operation before the market problem has forced it to exist.
 
-## What the symbols are doing
+## The convergence experiment we can perform now
 
-`N(d_2)` behaves as a risk-neutral exercise probability in this model. `S_0N(d_1)` is not merely spot times an arbitrary chance; its weighting arises from the stock component of replication. The discounted strike term accounts for cash paid only in exercise states.
+Run the advanced laboratory with 25, 50, 100, 250, and 500 tree steps. Record each European call value. The sequence should approach a stable neighborhood, though odd and even step counts may approach from different sides because the strike falls differently on each discrete grid.
 
-## The formula's shadow
+That experiment establishes a target. It does not yet explain why the limit has its final form. Numerical convergence says the tree family is approaching something; the next eight excavations identify what that something is made from.
 
-Real prices jump. Volatility changes. Hedging is discrete. Funding and borrowing differ. Transactions cost money. A numerical price can be precise while the model is wrong. Black–Scholes is best treated as a common language, replication benchmark, and implied-volatility coordinate—not an oracle.
-
-> **Memory seal — the vanishing staircase:** the tree dissolves into a continuous arch, but every invisible step still carries a local stock-and-cash hedge.
+> **Memory seal — the sealed arch:** the staircase becomes finer until it looks smooth from a distance. Up close, the door is locked by three missing keys: continuous uncertainty, calculus for rough paths, and pricing weights that are not forecasts.
 
 ## Excavation questions
 
-1. Name the assumption responsible for each term in the PDE.
-2. Explain why `mu` disappears while `sigma` remains.
-3. Change volatility in the lab from 20% to 30%. Predict call direction before running it.
-4. Give one market where continuous-path assumptions are especially dangerous.
+1. Why must a typical random step shrink like `sqrt(dt)` rather than `dt` if uncertainty is to survive a continuous-time limit?
+2. Which two objects are confused when someone treats an option payoff as though it already contained probabilities?
+3. What does tree convergence establish, and what does it fail to validate?
+4. Name the three missing mathematical keys that must be recovered before the Black–Scholes formula can be derived rather than announced.
 
-## The descent beneath the formula
+## The first key
 
-We have used probability, Brownian motion, curvature, and changing measures before fully excavating them. The next eight chambers descend beneath the closed form and recover those roots.
+The tree's leaf labels have become too numerous to list. The next chapter builds the object that can name an unknown terminal price while keeping the contract payoff separate from the weights placed on possible states.
 
-[Next: Random Variables](../012-random-variables/README.md) · [Run the pricing lab](../../labs/derivatives_lab.py)
+[Next: Random Variables](../012-random-variables/README.md) · [Run the convergence experiment](../../labs/advanced_lab.py)
 

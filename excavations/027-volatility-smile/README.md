@@ -1,12 +1,8 @@
 # 027 — The Volatility Smile: One Sigma Is Not Enough
 
-Black–Scholes assumes one volatility for all strikes at a maturity. Markets imply different volatilities: equity downside puts often trade at higher implied volatility than upside calls, producing skew; other assets show smiles.
-
-This is evidence that one constant-lognormal model cannot fit all prices. The implied-volatility surface is a price map in familiar coordinates. Static arbitrage still constrains it: call prices decrease with strike, remain convex in strike, and obey calendar consistency under suitable conditions. A smooth interpolation can violate these economics.
-
 ## Read the surface as evidence
 
-Collect calls and puts across strikes for one expiry. Convert executable quotes into implied volatilities using consistent forwards and discounting. If one lognormal distribution priced all options, the points would lie on one horizontal line. They rarely do.
+One quote produced one implied volatility. Now repeat the inversion. Collect calls and puts across strikes for one expiry. Convert executable quotes using consistent forwards and discounting. If one constant-lognormal distribution priced all options, the points would lie on one horizontal line. They rarely do.
 
 In equity indexes, downside strikes often carry higher implied volatility. One interpretation is crash risk plus demand for protection; leverage effects and stochastic volatility also generate negative spot–volatility correlation. The smile is not itself a causal explanation. It is the shape any explanation must fit.
 
@@ -21,5 +17,7 @@ Call price must decline as strike rises and remain convex in strike: a butterfly
 A downside put at 30% implied volatility is not automatically expensive because at-the-money volatility is 20%. Its states and hedge behavior differ. Ask whether the relative skew exceeds your scenario value after crash probabilities, gap hedging, bid–ask spread, and capital.
 
 > **Memory seal:** the once-flat volatility smile bends under the weight of downside insurance. Every model must carry that visible asymmetry.
+
+The surface has diagnosed failure but has not supplied dynamics. A barrier or forward-start option will care how today's skew moves after spot changes. The next excavation constructs two different motion rules that can fit the same present surface.
 
 [Next: Local and Stochastic Volatility](../028-local-and-stochastic-volatility/README.md)

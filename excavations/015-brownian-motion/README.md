@@ -1,14 +1,8 @@
 # 015 — Brownian Motion: Continuous Surprise
 
-We need continuous-time noise whose disjoint increments do not remember one another and whose variance grows with elapsed time. Brownian motion `W_t` begins at zero, has independent normal increments, and satisfies `W_{t+dt}-W_t ~ N(0,dt)`.
-
-A typical noise increment has size `sqrt(dt)`, not `dt`. Summing `dt`-sized random shocks would disappear in the limit; summing larger shocks would explode. Square-root scaling preserves finite uncertainty.
-
-Geometric Brownian motion writes `dS = mu S dt + sigma S dW`. The first term is drift; the second is random movement proportional to price. Brownian paths are continuous but nowhere classically differentiable. Ordinary calculus therefore fails exactly where the model places its uncertainty.
-
 ## The scaling experiment
 
-Divide one year into 100 equal steps. If each independent shock had typical size proportional to `dt=.01`, their accumulated variance would shrink toward zero as partitions became finer. If each retained fixed size, total variance would explode. Size `sqrt(dt)=.1` is the balance: 100 variances of .01 add to one.
+The lognormal formula contains `sqrt(T)Z`. To make that uncertainty arrive piece by piece, divide one year into 100 equal steps. If each independent shock had typical size proportional to `dt=.01`, their accumulated variance would shrink toward zero as partitions became finer. If each retained fixed size, total variance would explode. Size `sqrt(dt)=.1` is the balance: 100 variances of .01 add to one.
 
 This is why uncertainty grows with square-root time under independent diffusion increments. Ten days of volatility is not ten times one day's; standard deviation scales near `sqrt(10)` in the idealized model.
 
@@ -25,5 +19,7 @@ Ask what the model excludes: scheduled earnings jumps, overnight gaps, volatilit
 Simulate daily increments, then weekly increments with matching annual volatility. Their distributions should agree at the year horizon, but individual paths differ. Now insert one jump. No increase in Brownian sampling frequency can turn that discontinuity into hedgeable continuous motion.
 
 > **Memory seal:** dust wanders down a corridor. Every smaller beam of light reveals fresh motion, and no instantaneous arrow can lie tangent to its track.
+
+The missing tangent is not a poetic inconvenience. Option value bends with stock price, and the next chapter will show that the path's squared microscopic moves leave a macroscopic trace ordinary calculus would discard.
 
 [Next: Quadratic Variation](../016-quadratic-variation/README.md)

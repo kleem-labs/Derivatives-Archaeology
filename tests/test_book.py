@@ -35,6 +35,40 @@ class BookTests(unittest.TestCase):
                    if not re.search(rf"^## {number:03d} —", solution_text, re.MULTILINE)]
         self.assertFalse(missing, f"excavations without solutions: {missing}")
 
+    def test_later_chapters_do_not_start_with_detached_summaries(self):
+        chapters = sorted((ROOT / "excavations").glob("*/README.md"))
+        offenders = []
+        for number, path in enumerate(chapters):
+            if number < 12:
+                continue
+            lines = path.read_text().splitlines()[1:]
+            first_content = next((line for line in lines if line.strip()), "")
+            if not first_content.startswith("## "):
+                offenders.append(path.parent.name)
+        self.assertFalse(offenders, f"detached preambles before narrative sections: {offenders}")
+
+    def test_key_concepts_appear_only_after_the_problem_earns_them(self):
+        chapter_002 = (ROOT / "excavations/002-time-value-of-money/README.md").read_text().lower()
+        for premature in ("risk-neutral", "risk compensation", "expected payoff"):
+            self.assertNotIn(premature, chapter_002)
+
+        chapter_011 = (ROOT / "excavations/011-black-scholes-limit/README.md").read_text()
+        for premature_formula in ("V_t+", "d_1=", "N(d_1)"):
+            self.assertNotIn(premature_formula, chapter_011)
+
+        chapter_019 = (ROOT / "excavations/019-martingales-and-numeraires/README.md").read_text()
+        self.assertIn("V_t+.5sigma²S²V_SS", chapter_019)
+        self.assertIn("C=S_0N(d_1)", chapter_019)
+
+    def test_each_chapter_creates_the_next_link(self):
+        chapters = sorted((ROOT / "excavations").glob("*/README.md"))
+        missing = []
+        for current, following in zip(chapters, chapters[1:]):
+            expected = f"../{following.parent.name}/README.md"
+            if expected not in current.read_text():
+                missing.append((current.parent.name, following.parent.name))
+        self.assertFalse(missing, f"missing causal next-chapter links: {missing}")
+
 
 if __name__ == "__main__":
     unittest.main()

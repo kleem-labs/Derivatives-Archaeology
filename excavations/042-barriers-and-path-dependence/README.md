@@ -1,14 +1,8 @@
 # 042 — Barriers and Path Dependence
 
-Two price paths can end at the same `S_T` yet give different barrier, Asian, or lookback payoffs. Terminal distribution alone no longer suffices; the path carries state.
-
-A barrier option activates or dies when a level is crossed. Discrete monitoring can miss crossings between observations, so continuous and daily-monitored contracts differ. Asian options depend on an average, requiring the running sum as an additional state variable.
-
-Path dependence expands computation and exposes model dynamics beyond the vanilla surface.
-
 ## Two paths, one ending, two contracts
 
-Path A travels 100 → 130 → 110. Path B travels 100 → 90 → 110. Both finish at 110. A down-and-out call with barrier 95 survives A and dies on B. A European call sees only the shared endpoint.
+The exercise boundary made value depend on where the contract stood before expiry. A barrier makes that memory contractual. Path A travels 100 → 130 → 110. Path B travels 100 → 90 → 110. Both finish at 110. A down-and-out call with barrier 95 survives A and dies on B. A European call sees only the shared endpoint.
 
 For an Asian call, carry the running sum or average as additional state. For a lookback, carry the running maximum or minimum. Path dependence means the model state must remember what the payoff will later ask.
 
@@ -25,5 +19,7 @@ Vanilla options constrain terminal distributions across maturities. Barriers int
 > **Design challenge:** write an unambiguous monthly-average commodity payoff. Include missing observation, holiday, negative price, rounding, and settlement rules.
 
 > **Memory seal:** two travelers arrive at the same endpoint with different passport stamps. The path archive pays according to the stamps, not merely arrival.
+
+A terminal formula cannot enumerate every possible passport through time. The next method generates complete paths, applies the contract carefully to each one, and lets their discounted payoffs gather into an estimate.
 
 [Next: Monte Carlo](../043-monte-carlo/README.md)

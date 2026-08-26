@@ -22,9 +22,11 @@ Suppose the dealer quotes $110. Borrow $100, buy the share, and short the forwar
 
 If the quote is too low, the reverse trade wants to short the stock, invest proceeds, and buy through the forward. That direction depends on stock borrowing and dividend obligations; real constraints can make bounds asymmetric.
 
-## Ownership is a bundle
+## One dividend changes one route
 
-If the stock pays continuous yield `q`, Route B receives income that Route A lacks. The fair forward becomes `S_0e^((r-q)T)`. Known cash dividends require subtracting their present value before carrying spot. Commodities add storage costs and convenience benefits. The general lesson is more durable than any one formula: list every cash flow and service that differs between owning now and receiving later.
+Suppose the share pays income while it waits in the warehouse. Route B—the stock owner—receives it; Route A—the forward buyer—does not. The original equality must therefore change because the routes no longer contain identical benefits.
+
+If income is paid continuously at proportional yield `q`, reinvesting it reduces the net cost of carrying the share and gives `F_0(T)=S_0e^((r-q)T)`. For a known cash dividend, subtract its present value from spot before carrying the remainder. Nothing else has been added to the argument: we found one cash flow present on one route and repaired the comparison.
 
 The forward price is not a prediction that future spot will equal $105.13. It is the delivery price that prevents an idealized carry arbitrage today. Future spot can finish far above or below it.
 
@@ -38,7 +40,6 @@ The forward price is not a prediction that future spot will equal $105.13. It is
 
 ## What breaks next
 
-A forward waits until maturity. An exchange futures contract moves gains and losses every day. Same final exposure does not guarantee same value when cash arrives at different times.
+The two delivery routes above were compared only at today and maturity. An exchange now proposes to settle their difference every evening. That inserts new cash-flow dates into the table, so the forward argument is no longer complete.
 
 [Next: Futures Are Re-settled](../005-futures-marking-to-market/README.md) · [Lab](../../labs/derivatives_lab.py)
-

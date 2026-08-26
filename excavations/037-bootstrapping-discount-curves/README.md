@@ -1,14 +1,8 @@
 # 037 — Bootstrapping Discount Curves
 
-One interest rate cannot discount every maturity. Market deposits, futures, swaps, and bonds reveal different combinations of discount factors. Bootstrapping solves them sequentially from shortest known cash flows outward.
-
-If a par instrument has known earlier coupon present values, its price equation isolates the next unknown discount factor. Interpolation fills unquoted dates, but the interpolation space—zero rates, log discount factors, or forwards—changes smoothness and risk.
-
-Modern collateralized pricing may require multiple curves: one for discounting and others for projecting index cash flows. “The yield curve” is no longer always one object.
-
 ## Build the curve one cash flow at a time
 
-A six-month zero-coupon instrument reveals the six-month discount factor directly. A one-year par bond pays an earlier coupon at six months and coupon plus principal at one year. Once the first discount factor is known, subtract the present value of the first coupon from price; the remaining equation isolates the one-year factor.
+The hedge chapters used contracts across different delivery dates, yet the book has carried every cash flow with one rate. Market instruments now expose that shortcut. A six-month zero-coupon instrument reveals the six-month discount factor directly. A one-year par bond pays an earlier coupon at six months and coupon plus principal at one year. Once the first discount factor is known, subtract the present value of the first coupon from price; the remaining equation isolates the one-year factor.
 
 That sequential recovery is bootstrapping. Each new maturity stands on previously solved rungs. With a par bond price of 100 and annual coupon split across dates, write `100=cP(0,.5)+(100+c)P(0,1)` and solve the final unknown.
 

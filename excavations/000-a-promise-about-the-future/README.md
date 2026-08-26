@@ -40,9 +40,9 @@ These can be connected by a model, but they are not definitions of one another.
 
 A derivative is a contract whose cash flows depend on an underlying observable. The underlying might be wheat, a stock, an interest rate, rainfall, freight cost, electricity use, or a credit event. The derivative is not the underlying. It is a rule that watches the underlying and determines obligations.
 
-Mara and Arun created a forward: obligations for both sides. Later we will meet options, where one party may walk away. That change creates the kink from which much option mathematics grows.
+Mara and Arun created a forward: obligations for both sides. Yet Arun's original wish was not merely to replace an unknown price with $6. He feared high prices. If wheat becomes cheap, the forward prevents him from enjoying that benefit. The contract solved more of his problem than he asked it to solve.
 
-For now, resist pricing. We have not earned it. We have earned only the discipline of writing what happens.
+Before repairing that mismatch, resist pricing. We have not yet written enough of the artifact to know what is being valued. The next task is to separate the cash-flow rule from every opinion about it.
 
 > **Memory seal — the bound wheat sheaf:** two signatures are tied to one future harvest. The harvest remains uncertain; the signatures decide who bears each side of its price.
 
@@ -57,4 +57,3 @@ For now, resist pricing. We have not earned it. We have earned only the discipli
 We tried to price before describing the artifact. The repair is to map the contract across states first.
 
 [Next: Payoffs Before Prices](../001-payoffs-before-prices/README.md)
-

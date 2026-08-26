@@ -88,10 +88,9 @@
 
 ## 011 — The Black–Scholes Limit
 
-1. `V_t` is passage of time; `.5sigma²S²V_SS` comes from diffusion variance, curvature, and quadratic variation; `rSV_S` reflects financing/carry of the stock hedge; `-rV` requires the locally riskless portfolio to earn the risk-free rate. The terminal payoff selects the claim.
-2. Delta hedging cancels the shared instantaneous Brownian shock, so the stock's real-world drift `mu` drops out. Volatility remains because squared random movement interacts with option curvature.
-3. The call must rise with volatility because its payoff is convex. With the chapter inputs, increasing volatility from 20% to 30% raises the Black–Scholes call from about $8.02 to about $11.98 (minor differences may reflect numerical convention).
-4. Earnings-sensitive single stocks, defaultable credit, electricity, commodities around supply shocks, and markets closed during news are valid examples. A strong answer identifies a mechanism producing discontinuous repricing.
+1. With `1/dt` independent steps, `dt`-sized shocks have total variance of order `dt` and vanish. `sqrt(dt)`-sized shocks have variance `dt` each, so their `1/dt` variances add to order one. Uncertainty survives without exploding.
+2. The payoff function maps a terminal state into cash; a probability distribution assigns weights to states. A contract can be completely specified before either real-world or pricing probabilities are chosen.
+3. Convergence shows values stabilize as the numerical time grid is refined within the chosen tree family. It does not prove that the diffusion dynamics, constant volatility, market assumptions, or parameter estimates describe reality.
+4. The three keys are: a continuous stochastic process with correct scaling; calculus that retains quadratic variation on rough paths; and a pricing measure/numeraire framework that makes discounted tradable gains martingales without treating pricing weights as forecasts.
 
 [Return to the solution index](../SOLUTIONS.md)
-

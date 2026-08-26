@@ -1,14 +1,8 @@
 # 016 — Quadratic Variation: Noise Leaves a Second-Order Trace
 
-For a smooth path, squared increments vanish when a time partition becomes fine. Brownian increments are of size `sqrt(dt)`, so their squares are of size `dt`. Across a fixed interval they accumulate: `sum (Delta W)^2 -> T`.
-
-This quadratic variation explains the symbolic rules `(dW)^2=dt`, `dW dt=0`, and `(dt)^2=0`. They are shorthand for limiting orders, not ordinary algebraic identities.
-
-A naive Taylor expansion discards all second-order terms. With Brownian motion that throws away a contribution as large as the first-order time term. The missing term is the source of Itô's correction and ultimately the option gamma term in Black–Scholes.
-
 ## The experiment ordinary calculus gets wrong
 
-Take a path over one year and partition it. Add squared increments. For a smooth line with slope `a`, each increment is roughly `a dt`; its square is `a²dt²`. About `1/dt` terms sum to order `dt`, which vanishes.
+Brownian motion denied us a tangent. Measure the consequence rather than naming it away. Take a path over one year and partition it. Add squared increments. For a smooth line with slope `a`, each increment is roughly `a dt`; its square is `a²dt²`. About `1/dt` terms sum to order `dt`, which vanishes.
 
 For Brownian motion, each increment is order `sqrt(dt)`; its square is order `dt`. About `1/dt` such terms sum to order one. In probability the quadratic variation approaches the length of the interval.
 
@@ -29,5 +23,7 @@ This also illuminates gamma P&L. A delta hedge removes the linear spot move, but
 Explain why doubling the number of equal time intervals does not double expected quadratic variation over the same horizon. Each increment becomes smaller while there are more of them; the effects balance.
 
 > **Memory seal:** countless tiny footprints look negligible alone, yet their squared impressions tile the entire one-year floor.
+
+We now know exactly which term ordinary chain rule loses. The next excavation rebuilds the change in an option value and keeps the surviving curvature contribution.
 
 [Next: Itô's Lemma](../017-itos-lemma/README.md)

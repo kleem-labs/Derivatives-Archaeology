@@ -1,14 +1,12 @@
 # 022 — Theta: The Cost of the Clock
 
-Theta is option sensitivity to calendar time, quoted as value change when time passes while spot and inputs stay fixed. A plain long option often has negative theta: fewer future paths remain as expiry approaches. But time decay is not guaranteed realized P&L because spot and implied volatility also move.
-
-The Black–Scholes PDE ties theta to convexity and financing: `Theta + 0.5 sigma^2 S^2 Gamma + rS Delta - rV = 0` for a non-dividend-paying stock. Theta is therefore not an independent tax; it is one side of the local replication balance.
-
 ## Freeze the world, move the calendar
 
-Suppose Friday's option closes at $8 and Monday opens with identical spot, volatility surface, and rates. Less time remains, so its model price changes. Theta is that partial effect, not the total weekend P&L the trader will actually observe if inputs move.
+Gamma explained the error caused by spot movement. But an option changes even when spot does not move. Suppose Friday's option closes at $8 and Monday opens with identical spot, volatility surface, and rates. Less time remains, so its model price changes. Theta is that partial effect, not the total weekend P&L the trader will actually observe if inputs move.
 
 Near expiry, an at-the-money option can lose time value rapidly because uncertainty must resolve soon. A deeply in- or out-of-the-money option may behave differently. Quoting “theta per day” also requires a calendar convention: divide an annual derivative by 365, trading days, or a model-specific clock?
+
+The Black–Scholes PDE ties theta to convexity and financing: `Theta+.5sigma²S²Gamma+rSDelta-rV=0` for a non-dividend-paying stock. The clock term is not an independent tax; it is one side of the local replication balance.
 
 ## The gamma–theta exchange
 

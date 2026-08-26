@@ -1,14 +1,8 @@
 # 029 — Jumps and Incomplete Markets
 
-Brownian paths move continuously; real prices can gap. A delta hedge cannot trade inside an instantaneous jump. Adding jumps improves tail behavior but introduces risk that stock and cash may not span.
-
-When not every claim can be replicated, the market is incomplete. Multiple equivalent pricing measures can exist and no-arbitrage supplies bounds rather than one price. Pricing then needs an additional labeled choice: preferences, calibrated risk premia, utility, minimum-variance hedging, or other traded options.
-
-Perfect replication is a property of a model and traded set, not every market.
-
 ## The earnings-night gap
 
-A trader delta-hedges a short call at the close. Overnight the company announces a failed trial and stock opens 35% lower. No sequence of continuous stock trades occurred between the prices. The hedge was calibrated to an infinitesimal movement that the market skipped.
+Local and stochastic volatility enriched continuous paths, but neither forces the market to visit every intermediate price. A trader delta-hedges a short call at the close. Overnight the company announces a failed trial and stock opens 35% lower. No sequence of continuous stock trades occurred between the prices. The hedge was calibrated to an infinitesimal movement that the market skipped.
 
 Add a jump process and the option change contains the full finite difference `V(S+Delta S)-V(S)`, not merely local delta and gamma. Stock and bond cannot generally hedge both continuous diffusion and independent jump-size risk. One more source of risk needs another traded instrument to span it.
 
@@ -26,8 +20,10 @@ An original derivative on rainfall, electricity demand, or private-company reven
 
 > **Memory seal:** a jump breaks the replication bridge. The remaining gap must be priced by an additional, explicitly named choice.
 
-## The road returns to futures
+## Mara brings the physical warehouse back
 
-With the option engine exposed, we return to forward markets and recover the richer carry terms that stocks, commodities, rates, and margin require.
+The broken hedge bridge has taught us to ask which risks are actually traded. Mara now returns with a physical detail our first stock-forward example deliberately suppressed: carrying an asset can require storage, insurance, financing, and scarce inventory. Those are not probability refinements. They are cash flows and services on the replication route itself.
+
+Before choosing another elaborate option model, the book returns to the simpler carry ledger and makes every ownership difference visible. Only then can futures hedges, curves, and contracts on physical goods be valued without mistaking a missing warehouse cost for mysterious risk premium.
 
 [Next: Cost of Carry](../030-cost-of-carry/README.md)

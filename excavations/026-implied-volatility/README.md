@@ -1,14 +1,8 @@
 # 026 — Implied Volatility: Turning Price into a Coordinate
 
-Given a market price and the other Black–Scholes inputs, implied volatility is the `sigma` making the formula reproduce that price. A numerical root finder solves `BS(sigma)-market_price=0`.
-
-Vanilla option price rises monotonically with volatility, so inversion is usually well behaved inside no-arbitrage bounds. An impossible price, such as a call below intrinsic value, has no valid implied volatility.
-
-Implied volatility is not a pure forecast. It is a standardized quote containing expectations, risk premia, supply, demand, and model mismatch. Its power is comparison across strikes and maturities.
-
 ## Run the pricing machine backward
 
-Suppose spot is $100, strike $105, rate 5%, and time one year. The market call ask is $8.02. Try `sigma=.10`; Black–Scholes produces too little option value. Try `.40`; it produces too much. Because vanilla call price rises continuously with `sigma`, bisection repeatedly halves the interval until the model price matches the quote near 20%.
+Realized volatility came from a completed path. A live option quote faces a path that has not happened. Rather than pretend the historical estimate is the model input, take the market price as evidence. Suppose spot is $100, strike $105, rate 5%, and time one year. The market call ask is $8.02. Try `sigma=.10`; Black–Scholes produces too little option value. Try `.40`; it produces too much. Because vanilla call price rises continuously with `sigma`, bisection repeatedly halves the interval until the model price matches the quote near 20%.
 
 The inversion contains a diagnostic. A European call on a non-dividend stock cannot cost less than `max(S_0-Ke^-rT,0)` or more than `S_0` under ideal assumptions. A price outside valid bounds has no implied volatility. The root finder should reject it rather than return nonsense.
 

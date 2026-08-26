@@ -1,16 +1,8 @@
 # 017 — Itô's Lemma: Calculus for Rough Paths
 
-Let `dS=mu Sdt+sigma SdW` and let an option be `V(S,t)`. Ordinary chain rule would keep only `V_tdt+V_SdS`. Quadratic variation forces the second derivative to survive:
-
-`dV = (V_t + mu S V_S + 0.5 sigma^2 S^2 V_SS)dt + sigma S V_S dW`.
-
-The half comes from Taylor's second-order coefficient; `sigma^2S^2dt` comes from `(dS)^2`. Choosing `Delta=V_S` shares cancels the shared `dW` shock between option and stock. No-arbitrage then makes the locally riskless remainder earn `r`, producing the Black–Scholes PDE.
-
-Itô calculus is exact inside the continuous diffusion model. Jumps require an additional term.
-
 ## Rebuild the missing term
 
-Let `V(S,t)` be a call value and expand around a tiny interval. Time contributes `V_tdt`; the stock move contributes `V_SdS`; curvature contributes `.5V_SS(dS)²`. Substitute `dS=mu Sdt+sigma SdW` and keep terms of order `dt`.
+Quadratic variation told us not to discard the squared stock move. Let `V(S,t)` be a call value and expand around a tiny interval. Time contributes `V_tdt`; the stock move contributes `V_SdS`; curvature contributes `.5V_SS(dS)²`. Substitute `dS=mu Sdt+sigma SdW` and keep terms of order `dt`.
 
 The squared stock move is dominated by `sigma²S²(dW)²=sigma²S²dt`. Cross-products with `dt` vanish at the limiting order. Therefore
 
@@ -31,5 +23,7 @@ If the stock jumps, Taylor's local second-order correction does not capture the 
 > **Retrieval challenge:** cover the displayed formula and reconstruct it from Taylor expansion plus the quadratic-variation multiplication table.
 
 > **Memory seal:** an ordinary chain rule enters the rough corridor; a curved gamma link must be added before it can leave intact.
+
+The hedge has removed the random shock and eliminated `mu` from the pricing equation. We need a probability language that expresses the same price without pretending that the stock's actual expected return has become `r`.
 
 [Next: Change of Measure](../018-change-of-measure/README.md)

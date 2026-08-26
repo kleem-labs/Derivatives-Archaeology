@@ -1,14 +1,8 @@
 # 048 — Value at Risk and Expected Shortfall
 
-At confidence `alpha`, value at risk is a loss quantile: a threshold exceeded with probability `1-alpha` under the chosen distribution and horizon. It says little about how severe losses are beyond the threshold.
-
-Expected shortfall averages losses in that tail and is more sensitive to its shape. Both depend on data, model, horizon, liquidity, and mapping of current positions into future P&L. Historical, parametric, and simulation methods can disagree sharply.
-
-These are model outputs, not maximum-loss guarantees. Stress tests remain essential where data contain no example of the relevant failure.
-
 ## The quantile and the cellar below it
 
-Suppose one-day 99% VaR is $10 million. Under the model, only one day in one hundred exceeds that loss threshold. The statement does not say the worst loss is $10 million. Loss beyond the line could be $10.1 million or $100 million.
+The scenario theater produced many portfolio losses. Management asks for one threshold summarizing them. Suppose one-day 99% value at risk is $10 million. Under the model, only one day in one hundred exceeds that loss threshold. The statement does not say the worst loss is $10 million. Loss beyond the line could be $10.1 million or $100 million.
 
 Expected shortfall asks for the average loss conditional on entering the worst tail. It therefore distinguishes distributions sharing the same 99th percentile but having different disasters beyond it. Its estimate is also data-hungry because tail observations are rare.
 

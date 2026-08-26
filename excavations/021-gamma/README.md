@@ -1,14 +1,8 @@
 # 021 — Gamma: How Delta Bends
 
-A delta hedge is exact only for an infinitesimal move. Gamma measures how delta changes: `Gamma = partial^2 V / partial S^2`. For a small spot move, `Delta V ≈ Delta*Delta S + 0.5 Gamma*(Delta S)^2`.
-
-The squared term survives moves in either direction. A long vanilla option generally has positive gamma: large moves improve the dynamically rebalanced position, before theta and trading costs. Short gamma has the opposite exposure.
-
-Gamma is often largest near the strike and expiry. Continuous hedging hides the increasing speed and cost of rebalancing there.
-
 ## The error left after delta
 
-Using the call above, suppose delta is .542 and gamma is about .0198 per dollar squared. For a $5 rise, the delta-only estimate is `$2.71`. Adding curvature gives `.5×.0198×25≈$0.248`, producing about $2.96 before higher-order effects.
+Delta neutralized the first tiny move, but Chapter 020 showed it changes as spot moves. The rate of that change is gamma, `V_SS`. Using the call above, suppose delta is .542 and gamma is about .0198 per dollar squared. For a $5 rise, the delta-only estimate is `$2.71`. Adding curvature gives `.5×.0198×25≈$0.248`, producing about $2.96 before higher-order effects.
 
 The same gamma correction is positive for a $5 fall because the move is squared. That does not mean a long call profits from every decline; the negative delta contribution may dominate. It means the curved option loses less than a tangent line predicts on one side and gains more on the other.
 

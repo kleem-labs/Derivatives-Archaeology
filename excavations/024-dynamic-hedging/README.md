@@ -1,14 +1,8 @@
 # 024 — Dynamic Hedging: Replication Through Rebalancing
 
-The binomial tree changed delta at every node. Continuous-time replication does the same: hold `Delta_t=V_S(S_t,t)` shares and rebalance as spot and time move.
-
-A static delta hedge removes only the first small move. Gamma changes the required shares. Under exact diffusion assumptions with continuous frictionless trading, rebalancing and financing reproduce the option. Real hedges are discrete and costly; jumps occur between trades, volatility is unknown, and markets can gap.
-
-Replication is therefore both a pricing proof and an error decomposition. The gap between model replication and realized hedging reveals model, execution, and parameter risk.
-
 ## Follow one hedge through a move
 
-At spot $100, short one call and buy .542 shares. If spot rises, the short call's negative delta grows in magnitude; the hedge must buy more shares at the higher price. If spot falls, it sells shares lower. A short-gamma hedger is forced to chase movement. Premium and time decay compensate for accepting that behavior—if the priced volatility and costs are sufficient.
+The Greeks have described separate local movements. A hedge must live through all of them in sequence. At spot $100, short one call and buy .542 shares. If spot rises, the short call's negative delta grows in magnitude; the hedge must buy more shares at the higher price. If spot falls, it sells shares lower. A short-gamma hedger is forced to chase movement. Premium and time decay compensate for accepting that behavior—if the priced volatility and costs are sufficient.
 
 In the ideal diffusion, rebalancing continuously makes accumulated stock-and-cash flows reproduce the option. In a daily hedge, the option may jump from one delta to another before trading occurs. The residual is not a bookkeeping mistake; it is discrete hedging error.
 

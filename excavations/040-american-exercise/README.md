@@ -1,14 +1,8 @@
 # 040 — American Exercise
 
-An American option may be exercised at any allowed time. Its value is therefore at least its intrinsic value and at least the corresponding European value.
-
-Backward induction repairs European-only pricing: at each tree node compare continuation value with immediate exercise value and choose the larger. This is an optimal-stopping problem, not a different terminal payoff.
-
-For a non-dividend-paying stock with nonnegative rates, early exercise of a call is generally suboptimal because exercise sacrifices time value and pays the strike early. Puts and dividend-paying calls can exercise early.
-
 ## The choice embedded at every node
 
-Consider an American put struck at $100 after stock falls to $60. Exercising yields $40 now. Continuing preserves the possibility of still larger payoff but delays cash and risks recovery. The holder owns the maximum of immediate exercise and continuation value.
+The futures option specification allowed exercise before the final date. That sentence inserts a decision into every permitted time. Consider an American put struck at $100 after stock falls to $60. Exercising yields $40 now. Continuing preserves the possibility of still larger payoff but delays cash and risks recovery. The holder owns the maximum of immediate exercise and continuation value.
 
 In a binomial tree, calculate terminal payoff, then step backward. At each node compute discounted risk-neutral continuation and intrinsic value. Store the larger. European valuation omits the comparison and always continues.
 
@@ -25,5 +19,7 @@ Puts can rationally exercise early because selling stock at strike realizes cash
 “American” defines an exercise set, not geography. Bermudan options allow specified dates. Notice periods, cutoff times, automatic exercise rules, settlement lags, and dividends affect the practical decision. A theoretical exercise benefit smaller than spread and fees may not be executable.
 
 > **Memory seal:** at each court landing, the holder chooses the door marked EXERCISE NOW or the corridor marked CONTINUE. The judge keeps whichever value is larger.
+
+One tree contains hundreds of individual choices. To understand how rates, dividends, and time reshape them, the next chapter connects all nodes where the judge is exactly indifferent.
 
 [Next: Early-Exercise Boundaries](../041-early-exercise-boundaries/README.md) · [American tree lab](../../labs/advanced_lab.py)

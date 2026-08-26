@@ -28,9 +28,10 @@ The exchange reduces counterparty credit risk through margin and clearing, but i
 2. Explain how a profitable maturity hedge can suffer a fatal interim cash call.
 3. Under what rate condition is the forward–futures timing difference least important?
 
-## The new corridor
+## Arun rejects half of the hedge
 
-We have followed obligations. Now we return to the one-way door: a right that preserves favorable movement while rejecting unfavorable exercise. That asymmetry must have a premium.
+Daily settlement makes the forward safer for the exchange, but it does not repair Arun's deeper complaint. If wheat falls to $4, his long futures position loses roughly what he saves in the cash market. He asked to remove the $9 disaster; the contract also removed the $4 opportunity.
+
+He therefore changes the proposed sentence: “I may buy at $6 if market wheat is dearer, but I may walk away if it is cheaper.” Mara will accept only if paid upfront, because the new contract gives every favorable exercise decision to Arun and every corresponding obligation to her. The next chapter begins from that one-sided choice.
 
 [Next: Options Create Asymmetry](../006-option-payoffs/README.md)
-

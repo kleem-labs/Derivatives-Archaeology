@@ -1,14 +1,8 @@
 # 043 — Monte Carlo: Pricing by Repeated Worlds
 
-Risk-neutral valuation suggests an algorithm: simulate paths under the pricing measure, compute each discounted payoff, and average. The standard error shrinks only as `1/sqrt(N)`, so one hundred times as many paths gives about ten times the precision.
-
-Confidence intervals quantify sampling error, not model error. Antithetic variables, control variates, stratification, and quasi-random sequences can reduce variance. A fixed seed helps reproduce a run but does not make the estimator exact.
-
-Monte Carlo excels in many dimensions and path dependence, but ordinary simulation handles early exercise poorly because the decision depends on conditional continuation value.
-
 ## Build the estimator visibly
 
-For each simulated risk-neutral path: generate shocks, evolve state variables, compute contract payoff exactly as written, discount it, and store the result. The sample mean estimates model value. Sample standard deviation divided by `sqrt(N)` estimates standard error.
+The path-dependent contract cannot be priced from terminal distribution alone. Instead generate entire possible journeys. For each simulated risk-neutral path: evolve state variables, compute the contract payoff exactly as written, discount it, and store the result. The sample mean estimates model value. Sample standard deviation divided by `sqrt(N)` estimates standard error.
 
 If a call estimate is $8.03 with standard error $0.09, an approximate 95% sampling interval is $8.03 ± $0.18. Reporting $8.032763 without the interval advertises digits the experiment did not earn.
 
@@ -25,5 +19,7 @@ Price a vanilla claim whose closed form is known. Confirm the analytical price l
 American exercise is harder because continuation value is conditional on current state. Least-squares Monte Carlo estimates it by regression, adding approximation and policy bias.
 
 > **Memory seal:** thousands of possible worlds pour discounted cash into one bowl. The wobble of the average is measured; the truth of the world generator is not.
+
+Simulation is flexible but converges slowly. When only one or two state variables matter, the pricing equation can instead be laid across a grid and solved backward, trading path flexibility for structured numerical work.
 
 [Next: Finite Differences](../044-finite-differences/README.md) · [Monte Carlo lab](../../labs/advanced_lab.py)

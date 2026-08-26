@@ -1,14 +1,8 @@
 # 035 — Hedging with Futures
 
-A producer expecting to sell `Q_A` units can short futures to offset falling prices. A naive one-for-one hedge fails when contract size, price sensitivity, maturity, or underlying quality differs.
-
-With futures contract size `Q_F`, a simple contract count is `N=h Q_A/Q_F`, where `h` is a hedge ratio. Its sign follows the exposure: short futures for a future sale, long futures for a future purchase.
-
-A hedge reduces a named risk; it does not guarantee profit. Basis, volume, timing, margin, and counterparty rules remain.
-
 ## Count exposure before contracts
 
-A coffee producer expects 375,000 pounds at harvest. Each futures contract covers 37,500 pounds. If cash coffee and futures moved identically, shorting ten contracts would match quantity. But harvest may differ, the local grade may price differently, and hedge maturity may precede sale.
+The margin account forced us to size a hedge the firm can survive. Begin with the exposure itself. A coffee producer expects 375,000 pounds at harvest. Each futures contract covers 37,500 pounds. If cash coffee and futures moved identically, shorting ten contracts would match quantity. But harvest may differ, the local grade may price differently, and hedge maturity may precede sale.
 
 The general count `N=hQ_A/Q_F` separates physical quantity from price hedge ratio. Sign matters: a future seller is hurt by falling prices and shorts futures; a future buyer hurt by rising prices goes long.
 
@@ -25,5 +19,7 @@ A futures hedge works when changes in the chosen contract offset changes in the 
 > **Reader challenge:** a producer expects 500 units, contracts cover 100, and the selected hedge ratio is .8. Calculate contract count, then explain whether to round up or down using over-hedge risk.
 
 > **Memory seal:** sacks from the real granary are measured against standardized exchange crates. Quantity alone does not guarantee the contents move together.
+
+The unresolved symbol is `h`. Setting it to one assumes equal price movements. Historical cash and futures changes can instead choose the ratio that makes the remaining hedge noise smallest.
 
 [Next: Minimum-Variance Hedge Ratio](../036-minimum-variance-hedge-ratio/README.md)
