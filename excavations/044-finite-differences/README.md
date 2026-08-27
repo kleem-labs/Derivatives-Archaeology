@@ -1,5 +1,9 @@
 # 044 — Finite Differences: Turning the PDE into a Grid
 
+## First, in everyday words
+
+Finite differences turn a continuous pricing equation into a table of small time and price boxes that a computer can fill. A finer table is not automatically a better answer. **For an AI helper:** report grid choices, boundary conditions, convergence checks, and comparison with an independent method.
+
 ## Replace motion with neighboring tiles
 
 Monte Carlo followed many paths forward. For a claim with only one or two state variables, the pricing equation offers another route: solve all grid states backward at once. Lay a grid across stock price and time. Terminal tiles hold the payoff. A central difference approximates delta from neighboring stock tiles; a second difference approximates gamma; a time difference connects adjacent layers. Substitution turns the PDE into algebraic relationships among grid values.

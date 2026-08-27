@@ -1,5 +1,9 @@
 # 025 — Realized Volatility: Measuring the Path That Happened
 
+## First, in everyday words
+
+Realized volatility measures how much the price actually moved over a past window. It describes a finished path; it does not automatically forecast the next one. **For an AI helper:** give the date window, sampling rule, and data source before comparing realized and implied volatility.
+
 ## Build the measure from a path
 
 The hedge ledger contains the path that actually occurred. We need a way to summarize its movement. Take closing prices 100, 102, 101, and 104. Convert each adjacent pair into log returns so multiplicative moves become additive. Centering and squaring those returns produces a sample variance; multiplying by a periods-per-year convention annualizes it, and the square root returns volatility units.

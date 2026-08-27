@@ -1,5 +1,9 @@
 # 024 — Dynamic Hedging: Replication Through Rebalancing
 
+## First, in everyday words
+
+Dynamic hedging means adjusting a stock-and-cash copy as the market moves. The elegant idea has real costs, timing gaps, and execution risk. **For an AI helper:** report rebalance assumptions, trading costs, and what happens between rebalances.
+
 ## Follow one hedge through a move
 
 The Greeks have described separate local movements. A hedge must live through all of them in sequence. At spot $100, short one call and buy .542 shares. If spot rises, the short call's negative delta grows in magnitude; the hedge must buy more shares at the higher price. If spot falls, it sells shares lower. A short-gamma hedger is forced to chase movement. Premium and time decay compensate for accepting that behavior—if the priced volatility and costs are sufficient.

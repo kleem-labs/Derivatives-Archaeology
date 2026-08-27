@@ -1,5 +1,9 @@
 # 037 — Bootstrapping Discount Curves
 
+## First, in everyday words
+
+Different future dates can have different interest rates. Bootstrapping builds a date-by-date discount map from simple market instruments, one known piece at a time. **For an AI helper:** preserve every source quote, date convention, interpolation choice, and failed consistency check.
+
 ## Build the curve one cash flow at a time
 
 The hedge chapters used contracts across different delivery dates, yet the book has carried every cash flow with one rate. Market instruments now expose that shortcut. A six-month zero-coupon instrument reveals the six-month discount factor directly. A one-year par bond pays an earlier coupon at six months and coupon plus principal at one year. Once the first discount factor is known, subtract the present value of the first coupon from price; the remaining equation isolates the one-year factor.

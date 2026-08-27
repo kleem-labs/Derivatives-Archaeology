@@ -1,5 +1,9 @@
 # 009 — Risk-Neutral Probability
 
+## First, in everyday words
+
+These are pricing weights, not a claim about what people truly expect. They are another way to get the same answer as the stock-and-cash copy. **For an AI helper:** call them model weights, state how they were made, and never present them as a forecast.
+
 The replication calculation gave $7.1947 without an up probability. Yet the same number can be written as a discounted weighted average of the $15 and $0 option payoffs. Where do the weights come from?
 
 Let the stock multiply by `u` or `d`. We seek a weight `p*` making the stock's weighted terminal value equal its risk-free-grown current price:
@@ -47,4 +51,3 @@ The weighted-and-discounted formula can also be read through state prices: today
 A single fork prices one exercise date. Real options face many successive moves, and the hedge chosen now will not remain correct after the first branch.
 
 [Next: Many Small Steps](../010-multi-period-binomial/README.md)
-

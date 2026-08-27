@@ -1,5 +1,9 @@
 # 005 — Futures Are Re-settled
 
+## First, in everyday words
+
+A futures contract can ask for money during the journey, not only at the finish. A final profit does not guarantee enough cash to survive the daily bills. **For an AI helper:** show a day-by-day cash scenario and flag missing margin information.
+
 Mara and Arun's forward remains silent until March. An exchange does not tolerate that silence. If wheat moves sharply, a losing party could accumulate an obligation too large to honor. Futures markets interrupt the promise every day.
 
 Suppose Arun is long one futures contract at $6.00. At the first close the settlement price is $6.20. His margin account receives the contract quantity times $0.20; the short account pays it. The contract is effectively reset at $6.20. Tomorrow's gain or loss begins there.

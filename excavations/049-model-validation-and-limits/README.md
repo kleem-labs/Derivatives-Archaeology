@@ -1,5 +1,9 @@
 # 049 — Model Validation and the Limits of No-Arbitrage
 
+## First, in everyday words
+
+A model earns trust by surviving simple checks, difficult scenarios, and honest discussion of what it cannot see. A precise number is not proof that the number is useful. **For an AI helper:** keep source data, assumptions, tests, version, unknowns, and a clear `STOP` path beside every conclusion.
+
 ## Put a new model on trial
 
 VaR and expected shortfall ended with a warning: even a correct calculation inherits the machine that produced its scenarios. A team now presents a beautiful exotic-option engine. It reproduces market quotes to six decimals. The tribunal asks questions calibration alone cannot answer.

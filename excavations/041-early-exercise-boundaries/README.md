@@ -1,5 +1,9 @@
 # 041 — Early-Exercise Boundaries
 
+## First, in everyday words
+
+An early-exercise boundary is the dividing line where taking the option’s value now becomes as good as waiting. It is a model guide, not an automatic instruction. **For an AI helper:** show both choices, their costs, and the contract’s actual exercise mechanics.
+
 ## Draw the border instead of listing decisions
 
 Backward induction left one exercise-or-continue decision at every tree node. Read those decisions across a time layer. There may be a critical stock level below which exercising an American put dominates continuation. Connecting the critical levels creates an exercise boundary: thousands of node decisions become a moving frontier.

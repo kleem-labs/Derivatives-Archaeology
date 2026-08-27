@@ -1,5 +1,9 @@
 # 034 — Margin and Leverage
 
+## First, in everyday words
+
+Margin is money set aside to prove a futures trader can meet obligations; it is not the full cost of the contract. A small deposit can control a large exposure and make losses arrive quickly. **For an AI helper:** calculate exposure, daily cash stress, maintenance rules, and possible additional funding before discussing returns.
+
 ## The small deposit and the large crate
 
 Basis explains why a hedge may not offset perfectly at maturity. Margin asks whether the trader can even remain until maturity. One futures contract controls $100,000 of underlying. The exchange requires $8,000 initial margin. A 3% adverse move creates a $3,000 loss—37.5% of posted margin—though only 3% of notional. Calling the return “37.5%” without naming the denominator makes leverage look like investment performance rather than concentrated exposure.

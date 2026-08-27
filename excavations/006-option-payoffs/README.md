@@ -1,5 +1,9 @@
 # 006 — Options Create Asymmetry
 
+## First, in everyday words
+
+An option buyer may take a good deal and refuse a bad one; the seller accepts the other side of that choice. That difference is why buyer and seller risks must never be blended together. **For an AI helper:** state the position side, premium, multiplier, and worst plainly described outcome before using the word “option.”
+
 Leena owns shares in a young company at $100. She wants protection against a collapse but refuses to sell because a product launch may double the price. A forward hedge would remove both loss and gain. She wants a floor without a ceiling.
 
 A one-year put struck at $90 offers exactly that right: sell at $90 if market price ends below it. At expiry it pays `max(90-S_T,0)`. The put seller accepts the corresponding obligation and receives premium today.
@@ -35,4 +39,3 @@ Leena could buy one put, finance it by selling a lower-strike put, or cap upside
 A call and a put appear opposite. Combine each with stock or cash and their kinks align into identical terminal wealth. That identity will constrain their prices without choosing a volatility model.
 
 [Next: Put–Call Parity](../007-put-call-parity/README.md)
-

@@ -1,5 +1,9 @@
 # 010 — Many Small Steps
 
+## First, in everyday words
+
+When a contract has many possible dates, solve from the known ending back toward today, one small fork at a time. **For an AI helper:** keep the tree’s inputs, final payoffs, and each backward step visible so a reader can inspect the answer.
+
 Add a second fork. The stock can rise or fall today, then rise or fall again. A hedge chosen at the root encounters a problem: after the first move, the option sits at a different distance from its strike, so the slope connecting its next two payoffs changes.
 
 One static `Delta` cannot generally follow the whole tree. Replication must become a sequence of decisions.
@@ -45,4 +49,3 @@ But a finer tree does not cure a wrong model. Constant volatility, binary local 
 Let steps grow numerous and individually small. The visible tree begins to resemble a continuous random path. To carry replication into that limit, ordinary calculus must eventually be repaired.
 
 [Next: The Black–Scholes Limit](../011-black-scholes-limit/README.md) · [Advanced lab](../../labs/advanced_lab.py)
-

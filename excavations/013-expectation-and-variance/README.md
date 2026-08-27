@@ -1,5 +1,9 @@
 # 013 — Expectation and Variance: Center and Spread
 
+## First, in everyday words
+
+An average tells us where a collection of possible outcomes is centered; spread tells us how widely those outcomes can wander. Neither number is a promise of what will happen. **For an AI helper:** show the scenarios and weights behind every average, then show how far outcomes can sit from it.
+
 ## Let two lotteries expose the mean
 
 Chapter 012 separated state labels from their weights. Now let the weights act. Portfolio A pays $100 with certainty. Portfolio B pays $50 or $150 with equal probability. Both have expectation $100, yet a $100 call on the payoff is worthless for A and pays either $0 or $50 for B. Its expected payoff under these illustrative weights is $25.

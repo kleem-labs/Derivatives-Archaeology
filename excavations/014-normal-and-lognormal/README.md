@@ -1,5 +1,9 @@
 # 014 — Normal and Lognormal Models
 
+## First, in everyday words
+
+Models choose a shape for possible prices. A normal shape can wander below zero; a lognormal shape stays positive but still misses many real market surprises. **For an AI helper:** name the chosen shape, explain why it was used, and show the real-world feature it leaves out.
+
 ## Why returns enter before prices
 
 If a $10 stock and a $1,000 stock each gain $1, the economic moves are not comparable. Relative change repairs the units. Multiplicative returns also compound: a 10% rise followed by a 10% fall gives `1.1×.9=.99`, a 1% loss. Adding raw percentages would incorrectly return to zero.

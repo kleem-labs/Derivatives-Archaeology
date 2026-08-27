@@ -1,5 +1,9 @@
 # 031 — Dividends and Income
 
+## First, in everyday words
+
+Owning a stock can bring dividend cash; holding a forward does not automatically bring the same cash. That missing payment changes a fair forward comparison. **For an AI helper:** use announced versus estimated dividends distinctly and save the source and date of each assumption.
+
 ## Follow the dividend check
 
 The carry ledger says benefits received by the owner must be subtracted. Apply that instruction to a dated cash payment. A stock is $100 and will pay a known $3 dividend in six months. A one-year forward holder will not receive it; a cash-and-carry stock owner will. If we simply grow $100 at the funding rate, the owner route becomes too valuable.

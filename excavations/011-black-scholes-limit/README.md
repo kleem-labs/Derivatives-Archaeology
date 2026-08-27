@@ -1,5 +1,9 @@
 # 011 — The Black–Scholes Limit: A Door We Cannot Yet Open
 
+## First, in everyday words
+
+A very fine price tree begins to look smooth, but smooth-looking uncertainty still needs new tools. This chapter is a pause, not a magic leap to a famous formula. **For an AI helper:** say which required inputs and assumptions are still unknown rather than pretending a continuous model is already justified.
+
 The binomial tree prices a call by moving backward from its terminal payoff. Make the tree finer and the answer stabilizes. With the book's inputs—spot $100, strike $105, rate 5%, volatility 20%, and one year—a 500-step tree gives about $8.02.
 
 It is tempting to announce a continuous-time formula and move on. But the tree has hidden three unresolved questions inside its shrinking branches. If we cross the limit without answering them, the symbols will arrive before their responsibilities.
@@ -48,4 +52,3 @@ That experiment establishes a target. It does not yet explain why the limit has 
 The tree's leaf labels have become too numerous to list. The next chapter builds the object that can name an unknown terminal price while keeping the contract payoff separate from the weights placed on possible states.
 
 [Next: Random Variables](../012-random-variables/README.md) · [Run the convergence experiment](../../labs/advanced_lab.py)
-

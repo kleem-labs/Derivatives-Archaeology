@@ -1,5 +1,9 @@
 # 032 — Commodities and Convenience Yield
 
+## First, in everyday words
+
+Having oil, grain, or metal in hand can be useful when supply is tight; that practical benefit is called convenience yield. It is not a free return and cannot be read perfectly from one price. **For an AI helper:** identify the physical reason, alternative explanations, and confidence level before assigning a convenience-yield number.
+
 ## The refinery cannot eat a futures contract
 
 A dividend was visible cash. Some ownership benefits never enter an account. An oil refinery with nearly empty tanks faces a shutdown if a shipment is delayed. A futures position may gain when oil rises, but it cannot keep the machinery running today. Physical inventory provides a service beyond resale value: availability.

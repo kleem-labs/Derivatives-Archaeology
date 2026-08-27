@@ -1,5 +1,9 @@
 # 036 — Minimum-Variance Hedge Ratio
 
+## First, in everyday words
+
+When the contract is only an imperfect stand-in for the real risk, choose a hedge size that has historically reduced the combined wobble the most. It reduces risk; it does not erase it. **For an AI helper:** display the data window, correlation, units, and residual risk rather than treating the ratio as timeless.
+
 ## Let the residual choose the slope
 
 The quantity match in Chapter 035 silently assumed cash and futures changed one-for-one. Let their observed changes be `Delta S` and `Delta F`, and write hedged change as `Delta S-hDelta F`. Which `h` makes that residual as quiet as possible?

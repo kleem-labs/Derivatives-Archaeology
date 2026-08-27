@@ -1,5 +1,9 @@
 # 016 — Quadratic Variation: Noise Leaves a Second-Order Trace
 
+## First, in everyday words
+
+Tiny random wiggles behave differently from smooth motion: their squared sizes add up to something important. This is the hidden reason ordinary calculus needs repair. **For an AI helper:** treat this chapter as a model rule and keep the calculation library tested rather than asking language alone to improvise it.
+
 ## The experiment ordinary calculus gets wrong
 
 Brownian motion denied us a tangent. Measure the consequence rather than naming it away. Take a path over one year and partition it. Add squared increments. For a smooth line with slope `a`, each increment is roughly `a dt`; its square is `a²dt²`. About `1/dt` terms sum to order `dt`, which vanishes.

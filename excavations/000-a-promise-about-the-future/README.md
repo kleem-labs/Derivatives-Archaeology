@@ -1,5 +1,9 @@
 # 000 — A Promise About the Future
 
+## First, in everyday words
+
+A derivative starts as a promise about a later day. This chapter asks only: who must pay what when that day arrives? **For an AI helper:** copy the promise into plain words and show the result for a few possible future prices before attempting any valuation.
+
 In September, while wheat still stands green in the field, Mara already knows the number that can ruin her farm. It is not the harvest size. It is the price offered in March, when the loan on her equipment comes due.
 
 Across town, Arun owns a bakery. The same March price threatens him from the opposite direction. If wheat rises, flour may become too expensive for the bread prices printed in contracts he has signed with schools.

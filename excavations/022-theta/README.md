@@ -1,5 +1,9 @@
 # 022 — Theta: The Cost of the Clock
 
+## First, in everyday words
+
+Theta is the part of option change associated with a day passing while other model inputs are held still. It is not a guaranteed daily loss or gain because markets do not hold still. **For an AI helper:** say “all else equal” and show time alongside price and volatility scenarios.
+
 ## Freeze the world, move the calendar
 
 Gamma explained the error caused by spot movement. But an option changes even when spot does not move. Suppose Friday's option closes at $8 and Monday opens with identical spot, volatility surface, and rates. Less time remains, so its model price changes. Theta is that partial effect, not the total weekend P&L the trader will actually observe if inputs move.

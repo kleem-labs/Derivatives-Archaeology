@@ -1,5 +1,9 @@
 # 015 — Brownian Motion: Continuous Surprise
 
+## First, in everyday words
+
+Brownian motion is an idealized story of a price being nudged by countless tiny surprises. It is a measuring tool, not a claim that markets move with no jumps. **For an AI helper:** label this as an assumption and use a different warning when the product is exposed to gaps or event shocks.
+
 ## The scaling experiment
 
 The lognormal formula contains `sqrt(T)Z`. To make that uncertainty arrive piece by piece, divide one year into 100 equal steps. If each independent shock had typical size proportional to `dt=.01`, their accumulated variance would shrink toward zero as partitions became finer. If each retained fixed size, total variance would explode. Size `sqrt(dt)=.1` is the balance: 100 variances of .01 add to one.

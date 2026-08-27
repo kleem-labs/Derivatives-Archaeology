@@ -1,5 +1,9 @@
 # 018 — Change of Measure: Reweighting Paths for Pricing
 
+## First, in everyday words
+
+The same possible paths can be viewed with different weights depending on the question being asked. Pricing weights help value a copy; real-world weights address a belief or forecast. **For an AI helper:** never mix these two jobs in one unlabeled probability column.
+
 ## Keep the paths, alter the voting weights
 
 The delta hedge removed `mu` from the pricing equation, but a probability description of the original stock process still contains it. Imagine a cinema showing every possible one-year stock path. Under the real-world measure `P`, paths receive weights reflecting estimated occurrence and risk premia. Under pricing measure `Q`, the film library remains—equivalent measures agree on impossible events—but the votes are reassigned so appropriately discounted tradable gains have no drift.

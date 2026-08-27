@@ -1,5 +1,9 @@
 # 028 — Local and Stochastic Volatility
 
+## First, in everyday words
+
+When one fixed volatility is too simple, we can let volatility change with price, time, or its own random motion. More realism also means more assumptions to test. **For an AI helper:** report which volatility model was chosen, what market quotes it fits, and where it may fail.
+
 ## Two repairs to the same failure
 
 The smile proved that one constant `sigma` cannot reproduce all vanilla quotes. Local volatility asks: what deterministic volatility at each spot and time makes the diffusion reproduce today's surface? Dupire's result links an arbitrage-free continuum of option prices to `sigma_local(S,t)`. The model can fit European vanillas by construction, yet its future smile evolution may disagree with markets.

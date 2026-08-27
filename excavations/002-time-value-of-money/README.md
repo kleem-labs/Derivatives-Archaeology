@@ -1,5 +1,9 @@
 # 002 — Time Has a Price
 
+## First, in everyday words
+
+The same dollar has different value on different dates because cash held today can grow. This chapter moves a known payment backward or forward in time; it does not guess the market. **For an AI helper:** record the payment date, rate source, and calculation separately from every price forecast.
+
 Place two envelopes on the table. One contains $100 now. The other contains a legally certain promise of $100 one year from now. They show the same number, but they are not the same economic object.
 
 If money earns 5%, the first can be invested. Under continuous compounding it becomes `100e^0.05`, about $105.13. Choosing the later envelope sacrifices that growth.

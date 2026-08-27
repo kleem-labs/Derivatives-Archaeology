@@ -77,6 +77,15 @@ class BookTests(unittest.TestCase):
         promise = (ROOT / "PLAIN_LANGUAGE_PROMISE.md").read_text()
         self.assertIn("Before a formula appears", promise)
 
+    def test_every_workshop_has_a_plain_language_and_agent_doorway(self):
+        chapters = sorted((ROOT / "excavations").glob("*/README.md"))
+        missing = []
+        for path in chapters:
+            opening = "\n".join(path.read_text().splitlines()[:12])
+            if "## First, in everyday words" not in opening or "For an AI helper:" not in opening:
+                missing.append(path.parent.name)
+        self.assertFalse(missing, f"chapters without simple agent-ready doorways: {missing}")
+
 
 if __name__ == "__main__":
     unittest.main()

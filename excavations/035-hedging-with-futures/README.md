@@ -1,5 +1,9 @@
 # 035 — Hedging with Futures
 
+## First, in everyday words
+
+A hedge is not a bet that must make money by itself. It is an attempt to make a business’s unwanted price movement hurt less. **For an AI helper:** state the real exposure first, then compare the future’s gain or loss with that exposure under several scenarios.
+
 ## Count exposure before contracts
 
 The margin account forced us to size a hedge the firm can survive. Begin with the exposure itself. A coffee producer expects 375,000 pounds at harvest. Each futures contract covers 37,500 pounds. If cash coffee and futures moved identically, shorting ten contracts would match quantity. But harvest may differ, the local grade may price differently, and hedge maturity may precede sale.

@@ -1,5 +1,9 @@
 # 047 — Portfolio Greeks and Scenarios
 
+## First, in everyday words
+
+One option may look safe while the whole collection of positions moves together in a dangerous way. Portfolio Greeks add sensitivities after their units and multipliers are made consistent. **For an AI helper:** aggregate only verified positions and then run ordinary and stress scenarios, not just one Greek number.
+
 ## A flat delta can hide a cliff
 
 Liquidity showed that one option's executable value depends on size and state. A portfolio compounds that problem. It owns 100 calls and shorts stock until total delta is zero. The report says “no directional exposure.” Then spot jumps. Gamma changes delta before the hedge can trade; implied volatility rises; skew steepens; stock borrow becomes costly. The one-number summary was locally correct and globally misleading.

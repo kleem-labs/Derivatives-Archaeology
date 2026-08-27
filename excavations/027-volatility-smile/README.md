@@ -1,5 +1,9 @@
 # 027 — The Volatility Smile: One Sigma Is Not Enough
 
+## First, in everyday words
+
+Different strikes and expiries often imply different volatility numbers because one simple model cannot describe every market fear. The smile is evidence, not a nuisance to hide. **For an AI helper:** show the surface by strike and date and refuse a single-volatility conclusion when the differences matter.
+
 ## Read the surface as evidence
 
 One quote produced one implied volatility. Now repeat the inversion. Collect calls and puts across strikes for one expiry. Convert executable quotes using consistent forwards and discounting. If one constant-lognormal distribution priced all options, the points would lie on one horizontal line. They rarely do.

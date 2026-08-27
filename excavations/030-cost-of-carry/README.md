@@ -1,5 +1,9 @@
 # 030 — Cost of Carry
 
+## First, in everyday words
+
+Owning a physical thing until a later date can cost financing, storage, and insurance, while sometimes paying income or usefulness. Carry is the full ledger of those burdens and benefits. **For an AI helper:** itemize each one and stop if the asset cannot actually be bought, stored, financed, or delivered as assumed.
+
 ## Inventory is a portfolio
 
 Chapter 004 carried a dividend-paying share. Mara's warehouse now forces the full physical version of the same question. Imagine a gold dealer promising one ounce in six months. To guarantee delivery, the dealer can borrow money, buy gold, insure it, store it, and deliver later. Every line in that physical route belongs in the forward relation.

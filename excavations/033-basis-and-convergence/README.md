@@ -1,5 +1,9 @@
 # 033 — Basis and Convergence
 
+## First, in everyday words
+
+Basis is the gap between a cash-market price and a futures price. It often narrows near delivery, but a hedge can still disappoint if the two prices do not move together as expected. **For an AI helper:** name both markets, locations, grades, and dates before calling something a hedge.
+
 ## A hedge retains one moving seam
 
 The commodity chapter showed why local physical ownership differs from a standardized future. Measure that difference. A farmer's local cash wheat price is $5.80 while the exchange futures is $6.00, so spot-minus-futures basis is `-$0.20`. She shorts futures. At sale, local cash is $5.10 and futures $5.20, so basis is `-$0.10`.

@@ -1,5 +1,9 @@
 # 042 — Barriers and Path Dependence
 
+## First, in everyday words
+
+Some contracts care not only where a price ends but whether it touched a level along the way. For these, the journey changes the payoff. **For an AI helper:** retain the required path data and flag gaps in intraday observations; an ending price alone may be useless.
+
 ## Two paths, one ending, two contracts
 
 The exercise boundary made value depend on where the contract stood before expiry. A barrier makes that memory contractual. Path A travels 100 → 130 → 110. Path B travels 100 → 90 → 110. Both finish at 110. A down-and-out call with barrier 95 survives A and dies on B. A European call sees only the shared endpoint.

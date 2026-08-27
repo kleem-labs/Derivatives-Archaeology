@@ -1,5 +1,9 @@
 # 043 — Monte Carlo: Pricing by Repeated Worlds
 
+## First, in everyday words
+
+Monte Carlo pricing imagines many possible price journeys, applies the contract rule to each, and averages the results. It gives an estimate with sampling noise, not a revelation. **For an AI helper:** show the scenario generator, number of runs, uncertainty range, and tests against simpler known cases.
+
 ## Build the estimator visibly
 
 The path-dependent contract cannot be priced from terminal distribution alone. Instead generate entire possible journeys. For each simulated risk-neutral path: evolve state variables, compute the contract payoff exactly as written, discount it, and store the result. The sample mean estimates model value. Sample standard deviation divided by `sqrt(N)` estimates standard error.

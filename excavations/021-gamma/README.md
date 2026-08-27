@@ -1,5 +1,9 @@
 # 021 — Gamma: How Delta Bends
 
+## First, in everyday words
+
+Gamma tells us how quickly delta itself changes when the underlying moves. A hedge that was right this minute can become wrong after a larger move. **For an AI helper:** pair every delta report with gamma and a scenario size instead of implying a perfect hedge.
+
 ## The error left after delta
 
 Delta neutralized the first tiny move, but Chapter 020 showed it changes as spot moves. The rate of that change is gamma, `V_SS`. Using the call above, suppose delta is .542 and gamma is about .0198 per dollar squared. For a $5 rise, the delta-only estimate is `$2.71`. Adding curvature gives `.5×.0198×25≈$0.248`, producing about $2.96 before higher-order effects.

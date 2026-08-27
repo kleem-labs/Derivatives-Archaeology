@@ -1,5 +1,9 @@
 # 048 — Value at Risk and Expected Shortfall
 
+## First, in everyday words
+
+Value at Risk asks for a loss threshold under a stated model and confidence level; Expected Shortfall asks how bad the losses beyond that threshold average out. Both can miss the disasters their data or model fails to imagine. **For an AI helper:** show the horizon, confidence level, method, historical window, and stress cases beside every risk number.
+
 ## The quantile and the cellar below it
 
 The scenario theater produced many portfolio losses. Management asks for one threshold summarizing them. Suppose one-day 99% value at risk is $10 million. Under the model, only one day in one hundred exceeds that loss threshold. The statement does not say the worst loss is $10 million. Loss beyond the line could be $10.1 million or $100 million.

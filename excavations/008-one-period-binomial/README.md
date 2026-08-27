@@ -1,5 +1,9 @@
 # 008 — One Period, Two Futures
 
+## First, in everyday words
+
+In a tiny world with only an up outcome and a down outcome, stock and cash can copy an option. Once the copy is built, its cost gives the option’s value in that toy world. **For an AI helper:** show both outcomes and the copy; never output only the final number.
+
 Shrink the market to one year and two possible stock prices. A $100 share will end at either $120 or $90. A call struck at $105 pays $15 in the up state and $0 in the down state.
 
 One analyst assigns a 70% chance to the rise. Another assigns 30%. If price depends directly on either forecast, they disagree before valuation begins. But the market gives us two building blocks—stock and risk-free borrowing—and there are exactly two states. Try to build the call instead.
@@ -41,4 +45,3 @@ Delta of 0.5 is the number of shares required to span the payoff difference. It 
 The replication price can be rewritten as a discounted weighted average. The resulting weights behave like probabilities, but they encode tradable growth rather than anyone's forecast.
 
 [Next: Risk-Neutral Probability](../009-risk-neutral-probability/README.md) · [Lab](../../labs/derivatives_lab.py)
-

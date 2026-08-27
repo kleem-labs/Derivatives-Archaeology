@@ -1,5 +1,9 @@
 # 026 — Implied Volatility: Turning Price into a Coordinate
 
+## First, in everyday words
+
+Implied volatility is the volatility number that makes a chosen option model reproduce a quoted option price. It is a translation of price into model language, not a direct measurement of future movement. **For an AI helper:** retain the exact quote, model, rate, dividend assumption, and timestamp used in the translation.
+
 ## Run the pricing machine backward
 
 Realized volatility came from a completed path. A live option quote faces a path that has not happened. Rather than pretend the historical estimate is the model input, take the market price as evidence. Suppose spot is $100, strike $105, rate 5%, and time one year. The market call ask is $8.02. Try `sigma=.10`; Black–Scholes produces too little option value. Try `.40`; it produces too much. Because vanilla call price rises continuously with `sigma`, bisection repeatedly halves the interval until the model price matches the quote near 20%.

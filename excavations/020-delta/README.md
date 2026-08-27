@@ -1,5 +1,9 @@
 # 020 — Delta: The First Local Hedge
 
+## First, in everyday words
+
+Delta answers: for a very small immediate stock move, about how much does the option move? It is a local steering direction, not a permanent hedge ratio or a probability. **For an AI helper:** include units and multiplier, say “small move,” and flag that delta changes as price and time change.
+
 ## A hedge is a local promise
 
 The option formula is finally on the table, and its derivation told us to hold `V_S` shares. Take the book's $100 spot, $105 strike, 20% volatility call. Its Black–Scholes `V_S`, called delta, is about .542. Holding one call and shorting .542 shares makes the combined position nearly insensitive to a very small immediate spot move.

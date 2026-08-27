@@ -1,5 +1,9 @@
 # 045 — Transaction Costs and Discrete Hedging
 
+## First, in everyday words
+
+Real hedges are adjusted at intervals and pay spreads, fees, and market impact. The cheaper-looking model hedge may be impossible or costly to carry out. **For an AI helper:** include realistic rebalancing frequency and trading costs, then show a range rather than a frictionless promise.
+
 ## The impossible instruction
 
 The tree, simulation, and grid can all refine their time steps without paying a broker. A real hedge cannot. Black–Scholes replication says trade continuously. If each trade crosses a spread, infinitely frequent rebalancing creates unbounded cumulative cost. The ideal repair and the market friction collide.

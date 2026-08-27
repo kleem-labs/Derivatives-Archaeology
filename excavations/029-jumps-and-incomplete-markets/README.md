@@ -1,5 +1,9 @@
 # 029 — Jumps and Incomplete Markets
 
+## First, in everyday words
+
+Markets can leap, not merely wiggle. When no combination of traded pieces perfectly covers that leap risk, there may be a range of reasonable values rather than one forced price. **For an AI helper:** show stress jumps and residual risk; never hide an unhedgeable gap behind a precise decimal.
+
 ## The earnings-night gap
 
 Local and stochastic volatility enriched continuous paths, but neither forces the market to visit every intermediate price. A trader delta-hedges a short call at the close. Overnight the company announces a failed trial and stock opens 35% lower. No sequence of continuous stock trades occurred between the prices. The hedge was calibrated to an infinitesimal movement that the market skipped.

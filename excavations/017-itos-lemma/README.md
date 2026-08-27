@@ -1,5 +1,9 @@
 # 017 — Itô's Lemma: Calculus for Rough Paths
 
+## First, in everyday words
+
+Itô’s lemma is the chain rule after random, rough motion adds one extra term. The extra term is not decoration; it changes option values. **For an AI helper:** show the input process, formula version, and units, then route the arithmetic through a tested calculation engine.
+
 ## Rebuild the missing term
 
 Quadratic variation told us not to discard the squared stock move. Let `V(S,t)` be a call value and expand around a tiny interval. Time contributes `V_tdt`; the stock move contributes `V_SdS`; curvature contributes `.5V_SS(dS)²`. Substitute `dS=mu Sdt+sigma SdW` and keep terms of order `dt`.

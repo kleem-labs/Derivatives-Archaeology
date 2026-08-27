@@ -1,5 +1,9 @@
 # 003 — No Free Lunch
 
+## First, in everyday words
+
+If two bundles always end with the same cash and goods, a lasting price gap between them would be a free lunch. This chapter uses that simple check to put limits on prices. **For an AI helper:** compare end results first and label any supposed free lunch as only a warning until fees, borrowing, and execution are verified.
+
 Two booths stand across a station. Booth A sells a legally guaranteed $105 payment in one year for $100 today. Booth B sells the identical payment for $101.
 
 An observer might call the difference opinion. But payer, date, currency, and amount are identical. Nothing remains to forecast.
@@ -41,4 +45,3 @@ Replication can also fail. If independent risks outnumber traded building blocks
 Apply the consistency weapon to two ways of obtaining one future share: buy it now and carry it, or contract for delivery later.
 
 [Next: The Forward Price](../004-forward-price/README.md)
-

@@ -1,5 +1,9 @@
 # 012 — Random Variables: Naming an Unknown Outcome
 
+## First, in everyday words
+
+A random variable is simply a name that turns each possible future into a number, such as the price of wheat in March. It names the outcome; it does not yet say how likely each outcome is. **For an AI helper:** store exactly what is being observed and reject a model when the contract watches something the data record omits.
+
 ## From warehouse labels to uncertain worlds
 
 The fine tree left us with more leaf labels than we can list. Return to Mara's wheat. “March wheat price” is not yet one number. It is a collection of possible numbers attached to possible worlds: drought, abundant harvest, export ban, ordinary season. A random variable is the labeling rule that writes a price on each world. Probability belongs to a second layer that says how much weight each world receives.

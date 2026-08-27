@@ -1,5 +1,9 @@
 # 007 — Put–Call Parity
 
+## First, in everyday words
+
+A call plus cash can sometimes finish exactly like a put plus stock. This chapter is a mirror test: rearrange familiar pieces until their ending is the same. **For an AI helper:** use parity as a consistency check and report the contract details, timing, and costs needed for the check.
+
 On the exchange floor, two traders claim to have built different one-year portfolios. Nadia owns one call struck at $105 plus enough cash today to grow into $105. Tomas owns one put with the same strike and one share of stock.
 
 Their screens show different instruments. At expiry, the distinction disappears.
@@ -43,4 +47,3 @@ To pin down that dimension we need a smaller world where stock and cash span eve
 3. Explain why mid-price parity is insufficient evidence of executable arbitrage.
 
 [Next: One Period, Two Futures](../008-one-period-binomial/README.md)
-

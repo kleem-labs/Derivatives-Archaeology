@@ -1,5 +1,9 @@
 # 040 — American Exercise
 
+## First, in everyday words
+
+An American-style option may be exercised before its final date. The holder must compare taking the payoff now with keeping the valuable choice for later. **For an AI helper:** identify exercise style, cutoff rules, dividends, settlement, and liquidity before suggesting that early exercise is even worth analysing.
+
 ## The choice embedded at every node
 
 The futures option specification allowed exercise before the final date. That sentence inserts a decision into every permitted time. Consider an American put struck at $100 after stock falls to $60. Exercising yields $40 now. Continuing preserves the possibility of still larger payoff but delays cash and risks recovery. The holder owns the maximum of immediate exercise and continuation value.

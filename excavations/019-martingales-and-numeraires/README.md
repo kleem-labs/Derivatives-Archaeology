@@ -1,5 +1,9 @@
 # 019 — Martingales and Numeraires
 
+## First, in everyday words
+
+Choose one reliable measuring stick, such as cash in the bank, and express tradable values in that unit. Under the pricing rules, a fairly priced copy has no built-in upward or downward drift in that measuring stick. **For an AI helper:** state the measuring stick and model assumptions before presenting a Black–Scholes result.
+
 ## Choose the ruler before declaring motion
 
 Chapter 018 reweighted paths until discounted tradable gains had no drift. “Discounted by what?” must now be answered. A dollar price can rise merely because dollars lose purchasing power. A foreign stock can rise in euros and fall in dollars. Statements about drift require a unit of account.

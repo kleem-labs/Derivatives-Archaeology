@@ -1,5 +1,9 @@
 # 039 — Options on Futures
 
+## First, in everyday words
+
+An option on a future gives a choice about entering a futures position, so it combines option risk with daily futures settlement. The word “option” alone is not enough to describe the cash risk. **For an AI helper:** read the exercise result, futures multiplier, and margin consequences from the actual specification.
+
 ## Put the correct underlying into the formula
 
 The curve and futures chapters have produced a forward-like quoted price. An exchange now writes an option on that futures contract rather than on physical commodity. Its payoff at option expiry depends on `F_T`, and the option and futures can have different maturities. Reading the contract specification is part of valuation.

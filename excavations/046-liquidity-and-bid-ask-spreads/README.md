@@ -1,5 +1,9 @@
 # 046 — Liquidity and Bid–Ask Spreads
 
+## First, in everyday words
+
+The price on a screen is not always the price at which someone can trade. The bid is what a buyer offers; the ask is what a seller requests; the gap is a real cost of entering and leaving. **For an AI helper:** use time-stamped bid and ask, not a lonely last trade, and say when liquidity is too thin for a strong conclusion.
+
 ## A screen is not a transaction
 
 Transaction costs broke the single replication price. The first visible source is the two-sided quote. An option displays 7.80 bid and 8.20 ask. Marking it at $8 creates a useful accounting midpoint, but a new buyer pays 8.20 and an immediate seller receives 7.80. A strategy apparently worth 20 cents at mids may lose 20 cents when crossed.

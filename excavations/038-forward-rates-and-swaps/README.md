@@ -1,5 +1,9 @@
 # 038 — Forward Rates and Swaps
 
+## First, in everyday words
+
+A forward rate is an interest-rate deal for a future period; a swap is a series of such exchanges. The math becomes easier when every promised payment is put on the same date scale. **For an AI helper:** build a cash-flow calendar first, then value each dated payment with an identified curve.
+
 ## Lock a future borrowing interval
 
 Bootstrapping gave us discount factors at two dates. Their ratio contains the price of the interval between them. One dollar invested to `T_2` must match investing to `T_1` and then at the forward rate from `T_1` to `T_2`. Under simple compounding for the interval, `1+f tau=P(0,T_1)/P(0,T_2)`. The ratio appears because the two investment routes must deliver equal terminal wealth.

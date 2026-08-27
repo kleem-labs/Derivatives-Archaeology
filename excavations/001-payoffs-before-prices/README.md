@@ -1,5 +1,9 @@
 # 001 — Payoffs Before Prices
 
+## First, in everyday words
+
+Before asking whether a contract is cheap or expensive, make a small table showing what it gives and takes in good, ordinary, and bad futures. **For an AI helper:** create that table from the contract language; do not begin with a forecast or a chart.
+
 The wheat agreement was linear: every one-dollar rise helped Arun by one dollar and hurt Mara by one dollar. Now Arun wants protection from high prices without giving up low prices.
 
 An insurer offers a new promise: in March, Arun may buy wheat for $6, but is not required to. If wheat is $4, he walks away. If it is $9, he exercises.
@@ -43,4 +47,3 @@ New derivatives can be engineered by combining cash, stock, calls, and puts unti
 3. Explain why a payoff diagram cannot determine today's premium.
 
 [Previous: A Promise](../000-a-promise-about-the-future/README.md) · [Next: Time Has a Price](../002-time-value-of-money/README.md)
-
