@@ -10,3 +10,4 @@ Each chapter answers one question only. It starts with a person, an object, or a
 
 The excavation directories are the workshop behind the book. They keep formal derivations, code, assumptions, and failure cases for readers who want to test the idea after first understanding it.
 
+This book also makes a safety promise. It will not confuse a small premium with a small risk, a model estimate with a market forecast, or a clear explanation with a command to trade. A reader may become much better at seeing the shape of a contract in a month; nobody can honestly promise that reading alone will make the stock market predictable or profitable. The first goal is clear thinking: name the promise, map the cash flows, expose the assumptions, and stop when a fact is missing.

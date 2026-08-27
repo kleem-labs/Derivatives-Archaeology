@@ -20,6 +20,8 @@ The purpose is understanding, not trading advice. Real derivatives involve model
 4. Rebuild each result in the [laboratory](LABORATORY.md).
 5. Walk the [50-Chamber Memory Palace](MEMORY_PALACE.md) until the ideas can be recalled without the page.
 6. Follow [How to Master This Book](HOW_TO_MASTER_THIS_BOOK.md) to progress from reading to designing and valuing unfamiliar derivatives.
+7. Use the [four-week foundation](ONE_MONTH_FOUNDATION.md) to turn the reading into a disciplined paper-analysis practice.
+8. Build only a checkable, non-executing research helper from the [Agentic System Blueprint](AGENTIC_SYSTEM_BLUEPRINT.md).
 
 ## The complete fifty-excavation book
 
@@ -52,6 +54,9 @@ Chapters 012–049 complete the journey through probability, stochastic calculus
 - [MARKET_READING_AND_VALUE.md](MARKET_READING_AND_VALUE.md) — compare model value with executable quotes
 - [MASTERY_LEDGER.md](MASTERY_LEDGER.md) — evidence that the reader can work independently
 - [SOLUTIONS.md](SOLUTIONS.md) — worked answers, kept separate from the reading path
+- [ONE_MONTH_FOUNDATION.md](ONE_MONTH_FOUNDATION.md) — a four-week, paper-first study routine
+- [AGENTIC_SYSTEM_BLUEPRINT.md](AGENTIC_SYSTEM_BLUEPRINT.md) — data, calculations, guardrails, and audit records for a non-executing AI helper
+- [report-source.md](report-source.md) — the primary-source research and design rationale for this edition
 
 ## Quick laboratory run
 
