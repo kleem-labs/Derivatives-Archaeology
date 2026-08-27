@@ -69,6 +69,14 @@ class BookTests(unittest.TestCase):
                 missing.append((current.parent.name, following.parent.name))
         self.assertFalse(missing, f"missing causal next-chapter links: {missing}")
 
+    def test_plain_reading_edition_covers_every_excavation(self):
+        plain_text = "\n".join(path.read_text() for path in (ROOT / "book").glob("VOLUME_*.md"))
+        missing = [path.parent.name for path in sorted((ROOT / "excavations").glob("*/README.md"))
+                   if f"../excavations/{path.parent.name}/README.md" not in plain_text]
+        self.assertFalse(missing, f"plain reading edition misses workshops: {missing}")
+        promise = (ROOT / "PLAIN_LANGUAGE_PROMISE.md").read_text()
+        self.assertIn("Before a formula appears", promise)
+
 
 if __name__ == "__main__":
     unittest.main()

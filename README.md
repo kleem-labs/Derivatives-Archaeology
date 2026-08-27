@@ -14,8 +14,8 @@ The purpose is understanding, not trading advice. Real derivatives involve model
 
 ## Start here
 
-1. Read the [reading path](PARTS.md).
-2. Enter the [six-volume book edition](book/README.md), beginning with Volume I and Excavation 000.
+1. Read the [Plain-Language Promise](PLAIN_LANGUAGE_PROMISE.md).
+2. Enter the [six-volume book edition](book/README.md), beginning with Volume I.
 3. Keep the [notation guide](NOTATION.md) and [formula map](FORMULA_MAP.md) nearby.
 4. Rebuild each result in the [laboratory](LABORATORY.md).
 5. Walk the [50-Chamber Memory Palace](MEMORY_PALACE.md) until the ideas can be recalled without the page.
