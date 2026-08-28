@@ -16,11 +16,15 @@ Buy at A for $100. Sell the identical claim at B for $101. The sale funds the pu
 
 The law of one price says portfolios with identical cash flows in every relevant state and date require equal prices under the same funding, collateral, credit, and trading assumptions. Otherwise, buy the cheaper cash-flow machine and sell the dearer.
 
-## A sharper definition
+## A guess is different from a guarantee
 
-“Free money” is memorable but imprecise. An arbitrage is a self-financing strategy with no negative payoff in any allowed state and a strictly positive payoff in at least one, without positive initial investment.
+Suppose you see a contract priced at $5 and think it will be worth $7 next month. You may be right. But you must pay $5 today, and next month it might instead be worth $2. That is a **guess with risk**, even if you have good reasons for the guess.
 
-An apparent bargain is not arbitrage. Buying because you believe volatility will rise can lose. A statistical edge can lose. Arbitrage, inside its assumptions, removes that uncertainty.
+Suppose a game wins 55 times out of 100 on average. Playing it once can still lose. That is a **statistical edge**: it may work across many repeated tries, but no single try is guaranteed.
+
+The two-booth trade is different. You buy and sell two promises that cancel exactly. You keep $1 today. In one year, money from the cheap promise pays the money owed on the dear promise. There is no future price to predict and no good or bad market outcome that can change the result.
+
+That last kind of trade is called **arbitrage**: after every required purchase and sale is included, it needs no net cash from you today, cannot lose in any allowed outcome, and makes money in at least one outcome. “Allowed outcome” matters because fees, failed trades, collateral demands, and default can break the apparent guarantee.
 
 ## Where reality resists
 
