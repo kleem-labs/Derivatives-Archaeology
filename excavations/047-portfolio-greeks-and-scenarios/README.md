@@ -4,6 +4,14 @@
 
 ## First, in everyday words
 
+### A small picture
+
+Many small toys can look balanced on a table but fall when the table tilts hard. Look at the whole pile, not one toy.
+
+### In finance language
+
+Portfolio Greeks aggregate sensitivities after units align; scenarios reprice the whole portfolio under coordinated adverse changes.
+
 One option may look safe while the whole collection of positions moves together in a dangerous way. Portfolio Greeks add sensitivities after their units and multipliers are made consistent. **For an AI helper:** aggregate only verified positions and then run ordinary and stress scenarios, not just one Greek number.
 
 ## A flat delta can hide a cliff

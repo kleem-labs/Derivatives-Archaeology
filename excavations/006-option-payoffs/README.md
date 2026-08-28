@@ -4,6 +4,14 @@
 
 ## First, in everyday words
 
+### A small picture
+
+A child pays for a ticket that lets her buy a toy for $10 later if the toy becomes expensive. She may use the ticket or tear it up.
+
+### In finance language
+
+A call is the right to buy at a strike; a put is the right to sell. The holder owns the choice and the writer owes the other side if assigned.
+
 An option buyer may take a good deal and refuse a bad one; the seller accepts the other side of that choice. That difference is why buyer and seller risks must never be blended together. **For an AI helper:** state the position side, premium, multiplier, and worst plainly described outcome before using the word “option.”
 
 Leena owns shares in a young company at $100. She wants protection against a collapse but refuses to sell because a product launch may double the price. A forward hedge would remove both loss and gain. She wants a floor without a ceiling.

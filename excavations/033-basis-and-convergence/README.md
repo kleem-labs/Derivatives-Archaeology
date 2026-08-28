@@ -4,6 +4,14 @@
 
 ## First, in everyday words
 
+### A small picture
+
+A farmer’s local wheat and the big exchange’s wheat are cousins, not identical twins. Their price gap can shrink or grow.
+
+### In finance language
+
+Basis is the spot-minus-futures difference. A futures hedge removes some price risk but leaves basis risk when the two prices move differently.
+
 Basis is the gap between a cash-market price and a futures price. It often narrows near delivery, but a hedge can still disappoint if the two prices do not move together as expected. **For an AI helper:** name both markets, locations, grades, and dates before calling something a hedge.
 
 ## A hedge retains one moving seam

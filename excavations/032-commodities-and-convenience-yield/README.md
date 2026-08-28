@@ -4,6 +4,14 @@
 
 ## First, in everyday words
 
+### A small picture
+
+Having a real umbrella during a storm can be more useful than a promise to receive one later. That usefulness has a value.
+
+### In finance language
+
+Convenience yield is the non-cash benefit of holding physical inventory, especially when immediate supply is valuable.
+
 Having oil, grain, or metal in hand can be useful when supply is tight; that practical benefit is called convenience yield. It is not a free return and cannot be read perfectly from one price. **For an AI helper:** identify the physical reason, alternative explanations, and confidence level before assigning a convenience-yield number.
 
 ## The refinery cannot eat a futures contract

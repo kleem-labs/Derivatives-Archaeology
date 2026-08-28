@@ -4,6 +4,14 @@
 
 ## First, in everyday words
 
+### A small picture
+
+Keeping an apple until next month may cost a box and a shelf; owning it may also be useful. Count every burden and benefit.
+
+### In finance language
+
+Cost of carry is the combined financing, storage, insurance, income, and ownership-benefit ledger linking spot and forward prices.
+
 Owning a physical thing until a later date can cost financing, storage, and insurance, while sometimes paying income or usefulness. Carry is the full ledger of those burdens and benefits. **For an AI helper:** itemize each one and stop if the asset cannot actually be bought, stored, financed, or delivered as assumed.
 
 ## Inventory is a portfolio

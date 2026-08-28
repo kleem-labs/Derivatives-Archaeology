@@ -4,6 +4,14 @@
 
 ## First, in everyday words
 
+### A small picture
+
+A stockholder may receive little cash gifts from the company. Someone who only promised to buy the stock later does not automatically get them.
+
+### In finance language
+
+A dividend is cash paid to stockholders. Expected dividends lower a forward’s fair delivery price relative to carrying the stock without income.
+
 Owning a stock can bring dividend cash; holding a forward does not automatically bring the same cash. That missing payment changes a fair forward comparison. **For an AI helper:** use announced versus estimated dividends distinctly and save the source and date of each assumption.
 
 ## Follow the dividend check

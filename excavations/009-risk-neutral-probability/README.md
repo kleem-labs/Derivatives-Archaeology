@@ -4,6 +4,14 @@
 
 ## First, in everyday words
 
+### A small picture
+
+Use pretend voting weights that make the stock story fit the bank story. They are counting tools, not guesses about which future really comes.
+
+### In finance language
+
+Risk-neutral probabilities are pricing weights chosen so discounted tradable values agree with no-arbitrage. They are not real-world beliefs.
+
 These are pricing weights, not a claim about what people truly expect. They are another way to get the same answer as the stock-and-cash copy. **For an AI helper:** call them model weights, state how they were made, and never present them as a forecast.
 
 The replication calculation gave $7.1947 without an up probability. Yet the same number can be written as a discounted weighted average of the $15 and $0 option payoffs. Where do the weights come from?

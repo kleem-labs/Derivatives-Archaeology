@@ -4,6 +4,14 @@
 
 ## First, in everyday words
 
+### A small picture
+
+If a baker fears flour becoming costly, she chooses a futures position that smiles when flour gets costly. The hedge is meant to soften the business hurt.
+
+### In finance language
+
+A futures hedge offsets a stated price exposure. Long or short direction follows whether the business is hurt by rising or falling prices.
+
 A hedge is not a bet that must make money by itself. It is an attempt to make a business’s unwanted price movement hurt less. **For an AI helper:** state the real exposure first, then compare the future’s gain or loss with that exposure under several scenarios.
 
 ## Count exposure before contracts

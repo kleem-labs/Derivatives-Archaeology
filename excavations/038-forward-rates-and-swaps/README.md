@@ -4,6 +4,14 @@
 
 ## First, in everyday words
 
+### A small picture
+
+A promise about borrowing later can be built from two promises about saving to two different dates. A swap is many small promises in a row.
+
+### In finance language
+
+A forward rate is implied by discount factors; an interest-rate swap exchanges a fixed stream of payments for a floating stream.
+
 A forward rate is an interest-rate deal for a future period; a swap is a series of such exchanges. The math becomes easier when every promised payment is put on the same date scale. **For an AI helper:** build a cash-flow calendar first, then value each dated payment with an identified curve.
 
 ## Lock a future borrowing interval

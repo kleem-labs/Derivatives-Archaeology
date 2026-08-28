@@ -4,6 +4,14 @@
 
 ## First, in everyday words
 
+### A small picture
+
+Look back at the footprints the price already made and measure how wiggly they were. Yesterday’s wiggles do not promise tomorrow’s.
+
+### In finance language
+
+Realized volatility is a historical movement estimate from a named price sample and time window.
+
 Realized volatility measures how much the price actually moved over a past window. It describes a finished path; it does not automatically forecast the next one. **For an AI helper:** give the date window, sampling rule, and data source before comparing realized and implied volatility.
 
 ## Build the measure from a path

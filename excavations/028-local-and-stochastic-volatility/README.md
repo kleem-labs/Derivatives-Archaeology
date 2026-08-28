@@ -4,6 +4,14 @@
 
 ## First, in everyday words
 
+### A small picture
+
+Let the bumpiness change when the price changes, or let bumpiness have its own weather. Both stories are richer and easier to get wrong.
+
+### In finance language
+
+Local volatility makes volatility depend on price and time; stochastic volatility gives volatility its own random process.
+
 When one fixed volatility is too simple, we can let volatility change with price, time, or its own random motion. More realism also means more assumptions to test. **For an AI helper:** report which volatility model was chosen, what market quotes it fits, and where it may fail.
 
 ## Two repairs to the same failure

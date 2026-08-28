@@ -4,6 +4,14 @@
 
 ## First, in everyday words
 
+### A small picture
+
+Make many pretend weather stories, apply the same promise to every story, and average the answers. More stories make the average less shaky.
+
+### In finance language
+
+Monte Carlo simulation estimates model value by sampling many paths. Its standard error measures simulation noise, not model truth.
+
 Monte Carlo pricing imagines many possible price journeys, applies the contract rule to each, and averages the results. It gives an estimate with sampling noise, not a revelation. **For an AI helper:** show the scenario generator, number of runs, uncertainty range, and tests against simpler known cases.
 
 ## Build the estimator visibly

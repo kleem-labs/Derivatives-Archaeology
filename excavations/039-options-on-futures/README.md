@@ -4,6 +4,14 @@
 
 ## First, in everyday words
 
+### A small picture
+
+A ticket may let you enter a futures game later. Using the ticket can start the game’s daily scorekeeping.
+
+### In finance language
+
+An option on futures has an option payoff but exercise may create a margined futures position, so its cash path needs separate analysis.
+
 An option on a future gives a choice about entering a futures position, so it combines option risk with daily futures settlement. The word “option” alone is not enough to describe the cash risk. **For an AI helper:** read the exercise result, futures multiplier, and margin consequences from the actual specification.
 
 ## The strategy fork after exercise

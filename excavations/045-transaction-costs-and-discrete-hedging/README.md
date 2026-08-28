@@ -4,6 +4,14 @@
 
 ## First, in everyday words
 
+### A small picture
+
+Moving your hedge costs little coins each time. Move too little and miss the ball; move too much and spend all the coins.
+
+### In finance language
+
+Transaction costs and discrete hedging replace continuous, free trading with real spreads, fees, timing gaps, and market impact.
+
 Real hedges are adjusted at intervals and pay spreads, fees, and market impact. The cheaper-looking model hedge may be impossible or costly to carry out. **For an AI helper:** include realistic rebalancing frequency and trading costs, then show a range rather than a frictionless promise.
 
 ## The impossible instruction

@@ -4,6 +4,14 @@
 
 ## First, in everyday words
 
+### A small picture
+
+A price cannot usually fall below zero, like a toy’s sticker cannot say minus five dollars. Pick a shape for possible prices that respects that fact.
+
+### In finance language
+
+Normal and lognormal are probability models. A lognormal price stays positive because its logarithm, rather than the price itself, is modelled as normal.
+
 Models choose a shape for possible prices. A normal shape can wander below zero; a lognormal shape stays positive but still misses many real market surprises. **For an AI helper:** name the chosen shape, explain why it was used, and show the real-world feature it leaves out.
 
 ## Why returns enter before prices

@@ -4,6 +4,14 @@
 
 ## First, in everyday words
 
+### A small picture
+
+Choose one ruler, such as a bank account, and measure everything using that ruler. A fair game then has no hidden leaning up or down.
+
+### In finance language
+
+A numeraire is the measuring asset. Under its associated pricing measure, suitably discounted tradable values are martingales.
+
 Choose one reliable measuring stick, such as cash in the bank, and express tradable values in that unit. Under the pricing rules, a fairly priced copy has no built-in upward or downward drift in that measuring stick. **For an AI helper:** state the measuring stick and model assumptions before presenting a Black–Scholes result.
 
 ## Choose the ruler before declaring motion

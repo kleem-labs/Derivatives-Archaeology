@@ -4,6 +4,14 @@
 
 ## First, in everyday words
 
+### A small picture
+
+To have a toy next year, you can buy it now and keep it safe, or promise to receive it next year. Compare the whole cost of both routes.
+
+### In finance language
+
+The forward price is the delivery price that makes future delivery match buying the underlying now, financing it, and carrying it.
+
 There are two ways to get an asset later: own it now and carry it, or promise to receive it later. When both routes truly match, they should cost about the same. **For an AI helper:** list every ownership cost and benefit instead of using a forward formula as a slogan.
 
 The station's twin bridges gave us a rule: identical future cash flows cannot carry different prices. Now a dealer quotes one-year delivery of a stock currently trading at $100. What delivery price makes a new forward worth zero?

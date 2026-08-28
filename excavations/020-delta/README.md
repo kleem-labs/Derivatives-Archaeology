@@ -4,6 +4,14 @@
 
 ## First, in everyday words
 
+### A small picture
+
+If the stock takes one tiny step right, delta tells how much the option roughly follows. It is like a tiny steering arrow, not a permanent map.
+
+### In finance language
+
+Delta is the local first sensitivity of option value to underlying price, and in a model it is the number of underlying units in a local hedge.
+
 Delta answers: for a very small immediate stock move, about how much does the option move? It is a local steering direction, not a permanent hedge ratio or a probability. **For an AI helper:** include units and multiplier, say “small move,” and flag that delta changes as price and time change.
 
 ## A hedge is a local promise

@@ -4,6 +4,14 @@
 
 ## First, in everyday words
 
+### A small picture
+
+Two identical lemonade coupons should not cost different amounts at two nearby booths. If they do, buy the cheaper coupon and sell the dearer one.
+
+### In finance language
+
+No-arbitrage is the rule that identical complete cash flows must have the same price when both routes can truly be traded.
+
 If two bundles always end with the same cash and goods, a lasting price gap between them would be a free lunch. This chapter uses that simple check to put limits on prices. **For an AI helper:** compare end results first and label any supposed free lunch as only a warning until fees, borrowing, and execution are verified.
 
 Two booths stand across a station. Booth A sells a legally guaranteed $105 payment in one year for $100 today. Booth B sells the identical payment for $101.

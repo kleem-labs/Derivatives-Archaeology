@@ -4,6 +4,14 @@
 
 ## First, in everyday words
 
+### A small picture
+
+Two jars can have the same average number of candies even when one jar has wildly different handfuls. Average and wobble are different ideas.
+
+### In finance language
+
+Expectation is the weighted average; variance measures squared spread around that average. Neither says which one outcome must occur.
+
 An average tells us where a collection of possible outcomes is centered; spread tells us how widely those outcomes can wander. Neither number is a promise of what will happen. **For an AI helper:** show the scenarios and weights behind every average, then show how far outcomes can sit from it.
 
 ## Let two lotteries expose the mean

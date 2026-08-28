@@ -4,6 +4,14 @@
 
 ## First, in everyday words
 
+### A small picture
+
+Two people shake hands about tomorrow’s wheat price. One will be happier if prices rise; the other will be happier if they fall.
+
+### In finance language
+
+A derivative is the written rule about that later price. This first kind, where both people must trade later at one agreed price, is a forward.
+
 A derivative starts as a promise about a later day. This chapter asks only: who must pay what when that day arrives? **For an AI helper:** copy the promise into plain words and show the result for a few possible future prices before attempting any valuation.
 
 In September, while wheat still stands green in the field, Mara already knows the number that can ruin her farm. It is not the harvest size. It is the price offered in March, when the loan on her equipment comes due.

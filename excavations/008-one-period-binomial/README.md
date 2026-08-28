@@ -4,6 +4,14 @@
 
 ## First, in everyday words
 
+### A small picture
+
+Pretend tomorrow has only two weather pictures: up or down. Build a little pile of stock and cash that behaves like the option in both pictures.
+
+### In finance language
+
+A one-period binomial model uses two states to find a replicating portfolio: stock units plus borrowing or lending that exactly match the option.
+
 In a tiny world with only an up outcome and a down outcome, stock and cash can copy an option. Once the copy is built, its cost gives the option’s value in that toy world. **For an AI helper:** show both outcomes and the copy; never output only the final number.
 
 Shrink the market to one year and two possible stock prices. A $100 share will end at either $120 or $90. A call struck at $105 pays $15 in the up state and $0 in the down state.

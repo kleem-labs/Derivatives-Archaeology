@@ -4,6 +4,14 @@
 
 ## First, in everyday words
 
+### A small picture
+
+Start with the option’s price tag and turn the model’s movement knob until the model prints the same price tag.
+
+### In finance language
+
+Implied volatility is the model input that reproduces a quoted option price. It is a coordinate for price, not a direct prediction of future movement.
+
 Implied volatility is the volatility number that makes a chosen option model reproduce a quoted option price. It is a translation of price into model language, not a direct measurement of future movement. **For an AI helper:** retain the exact quote, model, rate, dividend assumption, and timestamp used in the translation.
 
 ## The strategy use of implied volatility

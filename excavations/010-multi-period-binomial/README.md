@@ -4,6 +4,14 @@
 
 ## First, in everyday words
 
+### A small picture
+
+Solve a maze from the treasure at the end back to the entrance. At every fork, ask what you need for the next small fork.
+
+### In finance language
+
+Backward induction values a multi-step tree from terminal payoff to today, rebuilding the local hedge at every node.
+
 When a contract has many possible dates, solve from the known ending back toward today, one small fork at a time. **For an AI helper:** keep the tree’s inputs, final payoffs, and each backward step visible so a reader can inspect the answer.
 
 Add a second fork. The stock can rise or fall today, then rise or fall again. A hedge chosen at the root encounters a problem: after the first move, the option sits at a different distance from its strike, so the slope connecting its next two payoffs changes.

@@ -4,6 +4,14 @@
 
 ## First, in everyday words
 
+### A small picture
+
+Keep moving the umbrella as the rain changes direction. Waiting too long gets you wet; moving every second wears you out.
+
+### In finance language
+
+Dynamic hedging repeatedly changes the underlying position to track an option. Real rebalancing has timing error and trading cost.
+
 Dynamic hedging means adjusting a stock-and-cash copy as the market moves. The elegant idea has real costs, timing gaps, and execution risk. **For an AI helper:** report rebalance assumptions, trading costs, and what happens between rebalances.
 
 ## Follow one hedge through a move

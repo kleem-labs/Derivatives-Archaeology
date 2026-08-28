@@ -4,6 +4,14 @@
 
 ## First, in everyday words
 
+### A small picture
+
+A price can change because the world expects bumpier weather or because the bank’s interest dial moves, even if the stock stays still.
+
+### In finance language
+
+Vega measures sensitivity to the volatility input; rho measures sensitivity to interest rates. Both are model sensitivities, not forecasts.
+
 Vega asks how the value changes when the market’s uncertainty estimate changes; rho asks about interest rates. They reveal that an option is exposed to more than direction. **For an AI helper:** label these as sensitivities to inputs and identify the source and freshness of each input.
 
 ## Move a parameter, not the market

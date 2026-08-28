@@ -4,6 +4,14 @@
 
 ## First, in everyday words
 
+### A small picture
+
+A cookie today can be eaten or saved to grow into more cookies later. A cookie promised next year cannot be used today.
+
+### In finance language
+
+Discounting moves a known cash payment back to today using a stated growth rate. It is about dates, not a forecast of markets.
+
 The same dollar has different value on different dates because cash held today can grow. This chapter moves a known payment backward or forward in time; it does not guess the market. **For an AI helper:** record the payment date, rate source, and calculation separately from every price forecast.
 
 Place two envelopes on the table. One contains $100 now. The other contains a legally certain promise of $100 one year from now. They show the same number, but they are not the same economic object.

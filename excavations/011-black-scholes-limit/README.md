@@ -4,9 +4,17 @@
 
 ## First, in everyday words
 
+### A small picture
+
+Make the up-and-down tree so tiny that the branches look like one wiggly line. Before using a shortcut, make sure we know what the wiggles mean.
+
+### In finance language
+
+The Black–Scholes limit needs a continuous-time price model, rough-path calculus, and pricing weights. This chapter names the missing tools; it does not yet use the closed formula.
+
 A very fine price tree begins to look smooth, but smooth-looking uncertainty still needs new tools. This chapter is a pause, not a magic leap to a famous formula. **For an AI helper:** say which required inputs and assumptions are still unknown rather than pretending a continuous model is already justified.
 
-The binomial tree prices a call by moving backward from its terminal payoff. Make the tree finer and the answer stabilizes. With the book's inputs—spot $100, strike $105, rate 5%, volatility 20%, and one year—a 500-step tree gives about $8.02.
+The binomial tree prices a purchase-right by moving backward from its terminal payoff. Make the tree finer and the answer stabilizes. With the book's usual numerical settings for price, agreed price, interest, time, and assumed size of each random wiggle, a 500-step tree gives a stable value near $8.02.
 
 It is tempting to announce a continuous-time formula and move on. But the tree has hidden three unresolved questions inside its shrinking branches. If we cross the limit without answering them, the symbols will arrive before their responsibilities.
 

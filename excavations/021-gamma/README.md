@@ -4,6 +4,14 @@
 
 ## First, in everyday words
 
+### A small picture
+
+The steering arrow can itself turn as the car moves. Gamma says how quickly it turns.
+
+### In finance language
+
+Gamma is the rate at which delta changes with the underlying. Large gamma means a fixed hedge becomes stale quickly after a move.
+
 Gamma tells us how quickly delta itself changes when the underlying moves. A hedge that was right this minute can become wrong after a larger move. **For an AI helper:** pair every delta report with gamma and a scenario size instead of implying a perfect hedge.
 
 ## The error left after delta

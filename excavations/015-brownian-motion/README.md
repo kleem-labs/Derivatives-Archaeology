@@ -4,6 +4,14 @@
 
 ## First, in everyday words
 
+### A small picture
+
+Imagine a speck of dust being bumped by countless invisible tiny puffs. It keeps moving but never chooses a smooth straight line.
+
+### In finance language
+
+Brownian motion is the idealized continuous random process used to represent many small independent shocks in a diffusion model.
+
 Brownian motion is an idealized story of a price being nudged by countless tiny surprises. It is a measuring tool, not a claim that markets move with no jumps. **For an AI helper:** label this as an assumption and use a different warning when the product is exposed to gaps or event shocks.
 
 ## The scaling experiment

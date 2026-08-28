@@ -4,6 +4,14 @@
 
 ## First, in everyday words
 
+### A small picture
+
+Build a staircase one step at a time: solve the six-month money step before using it to solve the one-year step.
+
+### In finance language
+
+Bootstrapping extracts discount factors at successive maturities from prices of simple interest-rate instruments.
+
 Different future dates can have different interest rates. Bootstrapping builds a date-by-date discount map from simple market instruments, one known piece at a time. **For an AI helper:** preserve every source quote, date convention, interpolation choice, and failed consistency check.
 
 ## Build the curve one cash flow at a time

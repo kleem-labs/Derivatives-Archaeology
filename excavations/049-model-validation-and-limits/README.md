@@ -4,6 +4,14 @@
 
 ## First, in everyday words
 
+### A small picture
+
+Before trusting a new toy bridge, push it gently, shake it, and say where it might break. A shiny number is not proof.
+
+### In finance language
+
+Model validation tests calculations, assumptions, data, boundaries, and failure cases before a value is used in a decision.
+
 A model earns trust by surviving simple checks, difficult scenarios, and honest discussion of what it cannot see. A precise number is not proof that the number is useful. **For an AI helper:** keep source data, assumptions, tests, version, unknowns, and a clear `STOP` path beside every conclusion.
 
 ## Put a new model on trial

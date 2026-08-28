@@ -4,6 +4,14 @@
 
 ## First, in everyday words
 
+### A small picture
+
+Tiny zigzags look small one by one, but if you square and add them, they leave a real pile behind.
+
+### In finance language
+
+Quadratic variation is the non-vanishing sum of squared random increments. It is why ordinary smooth calculus cannot price diffusion options correctly.
+
 Tiny random wiggles behave differently from smooth motion: their squared sizes add up to something important. This is the hidden reason ordinary calculus needs repair. **For an AI helper:** treat this chapter as a model rule and keep the calculation library tested rather than asking language alone to improvise it.
 
 ## The experiment ordinary calculus gets wrong

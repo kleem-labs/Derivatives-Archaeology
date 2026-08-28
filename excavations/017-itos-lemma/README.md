@@ -4,6 +4,14 @@
 
 ## First, in everyday words
 
+### A small picture
+
+When a bumpy path passes through a curved slide, the curve adds an extra effect. Ordinary slide rules miss that extra bump.
+
+### In finance language
+
+Itô’s lemma is the chain rule for diffusion processes. It includes a second-derivative term caused by quadratic variation.
+
 Itô’s lemma is the chain rule after random, rough motion adds one extra term. The extra term is not decoration; it changes option values. **For an AI helper:** show the input process, formula version, and units, then route the arithmetic through a tested calculation engine.
 
 ## Rebuild the missing term

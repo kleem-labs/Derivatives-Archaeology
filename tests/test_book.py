@@ -82,7 +82,7 @@ class BookTests(unittest.TestCase):
         chapters = sorted((ROOT / "excavations").glob("*/README.md"))
         missing = []
         for path in chapters:
-            opening = "\n".join(path.read_text().splitlines()[:12])
+            opening = "\n".join(path.read_text().splitlines()[:35])
             if "## First, in everyday words" not in opening or "For an AI helper:" not in opening:
                 missing.append(path.parent.name)
         self.assertFalse(missing, f"chapters without simple agent-ready doorways: {missing}")
@@ -97,6 +97,23 @@ class BookTests(unittest.TestCase):
         missing_rows = [f"| {number:03d} |" for number in range(50)
                         if f"| {number:03d} |" not in atlas]
         self.assertFalse(missing_rows, f"concept atlas misses chapters: {missing_rows}")
+
+    def test_every_workshop_has_both_a_picture_and_a_finance_translation(self):
+        chapters = sorted((ROOT / "excavations").glob("*/README.md"))
+        missing = []
+        for path in chapters:
+            opening = "\n".join(path.read_text().splitlines()[:22])
+            if "### A small picture" not in opening or "### In finance language" not in opening:
+                missing.append(path.parent.name)
+        self.assertFalse(missing, f"chapters missing the two-voice entry: {missing}")
+
+    def test_terms_are_not_borrowed_before_the_book_introduces_them(self):
+        chapter_001 = (ROOT / "excavations/001-payoffs-before-prices/README.md").read_text().lower()
+        for premature in ("volatility", "call payoff", "put payoff", "call spread"):
+            self.assertNotIn(premature, chapter_001)
+
+        chapter_011 = (ROOT / "excavations/011-black-scholes-limit/README.md").read_text().lower()
+        self.assertNotIn("volatility 20%", chapter_011)
 
 
 if __name__ == "__main__":

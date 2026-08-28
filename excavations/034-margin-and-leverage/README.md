@@ -4,6 +4,14 @@
 
 ## First, in everyday words
 
+### A small picture
+
+A small handle can move a large wagon, but if the wagon pulls back, the small handle can hurt your hands fast.
+
+### In finance language
+
+Margin is collateral supporting a large futures exposure. Leverage magnifies gain and loss relative to money posted, not relative to full contract size.
+
 Margin is money set aside to prove a futures trader can meet obligations; it is not the full cost of the contract. A small deposit can control a large exposure and make losses arrive quickly. **For an AI helper:** calculate exposure, daily cash stress, maintenance rules, and possible additional funding before discussing returns.
 
 ## The small deposit and the large crate

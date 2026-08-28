@@ -4,6 +4,14 @@
 
 ## First, in everyday words
 
+### A small picture
+
+Different tickets for the same ride can carry different worry prices. The market is telling us one simple movement story is too small.
+
+### In finance language
+
+The volatility smile is the pattern of different implied volatilities across strikes and expiries, contradicting a one-volatility model.
+
 Different strikes and expiries often imply different volatility numbers because one simple model cannot describe every market fear. The smile is evidence, not a nuisance to hide. **For an AI helper:** show the surface by strike and date and refuse a single-volatility conclusion when the differences matter.
 
 ## Read the surface as evidence

@@ -4,6 +4,14 @@
 
 ## First, in everyday words
 
+### A small picture
+
+Draw a line on the playground: on one side use the coupon now; on the other side keep waiting. The line moves as the day passes.
+
+### In finance language
+
+An early-exercise boundary is the modelled state line where immediate exercise and continuation have equal value.
+
 An early-exercise boundary is the dividing line where taking the option’s value now becomes as good as waiting. It is a model guide, not an automatic instruction. **For an AI helper:** show both choices, their costs, and the contract’s actual exercise mechanics.
 
 ## Draw the border instead of listing decisions

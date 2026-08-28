@@ -4,6 +4,14 @@
 
 ## First, in everyday words
 
+### A small picture
+
+Keep every picture in the same picture book, but give the pictures different-sized votes when you answer a different question.
+
+### In finance language
+
+A change of measure reweights the same possible paths. The real-world measure supports beliefs; the pricing measure supports no-arbitrage valuation.
+
 The same possible paths can be viewed with different weights depending on the question being asked. Pricing weights help value a copy; real-world weights address a belief or forecast. **For an AI helper:** never mix these two jobs in one unlabeled probability column.
 
 ## Keep the paths, alter the voting weights

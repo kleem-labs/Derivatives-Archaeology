@@ -4,6 +4,14 @@
 
 ## First, in everyday words
 
+### A small picture
+
+Sometimes a ball teleports across the room instead of rolling there. A tiny-step safety net cannot catch that teleport.
+
+### In finance language
+
+Jumps are discontinuous price moves. An incomplete market lacks enough traded instruments to replicate every risk exactly, leaving residual risk.
+
 Markets can leap, not merely wiggle. When no combination of traded pieces perfectly covers that leap risk, there may be a range of reasonable values rather than one forced price. **For an AI helper:** show stress jumps and residual risk; never hide an unhedgeable gap behind a precise decimal.
 
 ## The earnings-night gap

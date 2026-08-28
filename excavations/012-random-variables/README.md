@@ -4,6 +4,14 @@
 
 ## First, in everyday words
 
+### A small picture
+
+Put a number on every possible weather picture: 80, 100, or 130. The label says what happens in each picture, not how often it happens.
+
+### In finance language
+
+A random variable maps each possible state of the world to a number. A probability distribution separately gives weights to those states.
+
 A random variable is simply a name that turns each possible future into a number, such as the price of wheat in March. It names the outcome; it does not yet say how likely each outcome is. **For an AI helper:** store exactly what is being observed and reject a model when the contract watches something the data record omits.
 
 ## From warehouse labels to uncertain worlds

@@ -4,6 +4,14 @@
 
 ## First, in everyday words
 
+### A small picture
+
+Even when the stock naps, the calendar turns one page. The option has one fewer day for a helpful surprise.
+
+### In finance language
+
+Theta is the model change in value as time passes with other inputs fixed. It is not a guaranteed daily gain or loss.
+
 Theta is the part of option change associated with a day passing while other model inputs are held still. It is not a guaranteed daily loss or gain because markets do not hold still. **For an AI helper:** say “all else equal” and show time alongside price and volatility scenarios.
 
 ## Freeze the world, move the calendar

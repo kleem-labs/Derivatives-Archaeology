@@ -4,6 +4,14 @@
 
 ## First, in everyday words
 
+### A small picture
+
+A child may use a coupon today or keep it for later. Keeping it is sometimes better because the choice itself is valuable.
+
+### In finance language
+
+An American option may be exercised before expiry. Its value is the larger of exercise-now value and continuation value.
+
 An American-style option may be exercised before its final date. The holder must compare taking the payoff now with keeping the valuable choice for later. **For an AI helper:** identify exercise style, cutoff rules, dividends, settlement, and liquidity before suggesting that early exercise is even worth analysing.
 
 ## The choice embedded at every node

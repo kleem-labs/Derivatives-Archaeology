@@ -4,6 +4,14 @@
 
 ## First, in everyday words
 
+### A small picture
+
+Two different backpacks can carry exactly the same things to school. If they always arrive with the same things, they should cost the same.
+
+### In finance language
+
+Put–call parity is an equal-payoff identity linking a call plus cash with a put plus stock, for matching strike and expiry.
+
 A call plus cash can sometimes finish exactly like a put plus stock. This chapter is a mirror test: rearrange familiar pieces until their ending is the same. **For an AI helper:** use parity as a consistency check and report the contract details, timing, and costs needed for the check.
 
 On the exchange floor, two traders claim to have built different one-year portfolios. Nadia owns one call struck at $105 plus enough cash today to grow into $105. Tomas owns one put with the same strike and one share of stock.

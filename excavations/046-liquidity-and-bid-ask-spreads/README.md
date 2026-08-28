@@ -4,6 +4,14 @@
 
 ## First, in everyday words
 
+### A small picture
+
+One child says “I will buy for 8”; another says “I will sell for 8.20.” The number halfway between is not a deal either child agreed to.
+
+### In finance language
+
+The bid is an executable buyer price; the ask is an executable seller price. Their difference is the bid–ask spread and an entry/exit cost.
+
 The price on a screen is not always the price at which someone can trade. The bid is what a buyer offers; the ask is what a seller requests; the gap is a real cost of entering and leaving. **For an AI helper:** use time-stamped bid and ask, not a lonely last trade, and say when liquidity is too thin for a strong conclusion.
 
 ## The first strategy cost

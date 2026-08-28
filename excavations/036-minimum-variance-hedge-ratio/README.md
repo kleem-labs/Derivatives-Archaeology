@@ -4,6 +4,14 @@
 
 ## First, in everyday words
 
+### A small picture
+
+If two dancing partners do not step exactly together, choose the partner size that makes the combined dance wobble least.
+
+### In finance language
+
+The minimum-variance hedge ratio uses covariance and variance to choose the futures amount that historically minimizes residual price variation.
+
 When the contract is only an imperfect stand-in for the real risk, choose a hedge size that has historically reduced the combined wobble the most. It reduces risk; it does not erase it. **For an AI helper:** display the data window, correlation, units, and residual risk rather than treating the ratio as timeless.
 
 ## Let the residual choose the slope

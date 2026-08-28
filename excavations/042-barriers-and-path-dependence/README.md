@@ -4,6 +4,14 @@
 
 ## First, in everyday words
 
+### A small picture
+
+Two walks can end at the same tree, but one may have stepped in a puddle on the way. A special promise can care about the puddle.
+
+### In finance language
+
+A path-dependent payoff depends on the route of prices, not just final price. A barrier option activates or dies when a level is touched.
+
 Some contracts care not only where a price ends but whether it touched a level along the way. For these, the journey changes the payoff. **For an AI helper:** retain the required path data and flag gaps in intraday observations; an ending price alone may be useless.
 
 ## Two paths, one ending, two contracts

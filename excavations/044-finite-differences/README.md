@@ -4,6 +4,14 @@
 
 ## First, in everyday words
 
+### A small picture
+
+Cover a drawing with little squares. Fill the final row first, then use nearby squares to work backward.
+
+### In finance language
+
+Finite differences approximate a pricing equation on a price-time grid. Grid spacing and boundary choices must be tested for convergence.
+
 Finite differences turn a continuous pricing equation into a table of small time and price boxes that a computer can fill. A finer table is not automatically a better answer. **For an AI helper:** report grid choices, boundary conditions, convergence checks, and comparison with an independent method.
 
 ## Replace motion with neighboring tiles
