@@ -1,5 +1,7 @@
 # 016 — Quadratic Variation: Noise Leaves a Second-Order Trace
 
+**Vocabulary key:** Find **016** in the [Concept Atlas](../../CONCEPT_ATLAS.md) before continuing. It names the ideas already earned, the new words defined here, and the decision this chapter makes clearer.
+
 ## First, in everyday words
 
 Tiny random wiggles behave differently from smooth motion: their squared sizes add up to something important. This is the hidden reason ordinary calculus needs repair. **For an AI helper:** treat this chapter as a model rule and keep the calculation library tested rather than asking language alone to improvise it.

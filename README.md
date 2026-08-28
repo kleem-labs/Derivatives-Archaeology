@@ -15,14 +15,15 @@ The purpose is understanding, not trading advice. Real derivatives involve model
 ## Start here
 
 1. Read the [Plain-Language Promise](PLAIN_LANGUAGE_PROMISE.md).
-2. Enter the [six-volume book edition](book/README.md), beginning with Volume I.
-3. Keep the [notation guide](NOTATION.md) and [formula map](FORMULA_MAP.md) nearby.
-4. Rebuild each result in the [laboratory](LABORATORY.md).
-5. Walk the [50-Chamber Memory Palace](MEMORY_PALACE.md) until the ideas can be recalled without the page.
-6. Follow [How to Master This Book](HOW_TO_MASTER_THIS_BOOK.md) to progress from reading to designing and valuing unfamiliar derivatives.
-7. Use the [four-week foundation](ONE_MONTH_FOUNDATION.md) to turn the reading into a disciplined paper-analysis practice.
-8. Build only a checkable, non-executing research helper from the [Agentic System Blueprint](AGENTIC_SYSTEM_BLUEPRINT.md).
-9. Use the [Strategy Field Guide](STRATEGY_FIELD_GUIDE.md) to connect the mathematics to the real choice: buy a right, sell an obligation, hedge an exposure, or wait.
+2. Read the [Option Encyclopedia Standard](OPTION_ENCYCLOPEDIA_STANDARD.md) and use the [Concept Atlas](CONCEPT_ATLAS.md) before each chapter.
+3. Enter the [six-volume book edition](book/README.md), beginning with Volume I.
+4. Keep the [glossary](GLOSSARY.md), [notation guide](NOTATION.md), and [formula map](FORMULA_MAP.md) nearby.
+5. Rebuild each result in the [laboratory](LABORATORY.md).
+6. Walk the [50-Chamber Memory Palace](MEMORY_PALACE.md) until the ideas can be recalled without the page.
+7. Follow [How to Master This Book](HOW_TO_MASTER_THIS_BOOK.md) to progress from reading to designing and valuing unfamiliar derivatives.
+8. Use the [four-week foundation](ONE_MONTH_FOUNDATION.md) to turn the reading into a disciplined paper-analysis practice.
+9. Build only a checkable, non-executing research helper from the [Agentic System Blueprint](AGENTIC_SYSTEM_BLUEPRINT.md).
+10. Use the [Strategy Field Guide](STRATEGY_FIELD_GUIDE.md) to connect the mathematics to the real choice: buy a right, sell an obligation, hedge an exposure, or wait.
 
 ## The complete fifty-excavation book
 
@@ -50,6 +51,8 @@ Chapters 012–049 complete the journey through probability, stochastic calculus
 - `tests/` — numerical identities and failure checks
 - [FORMULA_MAP.md](FORMULA_MAP.md) — equations grouped by the problem they solve
 - [GLOSSARY.md](GLOSSARY.md) — plain-language definitions
+- [OPTION_ENCYCLOPEDIA_STANDARD.md](OPTION_ENCYCLOPEDIA_STANDARD.md) — the rule that every term must earn its first use
+- [CONCEPT_ATLAS.md](CONCEPT_ATLAS.md) — chapter-by-chapter prerequisites, new words, and decision purpose
 - [BOOK_AND_LAB_STANDARD.md](BOOK_AND_LAB_STANDARD.md) — what “complete” means
 - [DERIVATIVE_DESIGN_STUDIO.md](DERIVATIVE_DESIGN_STUDIO.md) — a disciplined process for inventing contracts
 - [MARKET_READING_AND_VALUE.md](MARKET_READING_AND_VALUE.md) — compare model value with executable quotes

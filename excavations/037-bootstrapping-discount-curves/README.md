@@ -1,5 +1,7 @@
 # 037 — Bootstrapping Discount Curves
 
+**Vocabulary key:** Find **037** in the [Concept Atlas](../../CONCEPT_ATLAS.md) before continuing. It names the ideas already earned, the new words defined here, and the decision this chapter makes clearer.
+
 ## First, in everyday words
 
 Different future dates can have different interest rates. Bootstrapping builds a date-by-date discount map from simple market instruments, one known piece at a time. **For an AI helper:** preserve every source quote, date convention, interpolation choice, and failed consistency check.

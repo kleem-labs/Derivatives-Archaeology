@@ -1,5 +1,7 @@
 # 046 — Liquidity and Bid–Ask Spreads
 
+**Vocabulary key:** Find **046** in the [Concept Atlas](../../CONCEPT_ATLAS.md) before continuing. It names the ideas already earned, the new words defined here, and the decision this chapter makes clearer.
+
 ## First, in everyday words
 
 The price on a screen is not always the price at which someone can trade. The bid is what a buyer offers; the ask is what a seller requests; the gap is a real cost of entering and leaving. **For an AI helper:** use time-stamped bid and ask, not a lonely last trade, and say when liquidity is too thin for a strong conclusion.

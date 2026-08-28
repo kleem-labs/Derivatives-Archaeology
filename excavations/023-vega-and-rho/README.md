@@ -1,5 +1,7 @@
 # 023 — Vega and Rho: Sensitivity to Model Inputs
 
+**Vocabulary key:** Find **023** in the [Concept Atlas](../../CONCEPT_ATLAS.md) before continuing. It names the ideas already earned, the new words defined here, and the decision this chapter makes clearer.
+
 ## First, in everyday words
 
 Vega asks how the value changes when the market’s uncertainty estimate changes; rho asks about interest rates. They reveal that an option is exposed to more than direction. **For an AI helper:** label these as sensitivities to inputs and identify the source and freshness of each input.

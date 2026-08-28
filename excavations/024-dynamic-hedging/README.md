@@ -1,5 +1,7 @@
 # 024 — Dynamic Hedging: Replication Through Rebalancing
 
+**Vocabulary key:** Find **024** in the [Concept Atlas](../../CONCEPT_ATLAS.md) before continuing. It names the ideas already earned, the new words defined here, and the decision this chapter makes clearer.
+
 ## First, in everyday words
 
 Dynamic hedging means adjusting a stock-and-cash copy as the market moves. The elegant idea has real costs, timing gaps, and execution risk. **For an AI helper:** report rebalance assumptions, trading costs, and what happens between rebalances.

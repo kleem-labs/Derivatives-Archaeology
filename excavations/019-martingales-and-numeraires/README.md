@@ -1,5 +1,7 @@
 # 019 — Martingales and Numeraires
 
+**Vocabulary key:** Find **019** in the [Concept Atlas](../../CONCEPT_ATLAS.md) before continuing. It names the ideas already earned, the new words defined here, and the decision this chapter makes clearer.
+
 ## First, in everyday words
 
 Choose one reliable measuring stick, such as cash in the bank, and express tradable values in that unit. Under the pricing rules, a fairly priced copy has no built-in upward or downward drift in that measuring stick. **For an AI helper:** state the measuring stick and model assumptions before presenting a Black–Scholes result.

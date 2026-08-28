@@ -1,5 +1,7 @@
 # 011 — The Black–Scholes Limit: A Door We Cannot Yet Open
 
+**Vocabulary key:** Find **011** in the [Concept Atlas](../../CONCEPT_ATLAS.md) before continuing. It names the ideas already earned, the new words defined here, and the decision this chapter makes clearer.
+
 ## First, in everyday words
 
 A very fine price tree begins to look smooth, but smooth-looking uncertainty still needs new tools. This chapter is a pause, not a magic leap to a famous formula. **For an AI helper:** say which required inputs and assumptions are still unknown rather than pretending a continuous model is already justified.

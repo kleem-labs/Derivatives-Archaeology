@@ -1,5 +1,7 @@
 # 032 — Commodities and Convenience Yield
 
+**Vocabulary key:** Find **032** in the [Concept Atlas](../../CONCEPT_ATLAS.md) before continuing. It names the ideas already earned, the new words defined here, and the decision this chapter makes clearer.
+
 ## First, in everyday words
 
 Having oil, grain, or metal in hand can be useful when supply is tight; that practical benefit is called convenience yield. It is not a free return and cannot be read perfectly from one price. **For an AI helper:** identify the physical reason, alternative explanations, and confidence level before assigning a convenience-yield number.

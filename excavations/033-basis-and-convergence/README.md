@@ -1,5 +1,7 @@
 # 033 — Basis and Convergence
 
+**Vocabulary key:** Find **033** in the [Concept Atlas](../../CONCEPT_ATLAS.md) before continuing. It names the ideas already earned, the new words defined here, and the decision this chapter makes clearer.
+
 ## First, in everyday words
 
 Basis is the gap between a cash-market price and a futures price. It often narrows near delivery, but a hedge can still disappoint if the two prices do not move together as expected. **For an AI helper:** name both markets, locations, grades, and dates before calling something a hedge.

@@ -2,6 +2,8 @@
 
 This is the uninterrupted reading entrance. It is written in plain language first. The fifty excavation directories remain working sites for proofs, assumptions, code, and harder questions after the story is clear.
 
+Before a workshop chapter, open its numbered row in the [Concept Atlas](../CONCEPT_ATLAS.md). The atlas tells you which words are already earned, which new words will be defined, and why that chapter matters to a real strategy choice. The [Option Encyclopedia Standard](../OPTION_ENCYCLOPEDIA_STANDARD.md) explains the book’s promise not to use a word before it has a job and a context.
+
 1. [Volume I — We Make a Promise](VOLUME_I_WE_MAKE_A_PROMISE.md), Chapters 000–005
 2. [Volume II — We Build the Asymmetry](VOLUME_II_WE_BUILD_THE_ASYMMETRY.md), Chapters 006–011
 3. [Volume III — We Enter Uncertainty](VOLUME_III_WE_ENTER_UNCERTAINTY.md), Chapters 012–019

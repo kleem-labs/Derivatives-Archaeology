@@ -1,5 +1,7 @@
 # 026 — Implied Volatility: Turning Price into a Coordinate
 
+**Vocabulary key:** Find **026** in the [Concept Atlas](../../CONCEPT_ATLAS.md) before continuing. It names the ideas already earned, the new words defined here, and the decision this chapter makes clearer.
+
 ## First, in everyday words
 
 Implied volatility is the volatility number that makes a chosen option model reproduce a quoted option price. It is a translation of price into model language, not a direct measurement of future movement. **For an AI helper:** retain the exact quote, model, rate, dividend assumption, and timestamp used in the translation.

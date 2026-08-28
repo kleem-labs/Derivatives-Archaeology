@@ -1,5 +1,7 @@
 # 045 — Transaction Costs and Discrete Hedging
 
+**Vocabulary key:** Find **045** in the [Concept Atlas](../../CONCEPT_ATLAS.md) before continuing. It names the ideas already earned, the new words defined here, and the decision this chapter makes clearer.
+
 ## First, in everyday words
 
 Real hedges are adjusted at intervals and pay spreads, fees, and market impact. The cheaper-looking model hedge may be impossible or costly to carry out. **For an AI helper:** include realistic rebalancing frequency and trading costs, then show a range rather than a frictionless promise.

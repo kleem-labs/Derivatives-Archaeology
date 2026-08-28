@@ -1,5 +1,7 @@
 # 030 — Cost of Carry
 
+**Vocabulary key:** Find **030** in the [Concept Atlas](../../CONCEPT_ATLAS.md) before continuing. It names the ideas already earned, the new words defined here, and the decision this chapter makes clearer.
+
 ## First, in everyday words
 
 Owning a physical thing until a later date can cost financing, storage, and insurance, while sometimes paying income or usefulness. Carry is the full ledger of those burdens and benefits. **For an AI helper:** itemize each one and stop if the asset cannot actually be bought, stored, financed, or delivered as assumed.

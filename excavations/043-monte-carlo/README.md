@@ -1,5 +1,7 @@
 # 043 — Monte Carlo: Pricing by Repeated Worlds
 
+**Vocabulary key:** Find **043** in the [Concept Atlas](../../CONCEPT_ATLAS.md) before continuing. It names the ideas already earned, the new words defined here, and the decision this chapter makes clearer.
+
 ## First, in everyday words
 
 Monte Carlo pricing imagines many possible price journeys, applies the contract rule to each, and averages the results. It gives an estimate with sampling noise, not a revelation. **For an AI helper:** show the scenario generator, number of runs, uncertainty range, and tests against simpler known cases.

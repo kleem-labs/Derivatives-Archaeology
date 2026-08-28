@@ -1,5 +1,7 @@
 # 002 — Time Has a Price
 
+**Vocabulary key:** Find **002** in the [Concept Atlas](../../CONCEPT_ATLAS.md) before continuing. It names the ideas already earned, the new words defined here, and the decision this chapter makes clearer.
+
 ## First, in everyday words
 
 The same dollar has different value on different dates because cash held today can grow. This chapter moves a known payment backward or forward in time; it does not guess the market. **For an AI helper:** record the payment date, rate source, and calculation separately from every price forecast.

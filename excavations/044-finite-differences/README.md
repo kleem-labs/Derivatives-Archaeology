@@ -1,5 +1,7 @@
 # 044 — Finite Differences: Turning the PDE into a Grid
 
+**Vocabulary key:** Find **044** in the [Concept Atlas](../../CONCEPT_ATLAS.md) before continuing. It names the ideas already earned, the new words defined here, and the decision this chapter makes clearer.
+
 ## First, in everyday words
 
 Finite differences turn a continuous pricing equation into a table of small time and price boxes that a computer can fill. A finer table is not automatically a better answer. **For an AI helper:** report grid choices, boundary conditions, convergence checks, and comparison with an independent method.

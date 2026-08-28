@@ -1,5 +1,7 @@
 # 004 — The Forward Price
 
+**Vocabulary key:** Find **004** in the [Concept Atlas](../../CONCEPT_ATLAS.md) before continuing. It names the ideas already earned, the new words defined here, and the decision this chapter makes clearer.
+
 ## First, in everyday words
 
 There are two ways to get an asset later: own it now and carry it, or promise to receive it later. When both routes truly match, they should cost about the same. **For an AI helper:** list every ownership cost and benefit instead of using a forward formula as a slogan.

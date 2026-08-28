@@ -1,5 +1,7 @@
 # 036 — Minimum-Variance Hedge Ratio
 
+**Vocabulary key:** Find **036** in the [Concept Atlas](../../CONCEPT_ATLAS.md) before continuing. It names the ideas already earned, the new words defined here, and the decision this chapter makes clearer.
+
 ## First, in everyday words
 
 When the contract is only an imperfect stand-in for the real risk, choose a hedge size that has historically reduced the combined wobble the most. It reduces risk; it does not erase it. **For an AI helper:** display the data window, correlation, units, and residual risk rather than treating the ratio as timeless.

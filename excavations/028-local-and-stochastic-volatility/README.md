@@ -1,5 +1,7 @@
 # 028 — Local and Stochastic Volatility
 
+**Vocabulary key:** Find **028** in the [Concept Atlas](../../CONCEPT_ATLAS.md) before continuing. It names the ideas already earned, the new words defined here, and the decision this chapter makes clearer.
+
 ## First, in everyday words
 
 When one fixed volatility is too simple, we can let volatility change with price, time, or its own random motion. More realism also means more assumptions to test. **For an AI helper:** report which volatility model was chosen, what market quotes it fits, and where it may fail.

@@ -1,5 +1,7 @@
 # 000 — A Promise About the Future
 
+**Vocabulary key:** Find **000** in the [Concept Atlas](../../CONCEPT_ATLAS.md) before continuing. It names the ideas already earned, the new words defined here, and the decision this chapter makes clearer.
+
 ## First, in everyday words
 
 A derivative starts as a promise about a later day. This chapter asks only: who must pay what when that day arrives? **For an AI helper:** copy the promise into plain words and show the result for a few possible future prices before attempting any valuation.

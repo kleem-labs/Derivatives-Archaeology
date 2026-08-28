@@ -1,5 +1,7 @@
 # 048 — Value at Risk and Expected Shortfall
 
+**Vocabulary key:** Find **048** in the [Concept Atlas](../../CONCEPT_ATLAS.md) before continuing. It names the ideas already earned, the new words defined here, and the decision this chapter makes clearer.
+
 ## First, in everyday words
 
 Value at Risk asks for a loss threshold under a stated model and confidence level; Expected Shortfall asks how bad the losses beyond that threshold average out. Both can miss the disasters their data or model fails to imagine. **For an AI helper:** show the horizon, confidence level, method, historical window, and stress cases beside every risk number.

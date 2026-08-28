@@ -1,5 +1,7 @@
 # 021 — Gamma: How Delta Bends
 
+**Vocabulary key:** Find **021** in the [Concept Atlas](../../CONCEPT_ATLAS.md) before continuing. It names the ideas already earned, the new words defined here, and the decision this chapter makes clearer.
+
 ## First, in everyday words
 
 Gamma tells us how quickly delta itself changes when the underlying moves. A hedge that was right this minute can become wrong after a larger move. **For an AI helper:** pair every delta report with gamma and a scenario size instead of implying a perfect hedge.

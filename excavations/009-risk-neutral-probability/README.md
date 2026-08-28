@@ -1,5 +1,7 @@
 # 009 — Risk-Neutral Probability
 
+**Vocabulary key:** Find **009** in the [Concept Atlas](../../CONCEPT_ATLAS.md) before continuing. It names the ideas already earned, the new words defined here, and the decision this chapter makes clearer.
+
 ## First, in everyday words
 
 These are pricing weights, not a claim about what people truly expect. They are another way to get the same answer as the stock-and-cash copy. **For an AI helper:** call them model weights, state how they were made, and never present them as a forecast.

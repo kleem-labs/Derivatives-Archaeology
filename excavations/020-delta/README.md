@@ -1,5 +1,7 @@
 # 020 — Delta: The First Local Hedge
 
+**Vocabulary key:** Find **020** in the [Concept Atlas](../../CONCEPT_ATLAS.md) before continuing. It names the ideas already earned, the new words defined here, and the decision this chapter makes clearer.
+
 ## First, in everyday words
 
 Delta answers: for a very small immediate stock move, about how much does the option move? It is a local steering direction, not a permanent hedge ratio or a probability. **For an AI helper:** include units and multiplier, say “small move,” and flag that delta changes as price and time change.

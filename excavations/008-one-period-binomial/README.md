@@ -1,5 +1,7 @@
 # 008 — One Period, Two Futures
 
+**Vocabulary key:** Find **008** in the [Concept Atlas](../../CONCEPT_ATLAS.md) before continuing. It names the ideas already earned, the new words defined here, and the decision this chapter makes clearer.
+
 ## First, in everyday words
 
 In a tiny world with only an up outcome and a down outcome, stock and cash can copy an option. Once the copy is built, its cost gives the option’s value in that toy world. **For an AI helper:** show both outcomes and the copy; never output only the final number.

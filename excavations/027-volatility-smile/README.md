@@ -1,5 +1,7 @@
 # 027 — The Volatility Smile: One Sigma Is Not Enough
 
+**Vocabulary key:** Find **027** in the [Concept Atlas](../../CONCEPT_ATLAS.md) before continuing. It names the ideas already earned, the new words defined here, and the decision this chapter makes clearer.
+
 ## First, in everyday words
 
 Different strikes and expiries often imply different volatility numbers because one simple model cannot describe every market fear. The smile is evidence, not a nuisance to hide. **For an AI helper:** show the surface by strike and date and refuse a single-volatility conclusion when the differences matter.

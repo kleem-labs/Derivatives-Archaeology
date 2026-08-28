@@ -41,7 +41,8 @@ class BookTests(unittest.TestCase):
         for number, path in enumerate(chapters):
             if number < 12:
                 continue
-            lines = path.read_text().splitlines()[1:]
+            lines = [line for line in path.read_text().splitlines()[1:]
+                     if not line.startswith("**Vocabulary key:**")]
             first_content = next((line for line in lines if line.strip()), "")
             if not first_content.startswith("## "):
                 offenders.append(path.parent.name)
@@ -85,6 +86,17 @@ class BookTests(unittest.TestCase):
             if "## First, in everyday words" not in opening or "For an AI helper:" not in opening:
                 missing.append(path.parent.name)
         self.assertFalse(missing, f"chapters without simple agent-ready doorways: {missing}")
+
+    def test_every_workshop_has_a_vocabulary_key_and_atlas_has_all_chapters(self):
+        chapters = sorted((ROOT / "excavations").glob("*/README.md"))
+        missing_keys = [path.parent.name for path in chapters
+                        if "**Vocabulary key:**" not in "\n".join(path.read_text().splitlines()[:8])]
+        self.assertFalse(missing_keys, f"chapters without a vocabulary key: {missing_keys}")
+
+        atlas = (ROOT / "CONCEPT_ATLAS.md").read_text()
+        missing_rows = [f"| {number:03d} |" for number in range(50)
+                        if f"| {number:03d} |" not in atlas]
+        self.assertFalse(missing_rows, f"concept atlas misses chapters: {missing_rows}")
 
 
 if __name__ == "__main__":

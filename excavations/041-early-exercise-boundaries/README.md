@@ -1,5 +1,7 @@
 # 041 — Early-Exercise Boundaries
 
+**Vocabulary key:** Find **041** in the [Concept Atlas](../../CONCEPT_ATLAS.md) before continuing. It names the ideas already earned, the new words defined here, and the decision this chapter makes clearer.
+
 ## First, in everyday words
 
 An early-exercise boundary is the dividing line where taking the option’s value now becomes as good as waiting. It is a model guide, not an automatic instruction. **For an AI helper:** show both choices, their costs, and the contract’s actual exercise mechanics.

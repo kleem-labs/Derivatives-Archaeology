@@ -1,5 +1,7 @@
 # 007 — Put–Call Parity
 
+**Vocabulary key:** Find **007** in the [Concept Atlas](../../CONCEPT_ATLAS.md) before continuing. It names the ideas already earned, the new words defined here, and the decision this chapter makes clearer.
+
 ## First, in everyday words
 
 A call plus cash can sometimes finish exactly like a put plus stock. This chapter is a mirror test: rearrange familiar pieces until their ending is the same. **For an AI helper:** use parity as a consistency check and report the contract details, timing, and costs needed for the check.

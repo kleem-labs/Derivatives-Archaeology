@@ -1,5 +1,7 @@
 # 017 — Itô's Lemma: Calculus for Rough Paths
 
+**Vocabulary key:** Find **017** in the [Concept Atlas](../../CONCEPT_ATLAS.md) before continuing. It names the ideas already earned, the new words defined here, and the decision this chapter makes clearer.
+
 ## First, in everyday words
 
 Itô’s lemma is the chain rule after random, rough motion adds one extra term. The extra term is not decoration; it changes option values. **For an AI helper:** show the input process, formula version, and units, then route the arithmetic through a tested calculation engine.

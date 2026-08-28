@@ -1,5 +1,7 @@
 # 013 — Expectation and Variance: Center and Spread
 
+**Vocabulary key:** Find **013** in the [Concept Atlas](../../CONCEPT_ATLAS.md) before continuing. It names the ideas already earned, the new words defined here, and the decision this chapter makes clearer.
+
 ## First, in everyday words
 
 An average tells us where a collection of possible outcomes is centered; spread tells us how widely those outcomes can wander. Neither number is a promise of what will happen. **For an AI helper:** show the scenarios and weights behind every average, then show how far outcomes can sit from it.

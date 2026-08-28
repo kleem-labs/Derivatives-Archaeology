@@ -1,5 +1,7 @@
 # 049 — Model Validation and the Limits of No-Arbitrage
 
+**Vocabulary key:** Find **049** in the [Concept Atlas](../../CONCEPT_ATLAS.md) before continuing. It names the ideas already earned, the new words defined here, and the decision this chapter makes clearer.
+
 ## First, in everyday words
 
 A model earns trust by surviving simple checks, difficult scenarios, and honest discussion of what it cannot see. A precise number is not proof that the number is useful. **For an AI helper:** keep source data, assumptions, tests, version, unknowns, and a clear `STOP` path beside every conclusion.

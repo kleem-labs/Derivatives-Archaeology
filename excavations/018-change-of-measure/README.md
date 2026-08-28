@@ -1,5 +1,7 @@
 # 018 — Change of Measure: Reweighting Paths for Pricing
 
+**Vocabulary key:** Find **018** in the [Concept Atlas](../../CONCEPT_ATLAS.md) before continuing. It names the ideas already earned, the new words defined here, and the decision this chapter makes clearer.
+
 ## First, in everyday words
 
 The same possible paths can be viewed with different weights depending on the question being asked. Pricing weights help value a copy; real-world weights address a belief or forecast. **For an AI helper:** never mix these two jobs in one unlabeled probability column.

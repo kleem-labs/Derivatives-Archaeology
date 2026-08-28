@@ -1,5 +1,7 @@
 # 031 — Dividends and Income
 
+**Vocabulary key:** Find **031** in the [Concept Atlas](../../CONCEPT_ATLAS.md) before continuing. It names the ideas already earned, the new words defined here, and the decision this chapter makes clearer.
+
 ## First, in everyday words
 
 Owning a stock can bring dividend cash; holding a forward does not automatically bring the same cash. That missing payment changes a fair forward comparison. **For an AI helper:** use announced versus estimated dividends distinctly and save the source and date of each assumption.

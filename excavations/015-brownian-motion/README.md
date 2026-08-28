@@ -1,5 +1,7 @@
 # 015 — Brownian Motion: Continuous Surprise
 
+**Vocabulary key:** Find **015** in the [Concept Atlas](../../CONCEPT_ATLAS.md) before continuing. It names the ideas already earned, the new words defined here, and the decision this chapter makes clearer.
+
 ## First, in everyday words
 
 Brownian motion is an idealized story of a price being nudged by countless tiny surprises. It is a measuring tool, not a claim that markets move with no jumps. **For an AI helper:** label this as an assumption and use a different warning when the product is exposed to gaps or event shocks.

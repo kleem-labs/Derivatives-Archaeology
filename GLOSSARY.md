@@ -12,3 +12,55 @@
 - **Risk-neutral probability:** pricing weights under which discounted tradable prices are martingales; not a statement of real-world beliefs.
 - **Volatility:** a scale for price variability; its precise definition depends on the model or estimator.
 
+## Plain-language distinctions
+
+- **Ask:** the lowest currently displayed price at which a seller is willing to sell. A buyer normally pays the ask; it is not the same as a model value.
+- **Assignment:** notice that the writer of an option must perform the contract obligation. Assignment is not the same act as the holder choosing to exercise, though one can lead to the other.
+- **Basis:** the difference between a cash-market price and the related futures price. It is not the same as the purchase price of a stock for tax or accounting purposes.
+- **Bid:** the highest currently displayed price at which a buyer is willing to buy. A seller normally receives the bid.
+- **Black–Scholes model:** a particular continuous-time option-pricing model with stated assumptions about trading, rates, and price motion. It is not a forecast and not a universal market truth.
+- **Break-even at expiry:** final underlying price where a stated position’s expiry profit is zero before any costs omitted from the example. It says nothing by itself about profit before expiry.
+- **Call writer:** the person who sold a call and therefore may be required to sell the underlying at the strike if assigned. “Writer” means obligation-holder, not necessarily market maker.
+- **Cash-secured put:** a short put accompanied by cash reserved to purchase the underlying if assigned. It still has large downside if the underlying falls and is not risk-free income.
+- **Collateral:** assets pledged or deposited to support an obligation. Initial margin is a kind of collateral; it is not a maximum-loss estimate.
+- **Contract multiplier:** number of underlying units represented by one contract. Standard U.S. equity options often represent 100 shares, but the actual contract specification controls.
+- **Covered call:** stock ownership plus a short call on the same stock and matching share amount. It gives the call writer stock to deliver but still leaves stock downside and caps upside.
+- **Credit spread:** a multi-leg option position that collects a net premium and includes a further-out long option intended to limit the short option’s loss.
+- **Debit spread:** a multi-leg option position that pays a net premium and has a defined maximum loss equal to that net debit, before stated costs.
+- **Delta:** the approximate change in option value for a very small change in the underlying, holding the model’s other inputs fixed. It is local, unit-sensitive, and not automatically a probability.
+- **Dividend yield:** a modelled annual rate of cash income from owning an asset. A known discrete dividend and an assumed continuous yield are different descriptions.
+- **Early exercise:** a holder using an exercisable option before final expiry. It can create assignment for the writer and may sacrifice remaining time value.
+- **European-style option:** an option exercisable only at expiry. “European” describes timing, not the location of the market.
+- **Exercise:** the holder using the right written in the option. Exercise may result in stock, cash, or a futures position depending on the contract.
+- **Expiration:** the final date at which an option exists under its contract. It is not always the same as the last trading time or settlement date; check the specification.
+- **Gamma:** how quickly delta changes as the underlying moves. It explains why a fixed delta hedge can fail after a large move.
+- **Hedge ratio:** amount of a hedging instrument used per unit of exposure. It must name units, dates, and the risk being offset.
+- **Implied volatility:** the volatility input that makes a stated model reproduce a stated option price. It is a translation of price, not a direct future-volatility forecast.
+- **In the money:** a call whose underlying price exceeds strike, or a put whose strike exceeds underlying price. It does not automatically mean the trade is profitable after premium.
+- **Intrinsic value:** immediate exercise value of an option, such as `max(S-K, 0)` for a call. It excludes the remaining time value.
+- **LEAPS®:** exchange-listed long-term options. They have finite expirations and vary in available strikes and liquidity; extra time does not make them stock.
+- **Liquidity:** ability to buy or sell a stated amount near the displayed quote without a large delay or price change. A last price alone does not prove liquidity.
+- **Local volatility:** a model in which volatility depends on price and time. It can fit a current smile but adds modelling assumptions.
+- **Long position:** a position that benefits from a rise in the value of the thing it owns or has a right to receive; exact payoff depends on the contract.
+- **Margin:** funds required by a broker, exchange, or clearing system to support a position. In futures it is a performance bond, not a partial purchase of the underlying.
+- **Martingale:** under a specified pricing measure and numeraire, a process whose current value is its conditional expected future value. It does not say a real asset will not rise or fall.
+- **Monte Carlo simulation:** a numerical method that generates many model paths, values the contract on each, and averages. It reports sampling error but cannot prove the model paths are realistic.
+- **No-arbitrage bound:** a price limit implied by tradable alternatives under stated assumptions and costs. A bound is not necessarily a precise fair price.
+- **Option premium:** cash paid by the buyer and received by the seller at entry. It is the buyer’s maximum option-only loss for a long option, but it is not the seller’s maximum loss.
+- **Out of the money:** a call whose underlying price is at or below strike, or a put whose underlying price is at or above strike. It may still contain time value before expiry.
+- **Payoff:** what the contract itself gives or takes at a specified state/date. Payoff becomes profit only after entry price and costs are included.
+- **Portfolio Greek:** total sensitivity of all positions after contract multipliers, currencies, and units have been aligned. It is not a single-leg Greek copied from a screen.
+- **Protective put:** stock ownership plus a purchased put. The put creates a floor near its strike while the premium is a known protection cost.
+- **Put writer:** person who sold a put and may be required to buy the underlying at the strike if assigned.
+- **Realized volatility:** movement calculated from a stated historical price window and sampling rule. It describes the path that happened, not necessarily the next one.
+- **Risk-neutral probability:** a pricing weight chosen to agree with traded prices and discounting under a model. It is not a survey of investors’ beliefs.
+- **Settlement:** how a contract is completed—through cash, delivery of an asset, or another specified mechanism. It must be checked separately from exercise style.
+- **Short position:** a position that benefits from a fall in the value of the thing sold or owes an obligation; its maximum loss depends on the complete position.
+- **Spread:** either the difference between bid and ask, or a multi-leg options position. Always state which meaning is intended.
+- **Strike:** the price written in an option contract at which buying or selling may occur on exercise. It is not the current stock price.
+- **Theta:** model sensitivity to passage of time with other inputs held fixed. It is not a guaranteed daily profit or loss.
+- **Time value:** option value above intrinsic value before expiry, reflecting remaining possible outcomes. It normally disappears by expiry but can change before then.
+- **Underlying:** the observable asset, index, rate, or event that a derivative contract references. It is not the derivative itself.
+- **Value at Risk (VaR):** a modelled loss threshold over a stated horizon and confidence level. It does not describe the average size of losses beyond that threshold.
+- **Vega:** model sensitivity to the volatility input. It is not a Greek letter that forecasts volatility.
+- **Vertical spread:** options with the same underlying and expiry but different strikes. Its defined maximum gain/loss depend on whether it is debit or credit and on the full set of legs.

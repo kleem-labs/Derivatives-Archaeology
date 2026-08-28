@@ -1,5 +1,7 @@
 # 034 — Margin and Leverage
 
+**Vocabulary key:** Find **034** in the [Concept Atlas](../../CONCEPT_ATLAS.md) before continuing. It names the ideas already earned, the new words defined here, and the decision this chapter makes clearer.
+
 ## First, in everyday words
 
 Margin is money set aside to prove a futures trader can meet obligations; it is not the full cost of the contract. A small deposit can control a large exposure and make losses arrive quickly. **For an AI helper:** calculate exposure, daily cash stress, maintenance rules, and possible additional funding before discussing returns.

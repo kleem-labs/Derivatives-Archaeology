@@ -1,5 +1,7 @@
 # 047 — Portfolio Greeks and Scenarios
 
+**Vocabulary key:** Find **047** in the [Concept Atlas](../../CONCEPT_ATLAS.md) before continuing. It names the ideas already earned, the new words defined here, and the decision this chapter makes clearer.
+
 ## First, in everyday words
 
 One option may look safe while the whole collection of positions moves together in a dangerous way. Portfolio Greeks add sensitivities after their units and multipliers are made consistent. **For an AI helper:** aggregate only verified positions and then run ordinary and stress scenarios, not just one Greek number.

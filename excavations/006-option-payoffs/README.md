@@ -1,5 +1,7 @@
 # 006 — Options Create Asymmetry
 
+**Vocabulary key:** Find **006** in the [Concept Atlas](../../CONCEPT_ATLAS.md) before continuing. It names the ideas already earned, the new words defined here, and the decision this chapter makes clearer.
+
 ## First, in everyday words
 
 An option buyer may take a good deal and refuse a bad one; the seller accepts the other side of that choice. That difference is why buyer and seller risks must never be blended together. **For an AI helper:** state the position side, premium, multiplier, and worst plainly described outcome before using the word “option.”

@@ -1,5 +1,7 @@
 # 038 — Forward Rates and Swaps
 
+**Vocabulary key:** Find **038** in the [Concept Atlas](../../CONCEPT_ATLAS.md) before continuing. It names the ideas already earned, the new words defined here, and the decision this chapter makes clearer.
+
 ## First, in everyday words
 
 A forward rate is an interest-rate deal for a future period; a swap is a series of such exchanges. The math becomes easier when every promised payment is put on the same date scale. **For an AI helper:** build a cash-flow calendar first, then value each dated payment with an identified curve.

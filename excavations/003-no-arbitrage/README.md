@@ -1,5 +1,7 @@
 # 003 — No Free Lunch
 
+**Vocabulary key:** Find **003** in the [Concept Atlas](../../CONCEPT_ATLAS.md) before continuing. It names the ideas already earned, the new words defined here, and the decision this chapter makes clearer.
+
 ## First, in everyday words
 
 If two bundles always end with the same cash and goods, a lasting price gap between them would be a free lunch. This chapter uses that simple check to put limits on prices. **For an AI helper:** compare end results first and label any supposed free lunch as only a warning until fees, borrowing, and execution are verified.

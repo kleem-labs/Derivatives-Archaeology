@@ -1,5 +1,7 @@
 # 035 — Hedging with Futures
 
+**Vocabulary key:** Find **035** in the [Concept Atlas](../../CONCEPT_ATLAS.md) before continuing. It names the ideas already earned, the new words defined here, and the decision this chapter makes clearer.
+
 ## First, in everyday words
 
 A hedge is not a bet that must make money by itself. It is an attempt to make a business’s unwanted price movement hurt less. **For an AI helper:** state the real exposure first, then compare the future’s gain or loss with that exposure under several scenarios.

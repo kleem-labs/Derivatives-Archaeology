@@ -1,5 +1,7 @@
 # 001 — Payoffs Before Prices
 
+**Vocabulary key:** Find **001** in the [Concept Atlas](../../CONCEPT_ATLAS.md) before continuing. It names the ideas already earned, the new words defined here, and the decision this chapter makes clearer.
+
 ## First, in everyday words
 
 Before asking whether a contract is cheap or expensive, make a small table showing what it gives and takes in good, ordinary, and bad futures. **For an AI helper:** create that table from the contract language; do not begin with a forecast or a chart.

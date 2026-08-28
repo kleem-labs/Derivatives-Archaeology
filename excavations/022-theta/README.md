@@ -1,5 +1,7 @@
 # 022 — Theta: The Cost of the Clock
 
+**Vocabulary key:** Find **022** in the [Concept Atlas](../../CONCEPT_ATLAS.md) before continuing. It names the ideas already earned, the new words defined here, and the decision this chapter makes clearer.
+
 ## First, in everyday words
 
 Theta is the part of option change associated with a day passing while other model inputs are held still. It is not a guaranteed daily loss or gain because markets do not hold still. **For an AI helper:** say “all else equal” and show time alongside price and volatility scenarios.

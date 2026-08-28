@@ -1,5 +1,7 @@
 # 014 — Normal and Lognormal Models
 
+**Vocabulary key:** Find **014** in the [Concept Atlas](../../CONCEPT_ATLAS.md) before continuing. It names the ideas already earned, the new words defined here, and the decision this chapter makes clearer.
+
 ## First, in everyday words
 
 Models choose a shape for possible prices. A normal shape can wander below zero; a lognormal shape stays positive but still misses many real market surprises. **For an AI helper:** name the chosen shape, explain why it was used, and show the real-world feature it leaves out.

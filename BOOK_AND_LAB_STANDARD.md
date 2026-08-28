@@ -10,6 +10,8 @@ A chapter is prose-ready only when those elements form one causal narrative of s
 
 Symbols appear only after their objects are understood. “Risk-neutral” is never allowed to mean “investors do not care about risk.” “No-arbitrage” is a consistency rule, not a guarantee that markets are perfect.
 
+Every excavation must link to its numbered entry in the [Concept Atlas](CONCEPT_ATLAS.md). That entry must state prerequisites, words introduced, and the practical decision made clearer. Follow the [Option Encyclopedia Standard](OPTION_ENCYCLOPEDIA_STANDARD.md): first use means plain definition, distinction from adjacent words, a numerical or contract example, assumptions, failure case, and strategy consequence.
+
 ## Laboratory gate
 
 Executable chapters expose intermediate cash flows, test both sides of identities, allow inputs to change, and include assertions for the repaired method. Later numerical chapters should provide pure Python first, then array and automatic-differentiation versions when those tools materially help.

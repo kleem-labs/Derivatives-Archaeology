@@ -1,5 +1,7 @@
 # 040 — American Exercise
 
+**Vocabulary key:** Find **040** in the [Concept Atlas](../../CONCEPT_ATLAS.md) before continuing. It names the ideas already earned, the new words defined here, and the decision this chapter makes clearer.
+
 ## First, in everyday words
 
 An American-style option may be exercised before its final date. The holder must compare taking the payoff now with keeping the valuable choice for later. **For an AI helper:** identify exercise style, cutoff rules, dividends, settlement, and liquidity before suggesting that early exercise is even worth analysing.

@@ -1,5 +1,7 @@
 # 029 — Jumps and Incomplete Markets
 
+**Vocabulary key:** Find **029** in the [Concept Atlas](../../CONCEPT_ATLAS.md) before continuing. It names the ideas already earned, the new words defined here, and the decision this chapter makes clearer.
+
 ## First, in everyday words
 
 Markets can leap, not merely wiggle. When no combination of traded pieces perfectly covers that leap risk, there may be a range of reasonable values rather than one forced price. **For an AI helper:** show stress jumps and residual risk; never hide an unhedgeable gap behind a precise decimal.

@@ -1,5 +1,7 @@
 # 039 — Options on Futures
 
+**Vocabulary key:** Find **039** in the [Concept Atlas](../../CONCEPT_ATLAS.md) before continuing. It names the ideas already earned, the new words defined here, and the decision this chapter makes clearer.
+
 ## First, in everyday words
 
 An option on a future gives a choice about entering a futures position, so it combines option risk with daily futures settlement. The word “option” alone is not enough to describe the cash risk. **For an AI helper:** read the exercise result, futures multiplier, and margin consequences from the actual specification.

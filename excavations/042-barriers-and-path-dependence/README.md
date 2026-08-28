@@ -1,5 +1,7 @@
 # 042 — Barriers and Path Dependence
 
+**Vocabulary key:** Find **042** in the [Concept Atlas](../../CONCEPT_ATLAS.md) before continuing. It names the ideas already earned, the new words defined here, and the decision this chapter makes clearer.
+
 ## First, in everyday words
 
 Some contracts care not only where a price ends but whether it touched a level along the way. For these, the journey changes the payoff. **For an AI helper:** retain the required path data and flag gaps in intraday observations; an ending price alone may be useless.

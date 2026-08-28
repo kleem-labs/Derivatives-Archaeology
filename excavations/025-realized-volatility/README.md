@@ -1,5 +1,7 @@
 # 025 — Realized Volatility: Measuring the Path That Happened
 
+**Vocabulary key:** Find **025** in the [Concept Atlas](../../CONCEPT_ATLAS.md) before continuing. It names the ideas already earned, the new words defined here, and the decision this chapter makes clearer.
+
 ## First, in everyday words
 
 Realized volatility measures how much the price actually moved over a past window. It describes a finished path; it does not automatically forecast the next one. **For an AI helper:** give the date window, sampling rule, and data source before comparing realized and implied volatility.

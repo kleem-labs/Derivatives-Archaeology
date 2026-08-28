@@ -1,5 +1,7 @@
 # 012 — Random Variables: Naming an Unknown Outcome
 
+**Vocabulary key:** Find **012** in the [Concept Atlas](../../CONCEPT_ATLAS.md) before continuing. It names the ideas already earned, the new words defined here, and the decision this chapter makes clearer.
+
 ## First, in everyday words
 
 A random variable is simply a name that turns each possible future into a number, such as the price of wheat in March. It names the outcome; it does not yet say how likely each outcome is. **For an AI helper:** store exactly what is being observed and reject a model when the contract watches something the data record omits.

@@ -1,5 +1,7 @@
 # 005 — Futures Are Re-settled
 
+**Vocabulary key:** Find **005** in the [Concept Atlas](../../CONCEPT_ATLAS.md) before continuing. It names the ideas already earned, the new words defined here, and the decision this chapter makes clearer.
+
 ## First, in everyday words
 
 A futures contract can ask for money during the journey, not only at the finish. A final profit does not guarantee enough cash to survive the daily bills. **For an AI helper:** show a day-by-day cash scenario and flag missing margin information.

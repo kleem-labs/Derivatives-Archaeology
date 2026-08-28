@@ -1,5 +1,7 @@
 # 010 — Many Small Steps
 
+**Vocabulary key:** Find **010** in the [Concept Atlas](../../CONCEPT_ATLAS.md) before continuing. It names the ideas already earned, the new words defined here, and the decision this chapter makes clearer.
+
 ## First, in everyday words
 
 When a contract has many possible dates, solve from the known ending back toward today, one small fork at a time. **For an AI helper:** keep the tree’s inputs, final payoffs, and each backward step visible so a reader can inspect the answer.
