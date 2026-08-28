@@ -42,7 +42,8 @@ class BookTests(unittest.TestCase):
             if number < 12:
                 continue
             lines = [line for line in path.read_text().splitlines()[1:]
-                     if not line.startswith("**Vocabulary key:**")]
+                     if not line.startswith("**Vocabulary key:")
+                     and not line.startswith("**Table walkthrough:")]
             first_content = next((line for line in lines if line.strip()), "")
             if not first_content.startswith("## "):
                 offenders.append(path.parent.name)
@@ -114,6 +115,17 @@ class BookTests(unittest.TestCase):
 
         chapter_011 = (ROOT / "excavations/011-black-scholes-limit/README.md").read_text().lower()
         self.assertNotIn("volatility 20%", chapter_011)
+
+    def test_table_first_walkthroughs_cover_every_chapter(self):
+        walkthroughs = (ROOT / "TABLE_FIRST_WALKTHROUGHS.md").read_text()
+        missing = [f"| {number:03d} |" for number in range(50)
+                   if f"| {number:03d} |" not in walkthroughs]
+        self.assertFalse(missing, f"table-first walkthroughs miss chapters: {missing}")
+
+        chapters = sorted((ROOT / "excavations").glob("*/README.md"))
+        missing_links = [path.parent.name for path in chapters
+                         if "**Table walkthrough:**" not in "\n".join(path.read_text().splitlines()[:10])]
+        self.assertFalse(missing_links, f"chapters without table-first links: {missing_links}")
 
 
 if __name__ == "__main__":

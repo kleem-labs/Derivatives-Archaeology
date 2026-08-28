@@ -2,6 +2,8 @@
 
 **Vocabulary key:** Find **004** in the [Concept Atlas](../../CONCEPT_ATLAS.md) before continuing. It names the ideas already earned, the new words defined here, and the decision this chapter makes clearer.
 
+**Table walkthrough:** Read row **004** in [Table-First Walkthroughs](../../TABLE_FIRST_WALKTHROUGHS.md) before trusting a summary sentence or formula.
+
 ## First, in everyday words
 
 ### A small picture
@@ -53,7 +55,26 @@ The price of the share in one year does not change this result. If the share is 
 
 ### What if the forward quote is too low?
 
-If the dealer instead offered $100 for next year’s share, the difference from $105.13 is $5.13 in the other direction. The mirror trade would require selling a share today that you do not own, putting that sale money aside for a year, and agreeing to receive the share through the $100 forward later. That first action requires borrowing a share from someone else and agreeing to return it. Because availability and cost of borrowing that share can vary, do not call this mirror trade guaranteed until those facts are written down. The simple lesson remains: the high $110 quote is an arbitrage only because every required action and cash flow was made explicit.
+Now use the same starting facts: stock costs $100 today, one year of interest turns $100 into $105.13, and the stock pays no income. But imagine the dealer offers this contract instead:
+
+> “Sign today. Exactly one year from today, you may pay **$100** and receive one share.”
+
+The `$100` is now the quoted forward delivery price. It is $5.13 below the $105.13 cost of buying and carrying a share yourself. To capture that gap, you need to sell a borrowed share today and get the same share back through the cheap forward next year. This is the complete picture:
+
+| Date | What you do | Cash from this action | What you hold or owe afterward |
+|---|---|---:|---|
+| Today | Borrow one share from a share lender | $0 | Owe that lender one share in one year |
+| Today | Sell the borrowed share at today’s price | +$100 | Hold $100 cash; still owe one share |
+| Today | Invest the $100 for one year at 5% | -$100 | Own an investment worth $105.13 in one year |
+| Today | Sign the forward as buyer | $0 | May pay $100 for one share in one year |
+| One year | Receive the investment money | +$105.13 | Hold $105.13 cash; still owe one share |
+| One year | Use the forward: pay $100 and receive one share | -$100 | Own one share; no forward remains |
+| One year | Return that share to the lender | $0 | No share; share-loan obligation is finished |
+| One year | Keep what remains | **+$5.13** | All obligations are finished |
+
+The future stock price again does not change the result: the forward supplies the share needed to return to the lender. But this table has extra promises that the $110 example did not need. Someone must lend the share, the share-lending fee must be known, and any dividend paid while the share is borrowed must be handled. In this simplified example, all three are assumed away. In a real market, they can shrink or remove the $5.13.
+
+The simple lesson is the same in both directions: a price difference becomes arbitrage only after the full table shows that every obligation can be completed and every cost is covered.
 
 ## One dividend changes one route
 

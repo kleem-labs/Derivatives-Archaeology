@@ -2,6 +2,8 @@
 
 **Vocabulary key:** Find **009** in the [Concept Atlas](../../CONCEPT_ATLAS.md) before continuing. It names the ideas already earned, the new words defined here, and the decision this chapter makes clearer.
 
+**Table walkthrough:** Read row **009** in [Table-First Walkthroughs](../../TABLE_FIRST_WALKTHROUGHS.md) before trusting a summary sentence or formula.
+
 ## First, in everyday words
 
 ### A small picture
