@@ -76,13 +76,24 @@ The future stock price again does not change the result: the forward supplies th
 
 The simple lesson is the same in both directions: a price difference becomes arbitrage only after the full table shows that every obligation can be completed and every cost is covered.
 
-## One dividend changes one route
+## A $4 dividend changes the table
 
-Suppose the share pays income while it waits in the warehouse. Route B—the stock owner—receives it; Route A—the forward buyer—does not. The original equality must therefore change because the routes no longer contain identical benefits.
+So far we quietly assumed that holding the share for a year gave the owner only one share at the end. Now change one fact: the $100 share pays its owner a **$4 cash dividend** exactly six months from today. The interest rate is still 5% a year.
 
-If income is paid continuously at proportional yield `q`, reinvesting it reduces the net cost of carrying the share and gives `F_0(T)=S_0e^((r-q)T)`. For a known cash dividend, subtract its present value from spot before carrying the remainder. Nothing else has been added to the argument: we found one cash flow present on one route and repaired the comparison.
+The forward buyer does **not** own the share during those six months. The forward buyer therefore does not receive the $4. The person who buys the share today does receive it. That extra cash means owning-and-carrying the share is cheaper than before.
 
-The forward price is not a prediction that future spot will equal $105.13. It is the delivery price that prevents an idealized carry arbitrage today. Future spot can finish far above or below it.
+| Date | Buy the share today and carry it | Cash from this action | What remains at the end of the year |
+|---|---|---:|---|
+| Today | Borrow $100 and buy one share | $0 net cash | Own one share; owe a loan growing to $105.13 |
+| Six months | Receive the $4 dividend; invest it for the remaining six months | +$4, then invest it | Dividend investment grows to about $4.10 by year end |
+| One year | Still own one share; collect the dividend investment | +$4.10 | Own one share and $4.10 cash; owe $105.13 |
+| One year | Use the dividend cash toward the loan | -$4.10 | Net cash cost of carrying the share is **$101.03** |
+
+The calculation is `105.13 - 4.10 = 101.03`. So, under these simplified assumptions, a one-year forward that delivers one share should ask for about **$101.03**, not $105.13. The forward buyer gets one share in a year but misses the $4 dividend; the lower forward delivery price gives back that missing benefit.
+
+Nothing about this is a forecast. It does **not** say the share will be worth $101.03 in one year. It says only that $101.03 is the delivery price that matches the two routes in this example: buy-and-carry a dividend-paying share, or agree today to receive the share later.
+
+Companies can pay several dividends, uncertain dividends, or income described as a percentage rather than one known $4 payment. Chapter 031 builds that more general version after the reader has mastered this one-payment table.
 
 > **Memory seal — the locked warehouse:** a share sits beside a loan whose balance grows. At delivery the forward must charge the same full carrying cost.
 
