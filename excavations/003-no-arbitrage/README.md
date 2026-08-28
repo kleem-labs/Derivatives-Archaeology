@@ -26,11 +26,18 @@ The two-booth trade is different. You buy and sell two promises that cancel exac
 
 That last kind of trade is called **arbitrage**: after every required purchase and sale is included, it needs no net cash from you today, cannot lose in any allowed outcome, and makes money in at least one outcome. “Allowed outcome” matters because fees, failed trades, collateral demands, and default can break the apparent guarantee.
 
-## Where reality resists
+## Check the two booths before calling it a free lunch
 
-Suppose A limits purchases, B's buyer may default, selling requires collateral, or fees exceed the difference. The trade may not execute. Short-sale restrictions can block one direction. Margin can exhaust liquidity before cash flows converge.
+The two-booth trade works only if four ordinary things are true:
 
-This does not make no-arbitrage useless. It requires us to state the trading technology inside the theorem. Exact equalities often become bid–ask inequalities after costs.
+1. Booth A will really sell the $105 promise for $100.
+2. Booth B will really buy that same $105 promise for $101.
+3. You can make both trades in the amount you need.
+4. The cost of making the two trades is less than the $1 difference.
+
+If Booth A sells only one promise but Booth B wants ten, the two sides do not match. If each booth charges $1 to trade, the $1 difference disappears. If B does not truly stand behind its promise to pay, the two promises are no longer identical. In each case, the story has changed: it is not a risk-free $1 any more.
+
+This does not weaken the lesson. It makes the lesson honest: before saying “arbitrage,” write down the two promises, the amount available, and every cost. Later chapters will add the real-market details that can make buying and selling cost different amounts. For now, no-arbitrage means only this: **when two complete routes really end the same way and can both be taken, they should cost the same.**
 
 ## Replication is the engine
 
