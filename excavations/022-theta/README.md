@@ -22,6 +22,14 @@ This creates the practical distinction between implied and realized volatility. 
 
 Long options “usually have negative theta” is a useful orientation, not a theorem for every option under every rates and dividend regime. Deep in-the-money European puts with unusual carry can display positive theta. Structured portfolios can be long time decay while carrying dangerous short convexity.
 
+## Why premium received is not profit earned
+
+An option seller often begins with positive theta: if the world were frozen, passing time would tend to help the short option. But the seller has sold the other side of the option’s curve. A large move, a jump, a volatility rise, assignment, or an inability to adjust can overwhelm many small days of time decay. The correct comparison is not “theta positive versus theta negative.” It is:
+
+`premium received` versus `maximum loss, jump loss, hedge cost, and cash required on the bad path`.
+
+A buyer consciously pays the clock for convex protection or a large move. A seller consciously receives the clock payment while carrying the mirror obligation. The [Strategy Field Guide](../../STRATEGY_FIELD_GUIDE.md) turns this trade-off into payoff tables for defined-risk and undefined-risk positions.
+
 > **Decision:** a trader earns positive theta each day. What must you inspect before calling the position safe? At minimum gamma, jump loss, volatility exposure, liquidity, and maximum loss.
 
 > **Memory seal:** the clock melts possibility, but the curved rail may earn from the motion occurring while it melts.

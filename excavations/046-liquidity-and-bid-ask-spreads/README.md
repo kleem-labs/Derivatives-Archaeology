@@ -4,6 +4,10 @@
 
 The price on a screen is not always the price at which someone can trade. The bid is what a buyer offers; the ask is what a seller requests; the gap is a real cost of entering and leaving. **For an AI helper:** use time-stamped bid and ask, not a lonely last trade, and say when liquidity is too thin for a strong conclusion.
 
+## The first strategy cost
+
+A buyer normally begins at the ask and may later exit at the bid. A seller normally receives the bid and may later buy back at the ask. So a strategy that appears to have a small theoretical advantage can lose it immediately to the spread. Compare the model with the relevant executable side, not the midpoint: buy-side analysis begins near ask; sell-side analysis begins near bid.
+
 ## A screen is not a transaction
 
 Transaction costs broke the single replication price. The first visible source is the two-sided quote. An option displays 7.80 bid and 8.20 ask. Marking it at $8 creates a useful accounting midpoint, but a new buyer pays 8.20 and an immediate seller receives 7.80. A strategy apparently worth 20 cents at mids may lose 20 cents when crossed.

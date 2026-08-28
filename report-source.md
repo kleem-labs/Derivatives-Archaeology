@@ -35,6 +35,7 @@ The answer is not a prediction machine. It is a sequence of small checks:
 4. [CFTC, *Economic Purpose of Futures Markets and How They Work*](https://www.cftc.gov/LearnAndProtect/AdvisoriesAndArticles/economicpurpose.html) — hedging purpose, performance-bond margin, daily marking to market, maintenance margin, and variation margin. Used for the futures chapters and cash-path check.
 5. [CFTC, *Checklist Before You Trade*](https://www.cftc.gov/LearnAndProtect/EducationCenter/checklistbeforeyoutrade.html) — identify goals and sustainable loss, review disclosures, and check advisers. Used for the one-month study boundary.
 6. [NIST, *AI Risk Management Framework 1.0*](https://www.nist.gov/publications/artificial-intelligence-risk-management-framework-ai-rmf-10) and its [Core](https://airc.nist.gov/airmf-resources/airmf/5-sec-core/) — voluntary risk-management framework and the Govern/Map/Measure/Manage structure. Used for the agent blueprint’s controls.
+7. [Options Industry Council, *How LEAPS® Work*](https://www.optionseducation.org/optionsoverview/how-leaps-work), [*LEAPS® Pricing*](https://prd-web.optionseducation.org/optionsoverview/leaps-pricing), and [*LEAPS® Strategies*](https://prd-web.optionseducation.org/optionsoverview/leaps-strategies) — long-term options mechanics, finite-life and input risk, and illustrative payoff trade-offs. Used for the strategy field guide; these are education resources, not suitability findings.
 
 ## Design decisions made from the research
 

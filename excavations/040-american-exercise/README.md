@@ -22,6 +22,8 @@ Puts can rationally exercise early because selling stock at strike realizes cash
 
 “American” defines an exercise set, not geography. Bermudan options allow specified dates. Notice periods, cutoff times, automatic exercise rules, settlement lags, and dividends affect the practical decision. A theoretical exercise benefit smaller than spread and fees may not be executable.
 
+For a seller, early exercise means early assignment risk. A covered-call writer may have stock called away; a put writer may need to buy stock at the strike. A strategy is not fully described until it says what cash or shares are available if assignment occurs before the planned expiry date.
+
 > **Memory seal:** at each court landing, the holder chooses the door marked EXERCISE NOW or the corridor marked CONTINUE. The judge keeps whichever value is larger.
 
 One tree contains hundreds of individual choices. To understand how rates, dividends, and time reshape them, the next chapter connects all nodes where the judge is exactly indifferent.

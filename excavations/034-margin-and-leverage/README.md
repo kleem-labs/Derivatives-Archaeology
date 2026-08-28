@@ -24,6 +24,8 @@ This turns the next question from “How much notional matches?” into “How m
 
 > **Decision:** before opening a futures position, calculate loss for a historically severe move, collateral after that move, potential margin increase, and available liquid cash. If survival depends on immediate convergence, the position is too large.
 
+The same discipline applies to option selling. Premium received is not a loss limit. Before a short option or spread is called “income,” the reader must calculate the whole-position maximum loss, assignment obligation, broker margin rule, and cash needed if the market moves first and the hoped-for time decay arrives later.
+
 > **Memory seal:** a thin margin cable lifts a huge notional crate. The cable is collateral, not the crate's size and not proof it cannot fall.
 
 [Next: Hedging with Futures](../035-hedging-with-futures/README.md)

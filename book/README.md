@@ -11,4 +11,6 @@ This is the uninterrupted reading entrance. It is written in plain language firs
 
 Before beginning, read [Four Weeks to Read a Derivative Without Fooling Yourself](../ONE_MONTH_FOUNDATION.md). It gives the book a practical destination: contract literacy and paper analysis, not a promise of profit. If you are building an AI assistant from the book, pair the volumes with the [Agentic System Blueprint](../AGENTIC_SYSTEM_BLUEPRINT.md).
 
+The reader’s final practical destination is the [Strategy Field Guide](../STRATEGY_FIELD_GUIDE.md): it explains, with payoff math, why buying a contract, selling an obligation, using a defined-risk spread, using a LEAPS® contract, hedging stock, or doing nothing are different choices—not versions of the same bet.
+
 Read one small chapter at a time. When a formula appears, say in your own words what each piece is doing. Then, if you want the machinery beneath it, open the linked excavation. After each volume, replay its rooms in the [Memory Palace](../MEMORY_PALACE.md).

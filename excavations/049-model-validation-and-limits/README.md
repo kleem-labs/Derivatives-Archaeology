@@ -27,6 +27,10 @@ When reading an option market, never jump from model output to “worth it.” A
 
 A call can be worth buying as an asymmetric view, a volatility position, or insurance. A put can be worth more to a concentrated holder than to a diversified speculator. Seller and buyer may both improve their circumstances through risk transfer without either possessing a universal “true price.”
 
+## The strategy verdict must be conditional
+
+At the end of every analysis, write the position’s full name and purpose: “long put protecting 100 shares,” “covered call on stock I accept selling at this strike,” “cash-secured put that I accept becoming stock,” or “defined-risk spread.” Then give the payoff table, maximum loss, maximum gain, break-even, cash path, and reason the market’s price may differ from the reader’s model range. The [Strategy Field Guide](../../STRATEGY_FIELD_GUIDE.md) is the final practical checklist.
+
 ## The book's last decision
 
 You design a derivative whose payoff no traded portfolio exactly spans. Do you publish one precise value? The archaeology says no. Publish assumptions, bounds, model range, sensitivities, hedge, residual risk, and evidence. Precision must never outrun identification.

@@ -14,6 +14,19 @@ At terminal stock prices $50, $90, and $140, put payoff is $40, $0, and $0. But 
 
 For a call buyer the expiry payoff is `max(S_T-K,0)`. The maximum again records the right to refuse. For the writer, payoff is its negative. A naked short call can lose without a contractual upper bound as `S_T` rises.
 
+## The four seats at the option table
+
+The option name is incomplete until we know whether the reader bought or sold it. Let `P` be premium per share. These are **profits at expiry**, before fees and multiplied by the contract multiplier:
+
+| Position | Profit at expiry | What it really means |
+|---|---|---|
+| Buy call | `max(S_T-K,0)-P` | Pay for upside with a deadline. |
+| Sell call | `P-max(S_T-K,0)` | Receive premium; promise to sell at `K` if assigned. |
+| Buy put | `max(K-S_T,0)-P` | Pay for a floor or a decline. |
+| Sell put | `P-max(K-S_T,0)` | Receive premium; promise to buy at `K` if assigned. |
+
+This is the first strategy lesson: buying has a known upfront loss but needs a sufficiently useful move before the clock ends. Selling receives a known upfront amount but accepts the opposite payoff, assignment mechanics, and possibly much larger loss. A spread adds a second option so that one leg limits the other. Use the [Strategy Field Guide](../../STRATEGY_FIELD_GUIDE.md) after this chapter to compare the whole positions.
+
 ## Why volatility can add value without changing the mean
 
 Consider a stock ending at $80 or $120 with equal probability, mean $100. A $100 call pays $0 or $20, expected payoff $10. A stock certain to end at its same mean of $100 gives the call zero. The average stock price did not change; the spread did.

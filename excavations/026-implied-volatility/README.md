@@ -4,6 +4,12 @@
 
 Implied volatility is the volatility number that makes a chosen option model reproduce a quoted option price. It is a translation of price into model language, not a direct measurement of future movement. **For an AI helper:** retain the exact quote, model, rate, dividend assumption, and timestamp used in the translation.
 
+## The strategy use of implied volatility
+
+Buying an option means paying the market’s quoted uncertainty price; selling means accepting the risk that actual movement, jumps, and changing uncertainty prove that price too low. “High implied volatility” does not by itself mean sell, and “low implied volatility” does not by itself mean buy. The reader needs a comparison between implied movement, a stated reason for expecting different future movement, the payoff shape, and the cost of leaving the position.
+
+An agent may say: “this option’s implied volatility is above its own past range under this stated data rule.” It must not turn that observation into “sell premium” without mapping maximum loss, assignment, liquidity, and the reason the market may be charging more today.
+
 ## Run the pricing machine backward
 
 Realized volatility came from a completed path. A live option quote faces a path that has not happened. Rather than pretend the historical estimate is the model input, take the market price as evidence. Suppose spot is $100, strike $105, rate 5%, and time one year. The market call ask is $8.02. Try `sigma=.10`; Black–Scholes produces too little option value. Try `.40`; it produces too much. Because vanilla call price rises continuously with `sigma`, bisection repeatedly halves the interval until the model price matches the quote near 20%.

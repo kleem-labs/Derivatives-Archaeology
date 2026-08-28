@@ -33,6 +33,15 @@ class AgenticMaterialTests(unittest.TestCase):
         self.assertIn("not a promise of stock-market success", plan)
         self.assertIn("paper analyses", plan)
 
+    def test_strategy_guide_covers_buy_sell_leaps_and_defined_risk(self):
+        guide = (ROOT / "STRATEGY_FIELD_GUIDE.md").read_text()
+        for phrase in (
+            "Buy a call", "Sell a covered call", "Sell a cash-secured put",
+            "Vertical spreads", "LEAPS®", "max(S_T - K, 0) - P",
+            "maximum loss", "assignment", "paper test",
+        ):
+            self.assertIn(phrase, guide)
+
 
 if __name__ == "__main__":
     unittest.main()
