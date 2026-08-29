@@ -22,9 +22,16 @@ One analyst assigns a 70% chance to the rise. Another assigns 30%. If price depe
 
 ## Choose shares by matching the gap
 
-Let the portfolio hold `Delta` shares and a bond position. Between states, the bond does not change; only stock produces a payoff difference. The call's state gap is `$15-$0=$15`. The stock's gap is `$120-$90=$30`. Therefore
+First compare only what changes between the two final states. A fixed debt pays the same amount in both, so it cannot explain a difference. Shares can:
 
-`Delta=(C_u-C_d)/(S_u-S_d)=15/30=0.5`.
+| Final state | One share is worth | Call pays | Difference from down state |
+|---|---:|---:|---:|
+| Down | $90 | $0 | $0 |
+| Up | $120 | $15 | $30 for stock; $15 for call |
+
+We need enough shares so their $30 up-versus-down change becomes the call’s $15 up-versus-down change. Half of $30 is $15, so hold **0.5 share**. In finance language, this share count is the one-step hedge ratio, often written with the symbol `Delta`:
+
+`Delta = call’s state difference ÷ stock’s state difference = $15 ÷ $30 = 0.5`.
 
 Half a share is worth $60 up and $45 down. We need option payoffs of $15 and $0, so subtract $45 in both terminal states by borrowing its present value. At 5%, the present debt is `-45e^-0.05=-$42.8053`.
 

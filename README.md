@@ -55,6 +55,7 @@ Chapters 012–049 complete the journey through probability, stochastic calculus
 - [CONCEPT_ATLAS.md](CONCEPT_ATLAS.md) — chapter-by-chapter prerequisites, new words, and decision purpose
 - [READABILITY_AUDIT.md](READABILITY_AUDIT.md) — the current plain-language review loop and a precise way to report confusing passages
 - [TABLE_FIRST_WALKTHROUGHS.md](TABLE_FIRST_WALKTHROUGHS.md) — all fifty chapters reduced to visible inputs, actions, results, and meaning
+- [LLM_READER_ARCHAEOLOGY.md](LLM_READER_ARCHAEOLOGY.md) — the audit protocol that finds formulas and finance labels before their explanation is earned
 - [BOOK_AND_LAB_STANDARD.md](BOOK_AND_LAB_STANDARD.md) — what “complete” means
 - [DERIVATIVE_DESIGN_STUDIO.md](DERIVATIVE_DESIGN_STUDIO.md) — a disciplined process for inventing contracts
 - [MARKET_READING_AND_VALUE.md](MARKET_READING_AND_VALUE.md) — compare model value with executable quotes

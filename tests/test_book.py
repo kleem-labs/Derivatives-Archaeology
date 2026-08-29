@@ -127,6 +127,19 @@ class BookTests(unittest.TestCase):
                          if "**Table walkthrough:**" not in "\n".join(path.read_text().splitlines()[:10])]
         self.assertFalse(missing_links, f"chapters without table-first links: {missing_links}")
 
+    def test_known_formula_jumps_have_a_visible_pre_formula_explanation(self):
+        chapter_006 = (ROOT / "excavations/006-option-payoffs/README.md").read_text()
+        self.assertNotIn("payoff(E[S_T])", chapter_006)
+        self.assertIn("Still story", chapter_006)
+        self.assertIn("Moving story", chapter_006)
+
+        chapter_008 = (ROOT / "excavations/008-one-period-binomial/README.md").read_text()
+        self.assertLess(chapter_008.index("One share is worth"), chapter_008.index("Delta ="))
+
+        chapter_013 = (ROOT / "excavations/013-expectation-and-variance/README.md").read_text()
+        self.assertLess(chapter_013.index("Average call result"), chapter_013.index("E[f(X)]"))
+        self.assertIn("Write `E[thing]`", chapter_013)
+
 
 if __name__ == "__main__":
     unittest.main()

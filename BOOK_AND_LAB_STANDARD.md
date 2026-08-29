@@ -14,6 +14,8 @@ Every excavation must link to its numbered entry in the [Concept Atlas](CONCEPT_
 
 Every nontrivial trade, replication, payoff transformation, or calculation must be shown in a **table before prose summarizes it**. A dated trade table shows date, action, cash movement, and remaining obligation. A mathematical table shows input, operation, result, and meaning. The [Table-First Walkthroughs](TABLE_FIRST_WALKTHROUGHS.md) supply this minimum working picture for all fifty excavations.
 
+Apply the [LLM Reader Archaeology](LLM_READER_ARCHAEOLOGY.md) rule to every technical sentence: visible object, changed cases, immediate symbol translation, and labelled conclusion. Formula order is always example, table, arithmetic in words, concept name, compact formula, then limitation.
+
 ## Laboratory gate
 
 Executable chapters expose intermediate cash flows, test both sides of identities, allow inputs to change, and include assertions for the repaired method. Later numerical chapters should provide pure Python first, then array and automatic-differentiation versions when those tools materially help.

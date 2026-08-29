@@ -39,13 +39,21 @@ The option name is incomplete until we know whether the reader bought or sold it
 
 This is the first strategy lesson: buying has a known upfront loss but needs a sufficiently useful move before the clock ends. Selling receives a known upfront amount but accepts the opposite payoff, assignment mechanics, and possibly much larger loss. A spread adds a second option so that one leg limits the other. Use the [Strategy Field Guide](../../STRATEGY_FIELD_GUIDE.md) after this chapter to compare the whole positions.
 
-## Why volatility can add value without changing the mean
+## Why a wider set of outcomes can make a right more valuable
 
-Consider a stock ending at $80 or $120 with equal probability, mean $100. A $100 call pays $0 or $20, expected payoff $10. A stock certain to end at its same mean of $100 gives the call zero. The average stock price did not change; the spread did.
+Keep the agreed purchase price at $100. Compare two tiny stories about where the stock finishes in one year:
 
-The call's convex kink rejects the lower branch at zero while keeping the upper branch. This is why `payoff(E[S_T])` differs from `E[payoff(S_T)]`, and why optionality responds to volatility.
+| Story | Possible final stock price | What the purchase-right does | Cash from using the right |
+|---|---:|---|---:|
+| Still story | $100 for certain | Buying for $100 saves nothing | $0 |
+| Moving story, low half | $80 | Walk away; buying in the market is cheaper | $0 |
+| Moving story, high half | $120 | Use the right; buy for $100 instead of $120 | $20 |
 
-But expected payoff is not yet arbitrage-free price. We still require discounting and appropriate state weights. The example reveals the direction of convexity, not a complete valuation.
+In the moving story, pretend the $80 and $120 endings are equally likely. The right pays $0 in one half and $20 in the other half. Its simple average payoff is therefore `(0 + 20) ÷ 2 = $10`. In the still story, the stock also finishes at an average of $100, but the right pays $0 because there is no high-price outcome to use it against.
+
+The important shape is now visible in the table: when the final price is low, the right does not produce a negative number—the holder walks away. When the final price is high, the holder keeps the saving. Later, mathematics gives this one-sided, upward-bending shape the name **convex**. For now, say it plainly: **the right keeps the good surprise and refuses the bad one.**
+
+This table does **not** price the right today. It uses made-up, equal chances only to show why a wider possible range can matter. To turn future cash into today’s value, we still need to learn two things: move known money through time, and choose pricing weights that agree with stock-and-cash copies.
 
 ## Design begins with shape
 
@@ -57,7 +65,7 @@ Leena could buy one put, finance it by selling a lower-strike put, or cap upside
 
 1. Draw payoff and profit for a call struck at $110 with $4 premium.
 2. Compare a protective put with selling the stock. Which risks and opportunities remain?
-3. Explain, using the $80/$120 example, why a convex payoff values dispersion.
+3. Explain, using the $80/$120 table, why the purchase-right keeps the good surprise and refuses the bad one.
 
 ## The symmetry hidden in two kinks
 

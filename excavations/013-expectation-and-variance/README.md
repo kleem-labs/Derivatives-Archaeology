@@ -26,7 +26,20 @@ Why square instead of taking raw deviations? Raw deviations around the mean canc
 
 ## Convexity is the option's appetite for spread
 
-The call function bends upward. Draw a chord between any two payoff points; the function lies below or on that chord. Jensen's inequality compresses this geometry into `E[f(X)] >= f(E[X])` for convex `f`. More spread can add expected payoff when the mean is held fixed, but only under a precise comparison such as a mean-preserving spread. “Higher variance always means higher price” is too loose when distributions change in several ways.
+Return to the two portfolio stories and write the option result beside each one:
+
+| Story | Possible portfolio payment | Call’s result with $100 agreed price | Average call result |
+|---|---|---:|---:|
+| Still story | $100 for certain | $0 | $0 |
+| Wide story | $50 half the time; $150 half the time | $0 or $50 | `(0 + 50) ÷ 2 = $25` |
+
+Both stories have the same average portfolio payment: $100. But the call does not turn the low $50 outcome into a negative number; it gives $0. It keeps the $50 saving in the high $150 outcome. The payoff line bends upward instead of being a straight line. We call that upward-bending shape **convex**.
+
+Only now is the short mathematical sentence useful. Write `E[thing]` to mean “take the weighted average of `thing`.” Write `f(X)` to mean “apply a payoff rule `f` to an uncertain payment `X`.” Then
+
+`E[f(X)] >= f(E[X])`
+
+says exactly what the table showed: for a convex payoff, averaging the payoff across the wide story can be at least as large as applying the payoff to the average result first. This statement is called Jensen’s inequality. It is a description of payoff shape under stated weights; it does not by itself set an option’s market price. “Higher variance always means higher price” remains too loose when distributions change in several ways.
 
 ## Worked decision
 
